@@ -18,15 +18,15 @@ class App extends Component {
                         <h1>Recipes</h1>
                         <nav>
                             <ul>
-                                <li><a href="/recipes/">Recipes List</a></li>
-                                <li><a href="/recipes/newRecipe/">New Recipe</a></li>
+                                <li><a href="/">Recipes List</a></li>
+                                <li><a href="/newRecipe">New Recipe</a></li>
                             </ul>
                         </nav>
                     </header>
 
 
-                    <Route path="/recipes/" exact component={RecipesList} />
-                    <Route path="/recipes/newRecipe/" exact component={NewRecipe} />
+                    <Route path="/" exact component={RecipesList} />
+                    <Route path="/newRecipe" exact component={NewRecipe} />
 
                 </div>
             </BrowserRouter>
