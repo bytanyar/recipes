@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Recipes",
+  "name": "Tanya Recipe Book",
   "icons": [
     {
       "src": "favicon.ico",
