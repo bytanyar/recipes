@@ -10,11 +10,10 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
-    "start": "react-scripts start npm run git-info",
-    "build": "react-scripts build npm run git-info",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "git-info": "git log -1 --oneline > src/static/gitInfo.txt"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
