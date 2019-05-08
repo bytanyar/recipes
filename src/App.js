@@ -23,7 +23,7 @@ class App extends Component {
 
 
                     <Route path="/" exact component={RecipesList} />
-                    <Route path="/newRecipe" exact component={NewRecipe} />
+                    <Route path="/newRecipe/" exact component={NewRecipe} />
 
                 </div>
             </BrowserRouter>
