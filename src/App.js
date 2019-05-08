@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 import './app.css';
 
@@ -17,8 +17,8 @@ class App extends Component {
                         <h1>Recipes</h1>
                         <nav>
                             <ul>
-                                <li><a href="/">Recipes List</a></li>
-                                <li><a href="/newRecipe">New Recipe</a></li>
+                                <li><Link to="/">Recipes List</Link></li>
+                                <li><Link to="/newRecipe">New Recipe</Link></li>
                             </ul>
                         </nav>
                     </header>
