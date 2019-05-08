@@ -16,7 +16,7 @@ class App extends Component {
                         <nav>
                             <ul>
                                 <li><a href="/">Recipes List</a></li>
-                                <li><a href="/newRecipe">New Recipe</a></li>
+                                <li><a href="/newRecipe/">New Recipe</a></li>
                             </ul>
                         </nav>
                     </header>
