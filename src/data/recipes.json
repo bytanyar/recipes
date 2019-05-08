@@ -1,0 +1,98 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "name": "Alfredo Sauce",
+            "prepTime": 2,
+            "cookTime": 5,
+            "ovenTemp": null,
+            "yeilds": "2 servings",
+            "image": "",
+            "ingredients": [
+                {
+                    "qty": "4",
+                    "unit": "Tbsp",
+                    "item": "parmesan cheese",
+                    "description": "shredded"
+                },
+                {
+                    "qty": "2",
+                    "unit": "Tbsp",
+                    "item": "butter",
+                    "description": ""
+                },
+                {
+                    "qty": "1/8",
+                    "unit": "cup",
+                    "item": "heavy cream",
+                    "description": ""
+                },
+                {
+                    "qty": "1",
+                    "unit": "tsp",
+                    "item": "garlic",
+                    "description": "minced"
+                },
+                {
+                    "qty": "",
+                    "unit": "",
+                    "item": "Italian spices",
+                    "description": ""
+                }
+            ],
+            "instructions": [
+                "Melt butter",
+                "Lightly saute garlic in butter",
+                "Add heavy cream and spices",
+                "Stir",
+                "Bring to boil",
+                "Add parmesan cheese",
+                "Constantly stirring, reduce heat and thicken to preference"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Amazing Chicken",
+            "prepTime": 10,
+            "cookTime": 30,
+            "ovenTemp": 425,
+            "yeilds": "4 servings",
+            "image": "",
+            "ingredients": [
+                {
+                    "qty": "4",
+                    "unit": "",
+                    "item": "chicken breast",
+                    "description": "boneless, skinless, halves"
+                },
+                {
+                    "qty": "",
+                    "unit": "",
+                    "item": "salt and pepper",
+                    "description": "to taste"
+                },
+                {
+                    "qty": "1/2",
+                    "unit": "cup",
+                    "item": "mayonnaise",
+                    "description": ""
+                },
+                {
+                    "qty": "2",
+                    "unit": "cup",
+                    "item": "bread crumbs",
+                    "description": "Italian seasoned"
+                }
+            ],
+            "instructions": [
+                "Preheat oven",
+                "Grease shallow baking dish",
+                "Season chicken breasts",
+                "Coat chicken on all sides with mayonnaise",
+                "Roll chicken in bread crumbs until thoroughly coated",
+                "Place chicken in prepared dish",
+                "Bake uncovered 30 minutes or until chicken is no longer pink inside and juices run clear"
+            ]
+        }
+    ]
+}
