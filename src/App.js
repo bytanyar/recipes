@@ -8,8 +8,9 @@ import NewRecipe from './components/Forms/NewRecipe';
 
 class App extends Component {
     render() {
+        console.log("This is the process.env", process.env.PUBLIC_URL);
         return (
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <div className="app">
                     <header className="app-header">
                         <h1>Recipes</h1>
