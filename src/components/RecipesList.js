@@ -9,16 +9,16 @@ class RecipesList extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            showRecipe: false,
-            recipeId: 0
+            recipeId: 0,
+            showRecipe: false
         }
         this.toggleRecipe = this.toggleRecipe.bind(this);
     }
     toggleRecipe = (theRecipeId) => {
         const recipeState = this.state.showRecipe;
         this.setState({
-            showRecipe: !recipeState,
-            recipeId: theRecipeId
+            recipeId: theRecipeId,
+            showRecipe: !recipeState
         });
     };
     closeRecipe = () => {
@@ -38,6 +38,7 @@ class RecipesList extends Component {
                     </li>
                     {this.state.showRecipe && this.state.recipeId === recipe.id ?
                         <RecipeModal
+                            bgImage={recipe.image}
                             closeRecipe={this.closeRecipe}
                             recipe={recipe}
                         />
@@ -45,6 +46,10 @@ class RecipesList extends Component {
                 </span>
             )
         }) : null;
+
+
+
+
 
         return (
             <div className="recipes-container">

@@ -6,9 +6,11 @@ import Ingredients from '../RecipeParts/Ingredients';
 import Instructions from '../RecipeParts/Instructions';
 
 const RecipeModal = ({
+    bgImage,
     closeRecipe,
     recipe
 }) => {
+    const bgStyle = { backgroundImage: `url(${bgImage})`}
     return (
         <div className="recipe-modal-container">
             <div className="recipe-container">
