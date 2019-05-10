@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import './recipes-list.css';
-
 import recipesData from '../data/recipes.json';
 import RecipeModal from './Modal/RecipeModal';
+
+import { RecipesContainerStyles } from './recipes-list.styled';
 
 class RecipesList extends Component {
     constructor(props) {
@@ -52,7 +52,7 @@ class RecipesList extends Component {
 
 
         return (
-            <div className="recipes-container">
+            <RecipesContainerStyles className="recipes-container">
                 {this.state.showRecipe ?
                     <div className="recipe-modal-bg" onClick={this.closeRecipe} />
                     : null}
@@ -60,7 +60,7 @@ class RecipesList extends Component {
                     {listingNodes}
                 </ul>
                 <div className="background-fixed" />
-            </div>
+            </RecipesContainerStyles>
         );
     }
 }
