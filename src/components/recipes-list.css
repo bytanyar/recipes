@@ -1,6 +1,4 @@
 .recipes-container {
-    background: url('../images/alfredo-sauce.jpg') no-repeat center center;
-    background-size: cover;
     height: 100vh;
     margin: -20px auto 0;
     max-width: 1200px;
@@ -16,8 +14,6 @@
     z-index: 100;
 }
 .background-fixed {
-    background: url('../images//amaretto.jpeg') no-repeat top center;
-    background-size: 100%;
     clip: rect(auto auto auto auto);
     height: 100%;
     left: 50%;
