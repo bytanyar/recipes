@@ -7,7 +7,7 @@ const Ingredients = ({
 }) => {
     const ingredientNodes = recipe ? recipe.ingredients.map((ingredient) => {
         return (
-            <li className="ingredients">{ingredient.qty} {ingredient.unit} {ingredient.item}, {ingredient.description}</li>
+            <li key={ingredient.id} className="ingredients">{ingredient.qty} {ingredient.unit} {ingredient.item}, {ingredient.description}</li>
         );
     }) : null;
 
