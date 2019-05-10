@@ -7,7 +7,7 @@
             "cookTime": 5,
             "ovenTemp": null,
             "yeilds": "2 servings",
-            "image": "../../images/alfredo-sauce.jpg",
+            "image": "images/alfredo-sauce.jpg",
             "ingredients": [
                 {
                     "qty": "4",
@@ -57,7 +57,7 @@
             "cookTime": 30,
             "ovenTemp": 425,
             "yeilds": "4 servings",
-            "image": "../../images/amazing-chicken.jpg",
+            "image": "../images/amazing-chicken.jpg",
             "ingredients": [
                 {
                     "qty": "4",
