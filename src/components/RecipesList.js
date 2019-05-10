@@ -14,10 +14,10 @@ class RecipesList extends Component {
         }
         this.toggleRecipe = this.toggleRecipe.bind(this);
     }
-    toggleRecipe = (theRecipeId) => {
+    toggleRecipe = (recipeId) => {
         const recipeState = this.state.showRecipe;
         this.setState({
-            recipeId: theRecipeId,
+            recipeId: recipeId,
             showRecipe: !recipeState
         });
     };
