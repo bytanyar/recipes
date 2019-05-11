@@ -1,13 +1,13 @@
 {
-  "main.css": "/recipes/static/css/main.c5d4dd86.chunk.css",
-  "main.js": "/recipes/static/js/main.d7bddcf7.chunk.js",
-  "main.js.map": "/recipes/static/js/main.d7bddcf7.chunk.js.map",
+  "main.css": "/recipes/static/css/main.04be2207.chunk.css",
+  "main.js": "/recipes/static/js/main.e8aefd4c.chunk.js",
+  "main.js.map": "/recipes/static/js/main.e8aefd4c.chunk.js.map",
   "runtime~main.js": "/recipes/static/js/runtime~main.19e64e71.js",
   "runtime~main.js.map": "/recipes/static/js/runtime~main.19e64e71.js.map",
-  "static/js/2.f25b3151.chunk.js": "/recipes/static/js/2.f25b3151.chunk.js",
-  "static/js/2.f25b3151.chunk.js.map": "/recipes/static/js/2.f25b3151.chunk.js.map",
+  "static/js/2.b96f606b.chunk.js": "/recipes/static/js/2.b96f606b.chunk.js",
+  "static/js/2.b96f606b.chunk.js.map": "/recipes/static/js/2.b96f606b.chunk.js.map",
   "index.html": "/recipes/index.html",
-  "precache-manifest.7e9200b5753729c2a5b5b46f300533cf.js": "/recipes/precache-manifest.7e9200b5753729c2a5b5b46f300533cf.js",
+  "precache-manifest.f99dc7680b816a53cf4e7914c1f2a919.js": "/recipes/precache-manifest.f99dc7680b816a53cf4e7914c1f2a919.js",
   "service-worker.js": "/recipes/service-worker.js",
-  "static/css/main.c5d4dd86.chunk.css.map": "/recipes/static/css/main.c5d4dd86.chunk.css.map"
+  "static/css/main.04be2207.chunk.css.map": "/recipes/static/css/main.04be2207.chunk.css.map"
 }
