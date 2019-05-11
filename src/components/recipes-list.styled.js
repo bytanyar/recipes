@@ -41,6 +41,23 @@ export const RecipesContainerStyles = styled.div`
         position: relative;
         z-index: 200;
     }
+    .recipe {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 5px 0;
+        text-align: left;
+
+        &:nth-child(2n){
+            background-color: beige;
+        }
+        &:hover {
+            background-color: blanchedalmond;
+        }
+        &.active {
+            background-color: lightblue;
+        }
+    }
     .name {
         font-size: 18px;
         max-width: 350px;

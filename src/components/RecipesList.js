@@ -29,9 +29,10 @@ class RecipesList extends Component {
 
     render() {
         const listingNodes = recipesData ? recipesData.recipes.map((recipe) => {
+            const classes = this.state.showRecipe && this.state.recipeId === recipe.id ? "recipe active" : "recipe";
             return (
                 <span key={recipe.id}>
-                    <li className="recipe" onClick={() => this.toggleRecipe(recipe.id)}>
+                    <li className={classes} onClick={() => this.toggleRecipe(recipe.id)}>
                         <span className="name">{recipe.name}</span>
                         <span className="time">{recipe.prepTime + recipe.cookTime} minutes</span>
                         <span className="main-ingredient">{recipe.ingredients[0].item}</span>

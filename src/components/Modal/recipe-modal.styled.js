@@ -16,19 +16,6 @@ export const RecipeModalStyles = styled.div`
         width: 75%;
         z-index: 750;
     }
-    .recipe {
-        display: flex;
-        justify-content: space-between;
-        list-style: none;
-        padding: 5px 0;
-        text-align: left;
-    }
-    .recipe:nth-child(2n){
-        background-color: beige;
-    }
-    .recipe:hover {
-        background-color: blanchedalmond;
-    }
     .close-x {
         background-color: #fff;
         border: 1px solid #333;
