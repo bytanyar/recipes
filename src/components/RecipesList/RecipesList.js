@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-import recipesData from '../data/recipes.json';
-import RecipeModal from './Modal/RecipeModal';
+import recipesData from '../../data/recipes.json';
+import RecipeModal from '../Modal/RecipeModal';
+import AmarettoImage from '../../images/amaretto.jpeg';
 
 import { RecipesContainerStyles } from './recipes-list.styled';
 
@@ -60,7 +61,9 @@ class RecipesList extends Component {
                 <ul className="recipes-list">
                     {listingNodes}
                 </ul>
-                <div className="background-fixed" />
+                <div className="background-fixed">
+                    <img src={AmarettoImage} alt="drink" />
+                </div>
             </RecipesContainerStyles>
         );
     }

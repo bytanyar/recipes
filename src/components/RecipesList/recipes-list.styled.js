@@ -19,15 +19,11 @@ export const RecipesContainerStyles = styled.div`
         top: 0;
         z-index: 100;
     }
-    .background-fixed {
-        clip: rect(auto auto auto auto);
-        height: 100%;
-        left: 50%;
+    .background-fixed img {
         max-width: 1200px;
-        overflow: hidden;
-        position: absolute;
-        top: 100vh;
-        transform: translate(-50%, 0);
+        overflow-y: hidden;
+        transition-duration: 0.5s;
+        transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
         width: 100vw;
         z-index: 1;
     }
