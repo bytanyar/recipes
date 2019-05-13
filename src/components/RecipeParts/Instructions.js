@@ -5,9 +5,9 @@ import './instructions.css';
 const Instructions = ({
     recipe
 }) => {
-    const instructionNodes = recipe ? recipe.instructions.map((instruction) => {
+    const instructionNodes = recipe ? recipe.instructions.map((instruction, i) => {
         return (
-            <li className="instructions">{instruction}</li>
+            <li key={i} className="instructions">{instruction}</li>
         );
     }) : null;
 

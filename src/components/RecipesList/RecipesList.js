@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 
-import './recipes-list.css';
+import recipesData from '../../data/recipes.json';
+import RecipeModal from '../Modal/RecipeModal';
+import AmarettoImage from '../../images/amaretto.jpeg';
 
-import recipesData from '../data/recipes.json';
-import RecipeModal from './Modal/RecipeModal';
+import { RecipesContainerStyles } from './recipes-list.styled';
 
 class RecipesList extends Component {
     constructor(props) {
@@ -29,9 +30,10 @@ class RecipesList extends Component {
 
     render() {
         const listingNodes = recipesData ? recipesData.recipes.map((recipe) => {
+            const classes = this.state.showRecipe && this.state.recipeId === recipe.id ? "recipe active" : "recipe";
             return (
                 <span key={recipe.id}>
-                    <li className="recipe" onClick={() => this.toggleRecipe(recipe.id)}>
+                    <li className={classes} onClick={() => this.toggleRecipe(recipe.id)}>
                         <span className="name">{recipe.name}</span>
                         <span className="time">{recipe.prepTime + recipe.cookTime} minutes</span>
                         <span className="main-ingredient">{recipe.ingredients[0].item}</span>
@@ -52,15 +54,17 @@ class RecipesList extends Component {
 
 
         return (
-            <div className="recipes-container">
+            <RecipesContainerStyles className="recipes-container">
                 {this.state.showRecipe ?
                     <div className="recipe-modal-bg" onClick={this.closeRecipe} />
                     : null}
                 <ul className="recipes-list">
                     {listingNodes}
                 </ul>
-                <div className="background-fixed" />
-            </div>
+                <div className="background-fixed">
+                    <img src={AmarettoImage} alt="drink" />
+                </div>
+            </RecipesContainerStyles>
         );
     }
 }
