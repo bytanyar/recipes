@@ -26,20 +26,23 @@ class Home extends Component {
     _onScroll(){
         const sauce = document.getElementById('sauce');
 
-        const yPos = 0 - window.pageYOffset/2;
-        sauce.style.top = 475 + yPos + "px";
+        const yPos = 0 - window.pageYOffset/1.2;
+        sauce.style.top = 200 + yPos + "px";
     }
 
     render() {
         return (
-            <HomeStyles id="home" className="home">
-                <div id="chicken" className="background-fixed">
+            <HomeStyles className="home">
+                <div id="chicken" className="chicken">
                     <img src={ChickenImage} alt="chicken" />
                 </div>
-                <div id="sauce" className="background-moving">
+                <div id="sauce" className="sauce">
+                    <div>
+                        <h3>What do you know?</h3>
+                    </div>
                     <img src={AlfredoImage} alt="sauce" />
                 </div>
-                <div id="drink" className="background-moving">
+                <div id="drink" className="drink">
                     <img src={AmarettoImage} alt="drink" />
                 </div>
             </HomeStyles>
