@@ -18,23 +18,27 @@ class Home extends Component {
 
     componentDidMount() {
         window.addEventListener('scroll', this._pastaOnScroll);
+        window.addEventListener('scroll', this._drinkOnScroll);
     }
 
     componentWillUnmount() {
         window.removeEventListener('scroll', this._pastaOnScroll);
+        window.removeEventListener('scroll', this._drinkOnScroll);
     }
 
     _pastaOnScroll(){
         const sauce = document.getElementById('sauce');
 
         const yPos = 0 - window.pageYOffset/1.2;
-        sauce.style.top = 200 + yPos + "px";
+        const windowWidth = window.innerWidth;
+        sauce.style.top = (windowWidth * (180 / 320)) - 50 + yPos + "px";
     }
     _drinkOnScroll(){
         const drink = document.getElementById('drink');
 
-        const yPos = 0 - window.pageYOffset/5;
-        drink.style.top = 1250 + yPos + "px";
+        const yPos = 0 - window.pageYOffset/2;
+        const windowWidth = window.innerWidth;
+        drink.style.top = (windowWidth * (513 / 342)) + 300 + yPos + "px";
     }
 
     render() {
@@ -50,10 +54,9 @@ class Home extends Component {
                     </div>
                     <img src={AlfredoImage} alt="sauce" />
                 </div>
-                <div id="tabletop" className="tabletop" style={bgStyle}>
-                    <h3>It&rsquo;s gotta be something good!</h3>
-                </div>
+                <div id="tabletop" className="tabletop" style={bgStyle} />
                 <div id="drink" className="drink">
+                    <h3>It&rsquo;s gotta be something good!</h3>
                     <img src={AmarettoImage} alt="drink" />
                 </div>
             </HomeStyles>
