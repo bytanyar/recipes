@@ -4,8 +4,8 @@ import styled from 'styled-components';
 export const RecipesContainerStyles = styled.div`
     height: 100vh;
     margin: -20px auto 0;
-    max-width: 1200px;
-    padding-top: 20px;
+    max-width: 1000px;
+    padding: 20px;
 
     * {
         box-sizing: border-box;
@@ -30,11 +30,13 @@ export const RecipesContainerStyles = styled.div`
     .recipes-list {
         background-color: rgba(255, 255, 255, 0.5);
         border: 1px solid #333;
-        margin: 20px;
+        margin: 20px auto;
         margin-block-end: 0;
         margin-block-start: 0;
+        max-width: 1000px;
         padding-inline-start: 0;
         position: relative;
+        width: 100%;
         z-index: 200;
     }
     .recipe {

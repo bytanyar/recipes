@@ -14,7 +14,7 @@ h1 {
     color: white;
     font-size: 26px;
 }
-ul {
+.app-header ul {
     list-style: none;
     margin: 0 auto;
     max-width: 320px;
@@ -44,7 +44,7 @@ a:focus {
     .app-header ul li {
         margin: 20px;
     }
-    ul {
+    .app-header ul {
         max-width: 350px;
     }
 }
