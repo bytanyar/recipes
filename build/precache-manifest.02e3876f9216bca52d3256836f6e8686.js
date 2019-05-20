@@ -1,5 +1,9 @@
 self.__precacheManifest = [
   {
+    "revision": "62573cb8c4bbfd41285f271ab1a03347",
+    "url": "/recipes/static/media/tabletop.62573cb8.jpg"
+  },
+  {
     "revision": "3888d2908ed879cec2a0582944cf94bb",
     "url": "/recipes/static/media/amazing-chicken.3888d290.jpg"
   },
@@ -16,19 +20,19 @@ self.__precacheManifest = [
     "url": "/recipes/static/js/runtime~main.19e64e71.js"
   },
   {
-    "revision": "d286d9388c3076d82432",
-    "url": "/recipes/static/js/main.46d284ca.chunk.js"
+    "revision": "bd9ac5e5eaa2aa5821fe",
+    "url": "/recipes/static/js/main.f17fba2d.chunk.js"
   },
   {
-    "revision": "843304b5c34e256dc5ed",
-    "url": "/recipes/static/js/2.67da1084.chunk.js"
+    "revision": "3f56e19dd716eb4809c1",
+    "url": "/recipes/static/js/2.9b34b590.chunk.js"
   },
   {
-    "revision": "d286d9388c3076d82432",
-    "url": "/recipes/static/css/main.253a0d4d.chunk.css"
+    "revision": "bd9ac5e5eaa2aa5821fe",
+    "url": "/recipes/static/css/main.541f1062.chunk.css"
   },
   {
-    "revision": "0ceb06df92db69ca700519aaac2ebc56",
+    "revision": "c12cb2c4e1b7b95779a75be871ca59c1",
     "url": "/recipes/index.html"
   }
 ];

@@ -1,38 +1,50 @@
 .app {
-  text-align: center;
+    text-align: center;
 }
 .app-header {
-  background-color: darkblue;
-  left: 0;
-  padding-top: 20px;
-  position: relative;
-  right: 0;
-  top: 0;
-  z-index: 5000;
+    background-color: darkblue;
+    left: 0;
+    padding-top: 20px;
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: 5000;
 }
 h1 {
-  color: white;
-  font-size: 26px;
+    color: white;
+    font-size: 26px;
 }
 ul {
-  list-style: none;
+    list-style: none;
+    margin: 0 auto;
+    max-width: 320px;
+    padding-inline-start: 0;
 }
 .app-header ul li {
-  color: white;
-  display: inline-block;
-  margin: 20px;
+    color: white;
+    display: inline-block;
+    margin: 20px 7.5px;
 }
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
+a:link,
 a:visited {
-  color: darkgray;
+    color: darkgray;
 }
 a:hover,
 a:active {
-  color: lightblue;
-  font-weight: 500;
+    color: lightblue;
+    font-weight: 500;
 }
 a:focus {
-  outline: 0;
+    outline: 0;
+}
+@media only screen and (min-width: 425px){
+    .app-header ul li {
+        margin: 20px;
+    }
+    ul {
+        max-width: 350px;
+    }
 }

@@ -1,16 +1,17 @@
 {
-  "main.css": "/recipes/static/css/main.253a0d4d.chunk.css",
-  "main.js": "/recipes/static/js/main.46d284ca.chunk.js",
-  "main.js.map": "/recipes/static/js/main.46d284ca.chunk.js.map",
+  "main.css": "/recipes/static/css/main.541f1062.chunk.css",
+  "main.js": "/recipes/static/js/main.f17fba2d.chunk.js",
+  "main.js.map": "/recipes/static/js/main.f17fba2d.chunk.js.map",
   "runtime~main.js": "/recipes/static/js/runtime~main.19e64e71.js",
   "runtime~main.js.map": "/recipes/static/js/runtime~main.19e64e71.js.map",
-  "static/js/2.67da1084.chunk.js": "/recipes/static/js/2.67da1084.chunk.js",
-  "static/js/2.67da1084.chunk.js.map": "/recipes/static/js/2.67da1084.chunk.js.map",
+  "static/js/2.9b34b590.chunk.js": "/recipes/static/js/2.9b34b590.chunk.js",
+  "static/js/2.9b34b590.chunk.js.map": "/recipes/static/js/2.9b34b590.chunk.js.map",
   "index.html": "/recipes/index.html",
-  "precache-manifest.994d99440846fc7763a3290438ff1697.js": "/recipes/precache-manifest.994d99440846fc7763a3290438ff1697.js",
+  "precache-manifest.02e3876f9216bca52d3256836f6e8686.js": "/recipes/precache-manifest.02e3876f9216bca52d3256836f6e8686.js",
   "service-worker.js": "/recipes/service-worker.js",
-  "static/css/main.253a0d4d.chunk.css.map": "/recipes/static/css/main.253a0d4d.chunk.css.map",
+  "static/css/main.541f1062.chunk.css.map": "/recipes/static/css/main.541f1062.chunk.css.map",
   "static/media/alfredo-sauce.jpg": "/recipes/static/media/alfredo-sauce.af8a7793.jpg",
   "static/media/amaretto.jpeg": "/recipes/static/media/amaretto.fe214cc2.jpeg",
-  "static/media/amazing-chicken.jpg": "/recipes/static/media/amazing-chicken.3888d290.jpg"
+  "static/media/amazing-chicken.jpg": "/recipes/static/media/amazing-chicken.3888d290.jpg",
+  "static/media/tabletop.jpg": "/recipes/static/media/tabletop.62573cb8.jpg"
 }

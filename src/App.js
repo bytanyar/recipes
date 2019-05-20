@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 import './app.css';
 
-import Home from './components/Home';
+import Parallax from './components/Parallax/Parallax';
 import RecipesList from './components/RecipesList/RecipesList';
 import NewRecipe from './components/Forms/NewRecipe';
 
@@ -26,7 +26,7 @@ class App extends Component {
                     </header>
 
 
-                    <Route path="/" exact component={Home} />
+                    <Route path="/" exact component={Parallax} />
                     <Route path="/list" exact component={RecipesList} />
                     <Route path="/newRecipe" exact component={NewRecipe} />
 
