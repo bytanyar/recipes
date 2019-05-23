@@ -23,7 +23,7 @@ class RecipesList extends Component {
         this.loadRecipes();
     }
 
-    loadRecipes(){
+    loadRecipes() {
         fetch(xml)
             .then((response) => response.text())
             .then((xmlText) => {
@@ -32,7 +32,7 @@ class RecipesList extends Component {
                     xmlText = xmlText.split(/\?>\r{0,1}\n{0,1}/).slice(1).join('?>\n');
                 }
                 let recipesData = new XMLParser().parseFromString(xmlText);    // Assume xmlText contains the example XML
-                
+
                 this.setState({
                     recipeList: recipesData
                 });
@@ -56,30 +56,29 @@ class RecipesList extends Component {
 
     render() {
         const recipes = this.state.recipeList ? this.state.recipeList.getElementsByTagName('recipe') : null;
-
-        console.log('recipes', recipes);
-
         const listingNodes = recipes ? recipes.map((recipe) => {
-            console.log('recipe inside', recipe.getElementsByTagName('recipeId')[0].value);
-            const recipeId = recipe.getElementsByTagName('recipeId')[0].value;
-            const title = recipe.getElementsByTagName('title')[0].value;
-            const preptime = recipe.getElementsByTagName('preptime')[0].value;
-            const cooktime = recipe.getElementsByTagName('cooktime')[0].value;
+            const recipeId = recipe.getElementsByTagName('recipeId')[0] ? recipe.getElementsByTagName('recipeId')[0].value : null;
+            const title = recipe.getElementsByTagName('title')[0] ? recipe.getElementsByTagName('title')[0].value : null;
+            const preptime = recipe.getElementsByTagName('preptime')[0] ? recipe.getElementsByTagName('preptime')[0].value : null;
+            const cooktime = recipe.getElementsByTagName('cooktime')[0] ? recipe.getElementsByTagName('cooktime')[0].value : null;
             const classes = this.state.showRecipe && this.state.recipeId === recipeId ? "recipe active" : "recipe";
-            return (
-                <span key={recipeId}>
-                    <li className={classes} onClick={() => this.toggleRecipe(recipeId)}>
-                        <span className="name">{title}</span>
-                        <span className="time">{preptime + cooktime} minutes</span>
-                    </li>
-                    {this.state.showRecipe && this.state.recipeId === recipeId ?
-                        <RecipeModal
-                            closeRecipe={this.closeRecipe}
-                            recipe={recipe}
-                        />
-                        : null}
-                </span>
-            )
+
+            if (title) {
+                return (
+                    <span key={recipeId}>
+                        <li className={classes} onClick={() => this.toggleRecipe(recipeId)}>
+                            <span className="name">{title}</span>
+                            <span className="time">{preptime} + {cooktime}</span>
+                        </li>
+                        {this.state.showRecipe && this.state.recipeId === recipeId ?
+                            <RecipeModal
+                                closeRecipe={this.closeRecipe}
+                                recipe={recipe}
+                            />
+                            : null}
+                    </span>
+                )
+            }
         }) : null;
 
 

@@ -58,16 +58,12 @@ export const RecipesContainerStyles = styled.div`
     }
     .name {
         font-size: 18px;
-        max-width: 350px;
+        max-width: 550px;
         padding-left: 20px;
         width: 45%;
     }
     .time {
-        max-width: 150px;
-        width: 20%;
-    }
-    .main-ingredient {
-        max-width: 250px;
-        width: 35%;
+        max-width: 350px;
+        width: 50%;
     }
 `;

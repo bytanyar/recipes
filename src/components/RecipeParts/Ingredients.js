@@ -5,15 +5,26 @@ import './ingredients.css';
 const Ingredients = ({
     recipe
 }) => {
-    const ingredientNodes = recipe ? recipe.ingredients.map((ingredient) => {
+    const ingredients = recipe.getElementsByTagName('ingredient') ? recipe.getElementsByTagName('ingredient') : null;
+
+    let liNodes;
+    const ingredientNodes = ingredients ? ingredients.map((ingredient, i) => {
+        const lis = ingredient.getElementsByTagName('li') ? ingredient.getElementsByTagName('li') : null;
+        liNodes = lis ? lis.map((li, i) => {
+            if (li.value) {
+                return (
+                    <li key={i} className="ingredients">{li.value}</li>
+                )
+            }
+        }) : null;
         return (
-            <li key={ingredient.id} className="ingredients">{ingredient.qty} {ingredient.unit} {ingredient.item}, {ingredient.description}</li>
+            { liNodes }
         );
     }) : null;
 
     return (
         <ul className="ingredients-list">
-            {ingredientNodes}
+            {liNodes}
         </ul>
     )
 }
