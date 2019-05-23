@@ -14,13 +14,14 @@ const RecipeModal = ({
 }) => {
     const bgStyle = { backgroundImage: `url(${bgImage})`};
 
-    console.log(bgImage);
+    const title = recipe.getElementsByTagName('title')[0] ? recipe.getElementsByTagName('title')[0].value : null;
 
     return (
+
         <RecipeModalStyles className="recipe-modal-container">
             <div className="recipe-container" style={bgImage ? bgStyle : null}>
                 <p className="close-x" onClick={closeRecipe}>x</p>
-                <h2>{recipe.name}</h2>
+                <h2>{title}</h2>
                 <Ingredients recipe={recipe} />
                 <Instructions recipe={recipe} />
             </div>

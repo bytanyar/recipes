@@ -1,19 +1,30 @@
 import React from 'react';
 
-import './instructions.css';
+import './ingredients.css';
 
 const Instructions = ({
     recipe
 }) => {
-    const instructionNodes = recipe ? recipe.instructions.map((instruction, i) => {
+    const instructions = recipe.getElementsByTagName('recipetext') ? recipe.getElementsByTagName('recipetext') : null;
+
+    let liNodes;
+    const instructionNodes = instructions ? instructions.map((instruction, i) => {
+        const lis = instruction.getElementsByTagName('li') ? instruction.getElementsByTagName('li') : null;
+        liNodes = lis ? lis.map((li, i) => {
+            if (li.value) {
+                return (
+                    <li key={i} className="instructions">{li.value}</li>
+                )
+            }
+        }) : null;
         return (
-            <li key={i} className="instructions">{instruction}</li>
+            { liNodes }
         );
     }) : null;
 
     return (
         <ul className="instructions-list">
-            {instructionNodes}
+            {liNodes}
         </ul>
     )
 }

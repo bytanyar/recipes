@@ -4,8 +4,8 @@ import styled from 'styled-components';
 export const RecipesContainerStyles = styled.div`
     height: 100vh;
     margin: -20px auto 0;
-    max-width: 1200px;
-    padding-top: 20px;
+    max-width: 1000px;
+    padding: 20px;
 
     * {
         box-sizing: border-box;
@@ -30,11 +30,13 @@ export const RecipesContainerStyles = styled.div`
     .recipes-list {
         background-color: rgba(255, 255, 255, 0.5);
         border: 1px solid #333;
-        margin: 20px;
+        margin: 20px auto;
         margin-block-end: 0;
         margin-block-start: 0;
+        max-width: 1000px;
         padding-inline-start: 0;
         position: relative;
+        width: 100%;
         z-index: 200;
     }
     .recipe {
@@ -56,16 +58,12 @@ export const RecipesContainerStyles = styled.div`
     }
     .name {
         font-size: 18px;
-        max-width: 350px;
+        max-width: 550px;
         padding-left: 20px;
         width: 45%;
     }
     .time {
-        max-width: 150px;
-        width: 20%;
-    }
-    .main-ingredient {
-        max-width: 250px;
-        width: 35%;
+        max-width: 350px;
+        width: 50%;
     }
 `;

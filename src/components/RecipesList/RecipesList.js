@@ -1,20 +1,46 @@
 import React, { Component } from 'react';
+import XMLParser from 'react-xml-parser';
 
-import recipesData from '../../data/recipes.json';
+import xml from '../../data/my_cookbook2019_05_20_12_23_50.xml';
 import RecipeModal from '../Modal/RecipeModal';
-import AmarettoImage from '../../images/amaretto.jpeg';
 
 import { RecipesContainerStyles } from './recipes-list.styled';
+
 
 class RecipesList extends Component {
     constructor(props) {
         super(props);
         this.state = {
             recipeId: 0,
-            showRecipe: false
+            showRecipe: false,
+            recipeList: null
         }
         this.toggleRecipe = this.toggleRecipe.bind(this);
+        this.loadRecipes = this.loadRecipes.bind(this);
     }
+
+    componentDidMount() {
+        this.loadRecipes();
+    }
+
+    loadRecipes() {
+        fetch(xml)
+            .then((response) => response.text())
+            .then((xmlText) => {
+                // remove <?xml  ... etc header because react-xml-parser chokes on it
+                if (xmlText.toLowerCase().substr(0, 5) == '<?xml') {
+                    xmlText = xmlText.split(/\?>\r{0,1}\n{0,1}/).slice(1).join('?>\n');
+                }
+                let recipesData = new XMLParser().parseFromString(xmlText);    // Assume xmlText contains the example XML
+
+                this.setState({
+                    recipeList: recipesData
+                });
+            }).catch((error) => {
+                console.log("Parsing error: ", error);
+            });
+    }
+
     toggleRecipe = (recipeId) => {
         const recipeState = this.state.showRecipe;
         this.setState({
@@ -29,24 +55,30 @@ class RecipesList extends Component {
     }
 
     render() {
-        const listingNodes = recipesData ? recipesData.recipes.map((recipe) => {
-            const classes = this.state.showRecipe && this.state.recipeId === recipe.id ? "recipe active" : "recipe";
-            return (
-                <span key={recipe.id}>
-                    <li className={classes} onClick={() => this.toggleRecipe(recipe.id)}>
-                        <span className="name">{recipe.name}</span>
-                        <span className="time">{recipe.prepTime + recipe.cookTime} minutes</span>
-                        <span className="main-ingredient">{recipe.ingredients[0].item}</span>
-                    </li>
-                    {this.state.showRecipe && this.state.recipeId === recipe.id ?
-                        <RecipeModal
-                            bgImage={recipe.image}
-                            closeRecipe={this.closeRecipe}
-                            recipe={recipe}
-                        />
-                        : null}
-                </span>
-            )
+        const recipes = this.state.recipeList ? this.state.recipeList.getElementsByTagName('recipe') : null;
+        const listingNodes = recipes ? recipes.map((recipe) => {
+            const recipeId = recipe.getElementsByTagName('recipeId')[0] ? recipe.getElementsByTagName('recipeId')[0].value : null;
+            const title = recipe.getElementsByTagName('title')[0] ? recipe.getElementsByTagName('title')[0].value : null;
+            const preptime = recipe.getElementsByTagName('preptime')[0] ? recipe.getElementsByTagName('preptime')[0].value : null;
+            const cooktime = recipe.getElementsByTagName('cooktime')[0] ? recipe.getElementsByTagName('cooktime')[0].value : null;
+            const classes = this.state.showRecipe && this.state.recipeId === recipeId ? "recipe active" : "recipe";
+
+            if (title) {
+                return (
+                    <span key={recipeId}>
+                        <li className={classes} onClick={() => this.toggleRecipe(recipeId)}>
+                            <span className="name">{title}</span>
+                            <span className="time">{preptime} + {cooktime}</span>
+                        </li>
+                        {this.state.showRecipe && this.state.recipeId === recipeId ?
+                            <RecipeModal
+                                closeRecipe={this.closeRecipe}
+                                recipe={recipe}
+                            />
+                            : null}
+                    </span>
+                )
+            }
         }) : null;
 
 
@@ -61,9 +93,6 @@ class RecipesList extends Component {
                 <ul className="recipes-list">
                     {listingNodes}
                 </ul>
-                <div className="background-fixed">
-                    <img src={AmarettoImage} alt="drink" />
-                </div>
             </RecipesContainerStyles>
         );
     }

@@ -1,17 +1,19 @@
 {
-  "main.css": "/recipes/static/css/main.541f1062.chunk.css",
-  "main.js": "/recipes/static/js/main.f17fba2d.chunk.js",
-  "main.js.map": "/recipes/static/js/main.f17fba2d.chunk.js.map",
+  "main.css": "/recipes/static/css/main.8e715b28.chunk.css",
+  "main.js": "/recipes/static/js/main.2c6288b3.chunk.js",
+  "main.js.map": "/recipes/static/js/main.2c6288b3.chunk.js.map",
   "runtime~main.js": "/recipes/static/js/runtime~main.19e64e71.js",
   "runtime~main.js.map": "/recipes/static/js/runtime~main.19e64e71.js.map",
-  "static/js/2.9b34b590.chunk.js": "/recipes/static/js/2.9b34b590.chunk.js",
-  "static/js/2.9b34b590.chunk.js.map": "/recipes/static/js/2.9b34b590.chunk.js.map",
+  "static/js/2.daa2ef77.chunk.js": "/recipes/static/js/2.daa2ef77.chunk.js",
+  "static/js/2.daa2ef77.chunk.js.map": "/recipes/static/js/2.daa2ef77.chunk.js.map",
   "index.html": "/recipes/index.html",
-  "precache-manifest.02e3876f9216bca52d3256836f6e8686.js": "/recipes/precache-manifest.02e3876f9216bca52d3256836f6e8686.js",
+  "precache-manifest.2abd79023acb8c99f7c5af8eee817e80.js": "/recipes/precache-manifest.2abd79023acb8c99f7c5af8eee817e80.js",
   "service-worker.js": "/recipes/service-worker.js",
-  "static/css/main.541f1062.chunk.css.map": "/recipes/static/css/main.541f1062.chunk.css.map",
+  "static/css/main.8e715b28.chunk.css.map": "/recipes/static/css/main.8e715b28.chunk.css.map",
   "static/media/alfredo-sauce.jpg": "/recipes/static/media/alfredo-sauce.af8a7793.jpg",
   "static/media/amaretto.jpeg": "/recipes/static/media/amaretto.fe214cc2.jpeg",
-  "static/media/amazing-chicken.jpg": "/recipes/static/media/amazing-chicken.3888d290.jpg",
-  "static/media/tabletop.jpg": "/recipes/static/media/tabletop.62573cb8.jpg"
+  "static/media/amazing-chicken.png": "/recipes/static/media/amazing-chicken.cdf18a3a.png",
+  "static/media/cornucopia.jpg": "/recipes/static/media/cornucopia.9daa0ad8.jpg",
+  "static/media/lorem-ipsum-logo.png": "/recipes/static/media/lorem-ipsum-logo.e41085e5.png",
+  "static/media/my_cookbook2019_05_20_12_23_50.xml": "/recipes/static/media/my_cookbook2019_05_20_12_23_50.62ed745e.xml"
 }
