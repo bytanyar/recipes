@@ -50,7 +50,6 @@
 <video></video>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>2</recipeId>
 <title>alfredo sauce</title>
@@ -84,7 +83,6 @@
 <video></video>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>3</recipeId>
 <title>Amaretto</title>
@@ -120,7 +118,6 @@
 <video></video>
 <category>Other</category>
 </recipe>
-
 <recipe>
 <recipeId>4</recipeId>
 <title>Amazing Chicken</title>
@@ -191,7 +188,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>5</recipeId>
 <title>Apricot Chicken in a Pan</title>
 <preptime>20 m</preptime>
@@ -227,7 +223,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>5</recipeId>
 <title>Bacon &amp; Egg Casserole</title>
@@ -272,7 +267,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>6</recipeId>
 <title>Baked Pork Chops I</title>
@@ -351,7 +345,6 @@
 <video>http://allrecipes.com/video/2896/baked-pork-chops-i/</video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>7</recipeId>
 <title>Baked Zucchini Ranch Parmesan Chips</title>
@@ -398,7 +391,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>8</recipeId>
 <title>Bean, Bacon, and Blue Cheese Dip</title>
@@ -433,7 +425,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>9</recipeId>
 <title>Black bean dip</title>
@@ -463,7 +454,6 @@
 <video></video>
 <category>Starter</category>
 </recipe>
-
 <recipe>
 <recipeId>10</recipeId>
 <title>Black Russian cake</title>
@@ -505,7 +495,6 @@
 <comments></comments>
 <category>Dessert</category>
 </recipe>
-
 <recipe>
 <recipeId>11</recipeId>
 <title>Bourbon Chicken</title>
@@ -579,7 +568,6 @@
 <video>http://allrecipes.com/video/5225/bourbon-chicken</video>
 <lang>en</lang>
 </recipe>
-
 <recipe>12</recipeId>
 <title>broccoli cheese salad</title>
 <preptime>30 minutes </preptime>
@@ -611,7 +599,6 @@
 <comments></comments>
 <category>Sides</category>
 </recipe>
-
 <recipe>
 <recipeId>12</recipeId>
 <title>Broccoli Chicken Divan</title>
@@ -687,7 +674,6 @@
 <video>http://allrecipes.com/video/1154/broccoli-chicken-divan/</video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>13</recipeId>
 <title>Bruschetta Chicken Bake</title>
@@ -765,7 +751,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>14</recipeId>
 <title>Buffalo Chicken Salad</title>
@@ -805,7 +790,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>15</recipeId>
 <title>buffalo hot chicken dip</title>
@@ -837,7 +821,6 @@
 <video></video>
 <category>Starter</category>
 </recipe>
-
 <recipe>
 <recipeId>16</recipeId>
 <title>burgundy mushrooms</title>
@@ -861,7 +844,6 @@
 <nutrition></nutrition>
 <comments></comments>
 </recipe>
-
 <recipe>
 <recipeId>17</recipeId>
 <title>Butter Cookies</title>
@@ -914,7 +896,6 @@
 <lang>en</lang>
 <category>Dessert</category>
 </recipe>
-
 <recipe>
 <recipeId>18</recipeId>
 <title>Cajun dump chicken </title>
@@ -946,7 +927,6 @@
 <source></source>
 <video></video>
 </recipe>
-
 <recipe>
 <recipeId>19</recipeId>
 <title>Cashew Chicken</title>
@@ -999,7 +979,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>20</recipeId>
 <title>Cheesy Chicken &amp; Broccoli Stuffed Shells</title>
@@ -1069,7 +1048,6 @@
 <lang>en</lang>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>21</recipeId>
 <title>Chicken and Dumplings</title>
@@ -1125,7 +1103,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>22</recipeId>
 <title>Chicken and Pasta Casserole with Mixed Vegetables</title>
@@ -1206,7 +1183,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeID>23</recipeId>
 <title>Chicken Broccoli Casserole</title>
@@ -1242,7 +1218,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>24</recipeId>
 <title>chicken florentine</title>
@@ -1293,7 +1268,6 @@
 <comments></comments>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>25</recipeId>
 <title>Chicken Kiev</title>
@@ -1339,7 +1313,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>26</recipeId>
 <title>Chicken Lazone</title>
@@ -1382,7 +1355,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>27</recipeId>
 <title>Chicken Milano</title>
@@ -1459,7 +1431,6 @@
 <video>http://allrecipes.com/video/1261/chicken-milano/</video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>28</recipeId>
 <title>Chicken Parmesan Crescent Bake</title>
@@ -1495,7 +1466,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>29</recipeId>
 <title>Chicken pot pie</title>
@@ -1529,7 +1499,6 @@
 <comments></comments>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>30</recipeId>
 <title>Chicken Pot Pie IX</title>
@@ -1613,7 +1582,6 @@
 <video>http://allrecipes.com/video/2567/chicken-pot-pie-ix</video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>31</recipeId>
 <title>chicken roll ups</title>
@@ -1657,7 +1625,6 @@
 <video></video>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>32</recipeId>
 <title>Chicken Rotini Stovetop Casserole</title>
@@ -1737,7 +1704,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>33</recipeId>
 <title>Chicken with cream sauce</title>
@@ -1785,7 +1751,6 @@
 <video></video>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>34</recipeId>
 <title>cold pizza</title>
@@ -1816,7 +1781,6 @@
 <category>Starter</category>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>35</recipeId>
 <title>Copycat Outback Steakhouse Chopped Blue Cheese Salad</title>
@@ -1865,7 +1829,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>36</recipeId>
 <title>Cranberry Orange Relish</title>
@@ -1917,7 +1880,6 @@
 <lang>en</lang>
 <category>Sides</category>
 </recipe>
-
 <recipe>
 <recipeId>37</recipeId>
 <title>creamy mashed potatoes</title>
@@ -1948,7 +1910,6 @@
 <comments></comments>
 <category>Other</category>
 </recipe>
-
 <recipe>
 <recipeId>38</recipeId>
 <title>Creamy Mustard and Tarragon Chicken</title>
@@ -2028,7 +1989,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>39</recipeId>
 <title>Creme brulee</title>
@@ -2058,7 +2018,6 @@
 <comments></comments>
 <category>Dessert</category>
 </recipe>
-
 <recipe>
 <recipeId>40</recipeId>
 <title>Crispy Pork Cutlets</title>
@@ -2149,7 +2108,6 @@
 <video>http://allrecipes.com/video/1049/crispy-pork-cutlets/</video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>41</recipeId>
 <title>Crock Pot Chicken á La Antoinette</title>
@@ -2193,7 +2151,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>42</recipeId>
 <title>Crustless Spinach Quiche</title>
@@ -2228,7 +2185,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>43</recipeId>
 <title>Curried Honey Mustard Chicken</title>
@@ -2301,7 +2257,6 @@
 <video>http://allrecipes.com/video/5360/curried-honey-mustard-chicken</video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>44</recipeId>
 <title>Curried Pork &amp; Orange Kabobs</title>
@@ -2336,7 +2291,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>45</recipeId>
 <title>curry oil &amp; avocado toast</title>
@@ -2366,7 +2320,6 @@
 <nutrition></nutrition>
 <comments></comments>
 </recipe>
-
 <recipe>
 <recipeId>46</recipeId>
 <title>Dad's pizza dough</title>
@@ -2399,7 +2352,6 @@
 <video></video>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>47</recipeId>
 <title>Dad's stuffing </title>
@@ -2449,7 +2401,6 @@
 <video></video>
 <category>Sides</category>
 </recipe>
-
 <recipe>
 <recipeId>48</recipeId>
 <title>Detox drink</title>
@@ -2475,7 +2426,6 @@
 <video></video>
 <category>Other</category>
 </recipe>
-
 <recipe>
 <recipeId>49</recipeId>
 <title>Dijon dump chicken</title>
@@ -2503,7 +2453,6 @@
 <video></video>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>50</recipeId>
 <title>Dill Pickle-Ranch Pasta Salad</title>
@@ -2548,7 +2497,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>51</recipeId>
 <title>Donair</title>
@@ -2604,7 +2552,6 @@
 <video></video>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>52</recipeId>
 <title>Easy Double Chocolate Chip Brownies</title>
@@ -2653,7 +2600,6 @@
 <lang>en</lang>
 <category>Dessert</category>
 </recipe>
-
 <recipe>
 <recipeId>53</recipeId>
 <title>Fish Tacos - Quick</title>
@@ -2729,7 +2675,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>54</recipeId>
 <title>French onion soup</title>
@@ -2771,7 +2716,6 @@
 <video></video>
 <category>Starter</category>
 </recipe>
-
 <recipe>
 <recipeId>55</recipeId>
 <title>Garlic Cheese Chicken Rollups</title>
@@ -2841,7 +2785,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>56</recipeId>
 <title>Garlic rolls - pull apart</title>
@@ -2875,7 +2818,6 @@
 <category>Sides</category>
 <category>Starter</category>
 </recipe>
-
 <recipe>
 <recipeId>57</recipeId>
 <title>Ginger Peanut soup</title>
@@ -2915,7 +2857,6 @@
 <category>Main course</category>
 <category>Sides</category>
 </recipe>
-
 <recipe>
 <recipeId>58</recipeId>
 <title>Green Chile Chicken Enchilada Casserole</title>
@@ -2988,7 +2929,6 @@
 <video>http://allrecipes.com/video/866/easy-chile-chicken-enchilada-casserole</video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>59</recipeId>
 <title>Homemade Granola Bars</title>
@@ -3032,7 +2972,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>60</recipeId>
 <title>icebox cucumber pickles</title>
@@ -3071,7 +3010,6 @@
 <video></video>
 <category>Sides</category>
 </recipe>
-
 <recipe>
 <recipeId>61</recipeId>
 <title>jalapeno popper dip</title>
@@ -3114,7 +3052,6 @@
 <nutrition></nutrition>
 <comments></comments>
 </recipe>
-
 <recipe>
 <recipeId>62</recipeId>
 <title>KFC style gravy</title>
@@ -3150,7 +3087,6 @@
 <video></video>
 <category>Sides</category>
 </recipe>
-
 <recipe>
 <recipeId>63</recipeId>
 <title>Kim German gravy</title>
@@ -3190,7 +3126,6 @@
 <video></video>
 <category>Sides</category>
 </recipe>
-
 <recipe>
 <recipeId>64</recipeId>
 <title>kims yaeger schnitzel</title>
@@ -3226,7 +3161,6 @@
 <source></source>
 <video></video>
 </recipe>
-
 <recipe>
 <recipeId>65</recipeId>
 <title>King Crab Legs</title>
@@ -3299,7 +3233,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>66</recipeId>
 <title>Leftover Chicken Croquettes</title>
@@ -3371,7 +3304,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>67</recipeId>
 <title>Light Chicken Piccata With Linguine</title>
@@ -3433,7 +3365,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>68</recipeId>
 <title>Low Carb Bacon Cheeseburger Casserole</title>
@@ -3483,7 +3414,6 @@
 <lang>en</lang>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>69</recipeId>
 <title>Low-Carb Zucchini Chips</title>
@@ -3522,7 +3452,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>70</recipeId>
 <title>manicotti </title>
@@ -3562,7 +3491,6 @@
 <comments></comments>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>71</recipeId>
 <title>Moroccan Chicken with Fruit and Olive Topping</title>
@@ -3624,7 +3552,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>72</recipeId>
 <title>Olive chicken bake</title>
@@ -3657,7 +3584,6 @@
 <video></video>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>73</recipeId>
 <title>Oma's Spaetzle</title>
@@ -3692,7 +3618,6 @@
 <video></video>
 <category>Sides</category>
 </recipe>
-
 <recipe>
 <recipeId>74</recipeId>
 <title>Pan fried chicken strips</title>
@@ -3726,7 +3651,6 @@
 <category>Starter</category>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>75</recipeId>
 <title>Parmesan Chicken Bake</title>
@@ -3801,7 +3725,6 @@
 <video>http://allrecipes.com/video/311/easy-chicken-parmesan-bake</video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>76</recipeId>
 <title>Philly Cheesesteak Casserole</title>
@@ -3847,7 +3770,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>77</recipeId>
 <title>Philly Cheesesteak Stuffed Peppers</title>
@@ -3896,7 +3818,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>78</recipeId>
 <title>Pizza balls</title>
@@ -3932,7 +3853,6 @@
 <comments></comments>
 <category>Starter</category>
 </recipe>
-
 <recipe>
 <recipeId>79</recipeId>
 <title>Pomegranate juice</title>
@@ -3959,7 +3879,6 @@
 <video></video>
 <category>Other</category>
 </recipe>
-
 <recipe>
 <recipeId>80</recipeId>
 <title>pumpkin dip</title>
@@ -3984,7 +3903,6 @@
 <video></video>
 <category>Starter</category>
 </recipe>
-
 <recipe>
 <recipeId>81</recipeId>
 <title>red meat marinade</title>
@@ -4012,7 +3930,6 @@
 <comments></comments>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>82</recipeId>
 <title>Roasted Parmesan Garlic Cauliflower</title>
@@ -4060,7 +3977,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>83</recipeId>
 <title>Roasted potatoes with Thyme and turmeric</title>
@@ -4098,7 +4014,6 @@
 <video></video>
 <category>Sides</category>
 </recipe>
-
 <recipe>
 <recipeId>84</recipeId>
 <title>Ruth's Chris Steak House Petite Filet</title>
@@ -4158,7 +4073,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>85</recipeId>
 <title>Salsa</title>
@@ -4187,7 +4101,6 @@
 <video></video>
 <category>Starter</category>
 </recipe>
-
 <recipe>
 <recipeId>86</recipeId>
 <title>Sarah's Easy Shredded Chicken Taco Filling</title>
@@ -4264,7 +4177,6 @@
 <video>http://allrecipes.com/video/5170/sarahs-easy-shredded-chicken-taco-filling</video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>87</recipeId>
 <title>sausage and gravy</title>
@@ -4298,7 +4210,6 @@
 <source></source>
 <video></video>
 </recipe>
-
 <recipe>
 <recipeId>88</recipeId>
 <title>sausage balls</title>
@@ -4326,7 +4237,6 @@
 <comments></comments>
 <category>Starter</category>
 </recipe>
-
 <recipe>
 <recipeId>89</recipeId>
 <title>Siddell salsa</title>
@@ -4354,7 +4264,6 @@
 <video></video>
 <category>Starter</category>
 </recipe>
-
 <recipe>
 <recipeId>90</recipeId>
 <title>Steaks With Roquefort Sauce</title>
@@ -4427,7 +4336,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>91</recipeId>
 <title>Stickin dump chicken </title>
@@ -4458,7 +4366,6 @@
 <video></video>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>92</recipeId>
 <title>susan's alfredo sauce</title>
@@ -4490,7 +4397,6 @@
 <comments></comments>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>93</recipeId>
 <title>SW chicken casserole </title>
@@ -4517,7 +4423,6 @@
 <comments></comments>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>94</recipeId>
 <title>Tasty Bake Chicken</title>
@@ -4590,7 +4495,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>95</recipeId>
 <title>Thai Chicken Pizza</title>
@@ -4640,7 +4544,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>96</recipeId>
 <title>Thyme-Rubbed Steaks with Sauteed Mushrooms</title>
@@ -4720,7 +4623,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>97</recipeId>
 <title>Tikka Spice Mix</title>
@@ -4786,7 +4688,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>98</recipeId>
 <title>Tortellini Salad</title>
@@ -4826,7 +4727,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>99</recipeId>
 <title>Turkey Meatloaf</title>
@@ -4905,7 +4805,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>100</recipeId>
 <title>Turkey Stuffing Divan</title>
@@ -4979,7 +4878,6 @@
 <video></video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>101</recipeId>
 <title>Turkey Veggie Meatloaf Cups</title>
@@ -5055,7 +4953,6 @@
 <video>http://allrecipes.com/video/2937/turkey-veggie-meatloaf-cups</video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>102</recipeId>
 <title>Yorkshire pudding</title>
@@ -5083,7 +4980,6 @@
 <category>Starter</category>
 <category>Sides</category>
 </recipe>
-
 <recipe>
 <recipeId>103</recipeId>
 <title>Zucchini Patties</title>
@@ -5156,7 +5052,6 @@
 <video>http://allrecipes.com/video/4996/zucchini-patties/</video>
 <lang>en</lang>
 </recipe>
-
 <recipe>
 <recipeId>104</recipeId>
 <title>Zucchini, Goat Cheese, and Tomato Frittata</title>
@@ -5197,7 +5092,6 @@
 <video></video>
 <category>Main course</category>
 </recipe>
-
 <recipe>
 <recipeId>105</recipeId>
 <title>Zuppa Toscana</title>
@@ -5271,5 +5165,4 @@
 <video>http://allrecipes.com/video/4305/super-delicious-zuppa-toscana/</video>
 <lang>en</lang>
 </recipe>
-
 </cookbook>
