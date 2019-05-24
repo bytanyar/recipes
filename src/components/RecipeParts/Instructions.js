@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './ingredients.css';
+import { InstructionContainerStyles } from './instructions.styled';
 
 const Instructions = ({
     recipe
@@ -23,9 +23,11 @@ const Instructions = ({
     }) : null;
 
     return (
-        <ul className="instructions-list">
-            {liNodes}
-        </ul>
+        <InstructionContainerStyles>
+            <ul className="instructions-list">
+                {liNodes}
+            </ul>
+        </InstructionContainerStyles>
     )
 }
 
