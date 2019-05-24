@@ -64,11 +64,12 @@ class RecipesList extends Component {
             const classes = this.state.showRecipe && this.state.recipeId === recipeId ? "recipe active" : "recipe";
 
             if (title) {
+                const time = preptime && cooktime ? `${preptime} + ${cooktime}` : `${preptime} ${cooktime}`;
                 return (
                     <span key={recipeId}>
                         <li className={classes} onClick={() => this.toggleRecipe(recipeId)}>
                             <span className="name">{title}</span>
-                            <span className="time">{preptime} + {cooktime}</span>
+                            <span className="time">{time}</span>
                         </li>
                         {this.state.showRecipe && this.state.recipeId === recipeId ?
                             <RecipeModal
