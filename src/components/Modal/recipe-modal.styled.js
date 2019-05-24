@@ -10,11 +10,11 @@ export const RecipeModalStyles = styled.div`
         max-height: 90vh;
         max-width: 500px;
         padding: 5px 15px 15px;
-        position: absolute;
+        position: fixed;
         right: 12.5%;
         top: 5vh;
         width: 75%;
-        z-index: 750;
+        z-index: 1000;
     }
     .close-x {
         background-color: #fff;

@@ -37,7 +37,6 @@ export const RecipesContainerStyles = styled.div`
         padding-inline-start: 0;
         position: relative;
         width: 100%;
-        z-index: 200;
     }
     .recipe {
         display: flex;
