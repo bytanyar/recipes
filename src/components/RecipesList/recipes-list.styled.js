@@ -14,7 +14,7 @@ export const RecipesContainerStyles = styled.div`
         background-color: rgba(0, 0, 0, 0.5);
         bottom: 0;
         left: 0;
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 0;
         z-index: 100;
