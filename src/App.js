@@ -8,7 +8,9 @@ import RecipesList from './components/RecipesList/RecipesList';
 import NewRecipe from './components/Forms/NewRecipe';
 
 class App extends Component {
+
     render() {
+
         return (
             <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <div className="app">
