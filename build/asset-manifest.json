@@ -1,19 +1,19 @@
 {
-  "main.css": "/recipes/static/css/main.9f3c6809.chunk.css",
-  "main.js": "/recipes/static/js/main.02df0015.chunk.js",
-  "main.js.map": "/recipes/static/js/main.02df0015.chunk.js.map",
+  "main.css": "/recipes/static/css/main.34634f01.chunk.css",
+  "main.js": "/recipes/static/js/main.c949aac1.chunk.js",
+  "main.js.map": "/recipes/static/js/main.c949aac1.chunk.js.map",
   "runtime~main.js": "/recipes/static/js/runtime~main.19e64e71.js",
   "runtime~main.js.map": "/recipes/static/js/runtime~main.19e64e71.js.map",
   "static/js/2.eb5388bd.chunk.js": "/recipes/static/js/2.eb5388bd.chunk.js",
   "static/js/2.eb5388bd.chunk.js.map": "/recipes/static/js/2.eb5388bd.chunk.js.map",
   "index.html": "/recipes/index.html",
-  "precache-manifest.4d44f5a83afccb9af760b591313051c4.js": "/recipes/precache-manifest.4d44f5a83afccb9af760b591313051c4.js",
+  "precache-manifest.e831721985568bfe1f8902677241969c.js": "/recipes/precache-manifest.e831721985568bfe1f8902677241969c.js",
   "service-worker.js": "/recipes/service-worker.js",
-  "static/css/main.9f3c6809.chunk.css.map": "/recipes/static/css/main.9f3c6809.chunk.css.map",
+  "static/css/main.34634f01.chunk.css.map": "/recipes/static/css/main.34634f01.chunk.css.map",
   "static/media/alfredo-sauce.jpg": "/recipes/static/media/alfredo-sauce.af8a7793.jpg",
   "static/media/amaretto.jpeg": "/recipes/static/media/amaretto.fe214cc2.jpeg",
   "static/media/amazing-chicken.png": "/recipes/static/media/amazing-chicken.cdf18a3a.png",
   "static/media/cornucopia.jpg": "/recipes/static/media/cornucopia.9daa0ad8.jpg",
   "static/media/lorem-ipsum-logo.png": "/recipes/static/media/lorem-ipsum-logo.e41085e5.png",
-  "static/media/my_cookbook2019_05_20_12_23_50.xml": "/recipes/static/media/my_cookbook2019_05_20_12_23_50.34b24d44.xml"
+  "static/media/my_cookbook2019_05_20_12_23_50.xml": "/recipes/static/media/my_cookbook2019_05_20_12_23_50.0566c8b7.xml"
 }
