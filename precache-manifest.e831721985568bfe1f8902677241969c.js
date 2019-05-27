@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/recipes/static/media/amaretto.fe214cc2.jpeg"
   },
   {
-    "revision": "1f033440b42084a84202",
-    "url": "/recipes/static/css/main.9f3c6809.chunk.css"
+    "revision": "9d54ad7f1dd764c99636",
+    "url": "/recipes/static/css/main.34634f01.chunk.css"
   },
   {
     "revision": "c96e90947479d05374fe",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/recipes/static/media/alfredo-sauce.af8a7793.jpg"
   },
   {
-    "revision": "1f033440b42084a84202",
-    "url": "/recipes/static/js/main.02df0015.chunk.js"
+    "revision": "9d54ad7f1dd764c99636",
+    "url": "/recipes/static/js/main.c949aac1.chunk.js"
   },
   {
     "revision": "cdf18a3a98646f409f4591c3b2108293",
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "/recipes/static/media/lorem-ipsum-logo.e41085e5.png"
   },
   {
-    "revision": "34b24d443a552a3ed22de74721e825b1",
-    "url": "/recipes/static/media/my_cookbook2019_05_20_12_23_50.34b24d44.xml"
+    "revision": "0566c8b7312c6f80a110d874e263b450",
+    "url": "/recipes/static/media/my_cookbook2019_05_20_12_23_50.0566c8b7.xml"
   },
   {
-    "revision": "f4d09c5acd67a5436db152ec8b3efcc4",
+    "revision": "ccbfcc51237dc946b0b909b108cd1ccf",
     "url": "/recipes/index.html"
   }
 ];
