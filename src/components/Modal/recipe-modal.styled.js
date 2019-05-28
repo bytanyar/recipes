@@ -22,12 +22,18 @@ export const RecipeModalStyles = styled.div`
         border-radius: 50%;
         padding: 0 5px;
         position: absolute;
-        right: 20px;
+        right: 5px;
         text-align: left;
-        top: 10px;
+        top: 5px;
         width: 20px;
     }
     .close-x:hover {
         background-color: blanchedalmond;
+    }
+    @media only screen and (min-width: 650){
+        .close-x {
+            right: 20px;
+            top: 10px;
+        }
     }
 `;

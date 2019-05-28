@@ -59,10 +59,27 @@ export const RecipesContainerStyles = styled.div`
         font-size: 18px;
         max-width: 550px;
         padding-left: 20px;
-        width: 45%;
+        width: 100%;
     }
     .time {
-        max-width: 350px;
-        width: 50%;
+        display: none;
+    }
+    @media only screen and (min-width: 400){
+        .name {
+            width: 65%;
+        }
+        .time {
+            display: block;
+            max-width: 350px;
+            width: 30%;
+        }
+    }
+    @media only screen and (min-width: 650){
+        .name {
+            width: 45%;
+        }
+        .time {
+            width: 50%;
+        }
     }
 `;
