@@ -7,8 +7,9 @@ export const RecipeModalStyles = styled.div`
         border-radius: 20px;
         left: 12.5%;
         margin: 5vh auto;
-        max-height: 90vh;
+        max-height: calc(90vh - 6em);
         max-width: 500px;
+        overflow: auto;
         padding: 5px 15px 15px;
         position: fixed;
         right: 12.5%;
@@ -32,7 +33,7 @@ export const RecipeModalStyles = styled.div`
     }
     @media only screen and (min-width: 650){
         .close-x {
-            right: 20px;
+            right: 10px;
             top: 10px;
         }
     }
