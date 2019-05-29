@@ -1,7 +1,7 @@
 import {
     SHOW_RECIPE_MODAL,
     HIDE_RECIPE_MODAL
-} from '../../actions/recipeActions';
+} from '../actions/recipeActions';
 
 const recipeModalVisible = (state = false, action) => {
     switch (action.type) {

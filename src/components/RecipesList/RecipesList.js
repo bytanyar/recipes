@@ -18,7 +18,6 @@ class RecipesList extends Component {
         this.state = {
             recipeList: null
         }
-        this.toggleRecipe = this.toggleRecipe.bind(this);
         this.loadRecipes = this.loadRecipes.bind(this);
     }
 

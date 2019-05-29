@@ -7,13 +7,20 @@ import './app.css';
 import Parallax from './components/Parallax/Parallax';
 import RecipesList from './components/RecipesList/RecipesList';
 import NewRecipe from './components/Forms/NewRecipe';
+import { configureStore } from './store';
+
+// Get the application-wide store instance, prepopulating with state from the server where available.
+const initialState = (window).initialReduxState;
+
+const store = configureStore(initialState);
+
 
 class App extends Component {
 
     render() {
 
         return (
-            <Provider>
+            <Provider store={store}>
                 <BrowserRouter basename={process.env.PUBLIC_URL}>
                     <div className="app">
                         <header className="app-header">
