@@ -1,9 +1,8 @@
 
 export const SHOW_RECIPE_MODAL = 'SHOW_RECIPE_MODAL';
-export const showRecipeModal = (recipeId) => {
+export const showRecipeModal = () => {
     return {
-        type: SHOW_RECIPE_MODAL,
-        recipeId
+        type: SHOW_RECIPE_MODAL
     };
 };
 

@@ -4,11 +4,9 @@ import { createStore } from 'redux';
 
 import { createReducer } from './reducers';
 
-export let store; 
-
 export const configureStore = (initialState) => { 
 
-    store = createStore(
+    const store = createStore(
         createReducer(),
         initialState
     );
@@ -16,4 +14,4 @@ export const configureStore = (initialState) => {
     return store;
 };
 
-export default (store);
+export default (configureStore);

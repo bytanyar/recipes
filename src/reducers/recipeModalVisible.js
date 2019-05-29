@@ -6,7 +6,7 @@ import {
 const recipeModalVisible = (state = false, action) => {
     switch (action.type) {
         case SHOW_RECIPE_MODAL:
-            return action.recipeId;
+            return true;
         case HIDE_RECIPE_MODAL:
             return false;
         default:

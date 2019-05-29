@@ -16,8 +16,10 @@ class RecipesList extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            recipeId: 0,
             recipeList: null
         }
+        this.setRecipe = this.setRecipe.bind(this);
         this.loadRecipes = this.loadRecipes.bind(this);
     }
 
@@ -42,6 +44,11 @@ class RecipesList extends Component {
                 console.log("Parsing error: ", error);
             });
     }
+    setRecipe(recipeIdNow){
+        this.setState({
+            recipeId: recipeIdNow
+        });
+    }
 
     render() {
         const recipes = this.state.recipeList ? this.state.recipeList.getElementsByTagName('recipe') : null;
@@ -50,19 +57,25 @@ class RecipesList extends Component {
             const title = recipe.getElementsByTagName('title')[0] ? recipe.getElementsByTagName('title')[0].value : null;
             const preptime = recipe.getElementsByTagName('preptime')[0] ? recipe.getElementsByTagName('preptime')[0].value : null;
             const cooktime = recipe.getElementsByTagName('cooktime')[0] ? recipe.getElementsByTagName('cooktime')[0].value : null;
-            const classes = this.state.showRecipe && this.state.recipeId === recipeId ? "recipe active" : "recipe";
+            const classes = this.props.showRecipe && this.state.recipeId === recipeId ? "recipe active" : "recipe";
 
             if (title) {
                 const time = preptime && cooktime ? `${preptime} + ${cooktime}` : `${preptime} ${cooktime}`;
                 return (
                     <span key={recipeId}>
-                        <li className={classes} onClick={(ev) => this.toggleRecipeModal(ev, recipeId)}>
+                        <li className={classes} onClick={
+                            (ev) => {
+                                ev.preventDefault();
+                                this.props.toggleRecipeModal(this.props.showRecipe);
+                                this.setRecipe(recipeId);
+                            }
+                            }>
                             <span className="name">{title}</span>
                             <span className="time">{time}</span>
                         </li>
-                        {this.state.showRecipe && this.state.recipeId === recipeId ?
+                        {this.props.showRecipe && this.state.recipeId === recipeId ?
                             <RecipeModal
-                                closeRecipe={(ev) => this.toggleRecipeModal(ev, recipeId)}
+                                closeRecipe={() => this.props.toggleRecipeModal(this.props.showRecipe)}
                                 recipe={recipe}
                             />
                             : null}
@@ -74,7 +87,7 @@ class RecipesList extends Component {
 
         return (
             <RecipesContainerStyles className="recipes-container">
-                {this.state.showRecipe ?
+                {this.props.showRecipe ?
                     <div className="recipe-modal-bg" onClick={this.closeRecipe} />
                     : null}
                 <ul className="recipes-list">
@@ -87,6 +100,7 @@ class RecipesList extends Component {
 
 
 const mapStateToProps = state => {
+    console.log(state);
     return {
         showRecipe: state.recipeModalVisible
     };
@@ -94,12 +108,14 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        toggleRecipeModal: (ev, recipeId) => {
-            ev.preventDefault();
-            if (this.props.showRecipe) {
+        toggleRecipeModal: (showRecipe) => {
+            console.log(showRecipe);
+            if (showRecipe) {
+                console.log('hide');
                 dispatch(hideRecipeModal());
             } else {
-                dispatch(showRecipeModal(recipeId));
+                console.log('show');
+                dispatch(showRecipeModal());
             }
         }
     };
