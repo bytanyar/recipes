@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import XMLParser from 'react-xml-parser';
 
 import xml from '../../data/my_cookbook2019_05_20_12_23_50.xml';
@@ -12,7 +13,6 @@ class RecipesList extends Component {
         super(props);
         this.state = {
             recipeId: 0,
-            showRecipe: false,
             recipeList: null
         }
         this.toggleRecipe = this.toggleRecipe.bind(this);
@@ -83,9 +83,6 @@ class RecipesList extends Component {
         }) : null;
 
 
-
-
-
         return (
             <RecipesContainerStyles className="recipes-container">
                 {this.state.showRecipe ?
@@ -99,4 +96,11 @@ class RecipesList extends Component {
     }
 }
 
-export default RecipesList;
+
+const mapStateToProps = state => {
+    return {
+      showRecipe: state.recipeModalVisible
+    };
+  };
+
+export default connect(mapStateToProps)(RecipesList);

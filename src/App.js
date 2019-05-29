@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 import './app.css';
@@ -12,26 +13,28 @@ class App extends Component {
     render() {
 
         return (
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
-                <div className="app">
-                    <header className="app-header">
-                        <h1>Recipes</h1>
-                        <nav>
-                            <ul>
-                                <li><Link to="/">Home</Link></li>
-                                <li><Link to="/list">Recipes List</Link></li>
-                                <li><Link to="/newRecipe">New Recipe</Link></li>
-                            </ul>
-                        </nav>
-                    </header>
+            <Provider>
+                <BrowserRouter basename={process.env.PUBLIC_URL}>
+                    <div className="app">
+                        <header className="app-header">
+                            <h1>Recipes</h1>
+                            <nav>
+                                <ul>
+                                    <li><Link to="/">Home</Link></li>
+                                    <li><Link to="/list">Recipes List</Link></li>
+                                    <li><Link to="/newRecipe">New Recipe</Link></li>
+                                </ul>
+                            </nav>
+                        </header>
 
 
-                    <Route path="/" exact component={Parallax} />
-                    <Route path="/list" exact component={RecipesList} />
-                    <Route path="/newRecipe" exact component={NewRecipe} />
+                        <Route path="/" exact component={Parallax} />
+                        <Route path="/list" exact component={RecipesList} />
+                        <Route path="/newRecipe" exact component={NewRecipe} />
 
-                </div>
-            </BrowserRouter>
+                    </div>
+                </BrowserRouter>
+            </Provider>
         );
     }
 }
