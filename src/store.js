@@ -1,4 +1,4 @@
-/*global ga, fbq*/
+/*global*/
 
 import { createStore } from 'redux';
 
