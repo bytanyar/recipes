@@ -100,7 +100,6 @@ class RecipesList extends Component {
 
 
 const mapStateToProps = state => {
-    console.log(state);
     return {
         showRecipe: state.recipeModalVisible
     };
@@ -109,12 +108,9 @@ const mapStateToProps = state => {
 const mapDispatchToProps = (dispatch) => {
     return {
         toggleRecipeModal: (showRecipe) => {
-            console.log(showRecipe);
             if (showRecipe) {
-                console.log('hide');
                 dispatch(hideRecipeModal());
             } else {
-                console.log('show');
                 dispatch(showRecipeModal());
             }
         }
