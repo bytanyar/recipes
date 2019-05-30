@@ -1,19 +1,19 @@
 {
-  "main.css": "/recipes/static/css/main.34634f01.chunk.css",
-  "main.js": "/recipes/static/js/main.c949aac1.chunk.js",
-  "main.js.map": "/recipes/static/js/main.c949aac1.chunk.js.map",
+  "main.css": "/recipes/static/css/main.86ef80da.chunk.css",
+  "main.js": "/recipes/static/js/main.731a218c.chunk.js",
+  "main.js.map": "/recipes/static/js/main.731a218c.chunk.js.map",
   "runtime~main.js": "/recipes/static/js/runtime~main.19e64e71.js",
   "runtime~main.js.map": "/recipes/static/js/runtime~main.19e64e71.js.map",
-  "static/js/2.eb5388bd.chunk.js": "/recipes/static/js/2.eb5388bd.chunk.js",
-  "static/js/2.eb5388bd.chunk.js.map": "/recipes/static/js/2.eb5388bd.chunk.js.map",
+  "static/js/2.b67eaf78.chunk.js": "/recipes/static/js/2.b67eaf78.chunk.js",
+  "static/js/2.b67eaf78.chunk.js.map": "/recipes/static/js/2.b67eaf78.chunk.js.map",
   "index.html": "/recipes/index.html",
-  "precache-manifest.e831721985568bfe1f8902677241969c.js": "/recipes/precache-manifest.e831721985568bfe1f8902677241969c.js",
+  "precache-manifest.2b8e6aa4ec9aa8672e9d01b314a72597.js": "/recipes/precache-manifest.2b8e6aa4ec9aa8672e9d01b314a72597.js",
   "service-worker.js": "/recipes/service-worker.js",
-  "static/css/main.34634f01.chunk.css.map": "/recipes/static/css/main.34634f01.chunk.css.map",
+  "static/css/main.86ef80da.chunk.css.map": "/recipes/static/css/main.86ef80da.chunk.css.map",
   "static/media/alfredo-sauce.jpg": "/recipes/static/media/alfredo-sauce.af8a7793.jpg",
   "static/media/amaretto.jpeg": "/recipes/static/media/amaretto.fe214cc2.jpeg",
   "static/media/amazing-chicken.png": "/recipes/static/media/amazing-chicken.cdf18a3a.png",
   "static/media/cornucopia.jpg": "/recipes/static/media/cornucopia.9daa0ad8.jpg",
   "static/media/lorem-ipsum-logo.png": "/recipes/static/media/lorem-ipsum-logo.e41085e5.png",
-  "static/media/my_cookbook2019_05_20_12_23_50.xml": "/recipes/static/media/my_cookbook2019_05_20_12_23_50.0566c8b7.xml"
+  "static/media/my_cookbook2019_05_20_12_23_50.xml": "/recipes/static/media/my_cookbook2019_05_20_12_23_50.f3bb926b.xml"
 }
