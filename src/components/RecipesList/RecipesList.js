@@ -88,7 +88,7 @@ class RecipesList extends Component {
         return (
             <RecipesContainerStyles className="recipes-container">
                 {this.props.showRecipe ?
-                    <div className="recipe-modal-bg" onClick={this.closeRecipe} />
+                    <div className="recipe-modal-bg" onClick={this.props.toggleRecipeModal} />
                     : null}
                 <ul className="recipes-list">
                     {listingNodes}
