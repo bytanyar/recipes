@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const RecipesContainerStyles = styled.div`
     height: 100vh;
-    margin: -20px auto 0;
+    margin: 122px auto 0;
     max-width: 1000px;
     padding: 20px;
 
@@ -64,7 +64,7 @@ export const RecipesContainerStyles = styled.div`
     .time {
         display: none;
     }
-    @media only screen and (min-width: 400){
+    @media only screen and (min-width: 400px){
         .name {
             width: 65%;
         }
@@ -74,7 +74,7 @@ export const RecipesContainerStyles = styled.div`
             width: 30%;
         }
     }
-    @media only screen and (min-width: 650){
+    @media only screen and (min-width: 650px){
         .name {
             width: 45%;
         }
