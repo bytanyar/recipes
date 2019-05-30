@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/recipes/static/media/amaretto.fe214cc2.jpeg"
   },
   {
-    "revision": "3bc27537b490570e52b8",
-    "url": "/recipes/static/css/main.86ef80da.chunk.css"
+    "revision": "f95aa3b018f3e8d0b58f",
+    "url": "/recipes/static/css/main.1a897e5a.chunk.css"
   },
   {
     "revision": "c96e90947479d05374fe",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/recipes/static/media/alfredo-sauce.af8a7793.jpg"
   },
   {
-    "revision": "3bc27537b490570e52b8",
-    "url": "/recipes/static/js/main.731a218c.chunk.js"
+    "revision": "f95aa3b018f3e8d0b58f",
+    "url": "/recipes/static/js/main.a0fd45be.chunk.js"
   },
   {
     "revision": "cdf18a3a98646f409f4591c3b2108293",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/recipes/static/media/my_cookbook2019_05_20_12_23_50.f3bb926b.xml"
   },
   {
-    "revision": "7c51169c77b31593a76671b7fbf85f20",
+    "revision": "40e33dbff747f63c28c0318d1af4d7a3",
     "url": "/recipes/index.html"
   }
 ];
