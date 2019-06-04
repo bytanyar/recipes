@@ -1,8 +1,10 @@
 .app {
+    background-color: #d1e8e2;
     text-align: center;
 }
 .app-header {
-    background-color: darkblue;
+    background-color: #116466;
+    border-bottom: 5px solid #2c3531;
     left: 0;
     padding-top: 20px;
     position: fixed;

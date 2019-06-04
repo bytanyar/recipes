@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const RecipesContainerStyles = styled.div`
     height: 100vh;
-    margin: 122px auto 0;
+    margin: 127px auto 0;
     max-width: 1000px;
     padding: 20px;
 
@@ -46,13 +46,11 @@ export const RecipesContainerStyles = styled.div`
         text-align: left;
 
         &:nth-child(2n){
-            background-color: beige;
+            background-color: #ffcb9a;
         }
-        &:hover {
-            background-color: blanchedalmond;
-        }
+        &:hover,
         &.active {
-            background-color: lightblue;
+            background-color: #d9b08c;
         }
     }
     .name {
