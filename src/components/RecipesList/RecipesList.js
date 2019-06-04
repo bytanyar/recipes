@@ -62,7 +62,7 @@ class RecipesList extends Component {
             if (title) {
                 const time = preptime && cooktime ? `${preptime} + ${cooktime}` : `${preptime} ${cooktime}`;
                 return (
-                    <span key={recipeId}>
+                    <div className="recipe-id" key={recipeId}>
                         <li className={classes} onClick={
                             (ev) => {
                                 ev.preventDefault();
@@ -79,7 +79,7 @@ class RecipesList extends Component {
                                 recipe={recipe}
                             />
                             : null}
-                    </span>
+                    </div>
                 )
             }
         }) : null;

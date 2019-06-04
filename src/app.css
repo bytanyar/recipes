@@ -32,11 +32,11 @@ a {
 }
 a:link,
 a:visited {
-    color: darkgray;
+    color: lightgray;
 }
 a:hover,
 a:active {
-    color: lightblue;
+    color: #ffcb9a;
     font-weight: 500;
 }
 a:focus {

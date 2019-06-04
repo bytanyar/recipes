@@ -37,6 +37,10 @@ export const RecipesContainerStyles = styled.div`
         padding-inline-start: 0;
         position: relative;
         width: 100%;
+
+    }
+    .recipe-id:nth-child(2n) {
+        background-color: #fdd8b5;
     }
     .recipe {
         display: flex;
@@ -45,9 +49,6 @@ export const RecipesContainerStyles = styled.div`
         padding: 5px 0;
         text-align: left;
 
-        &:nth-child(2n){
-            background-color: #ffcb9a;
-        }
         &:hover,
         &.active {
             background-color: #d9b08c;
