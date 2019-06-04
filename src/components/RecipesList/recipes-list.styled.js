@@ -28,7 +28,7 @@ export const RecipesContainerStyles = styled.div`
         z-index: 1;
     }
     .recipes-list {
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.75);
         border: 1px solid #333;
         margin: 20px auto;
         margin-block-end: 0;
