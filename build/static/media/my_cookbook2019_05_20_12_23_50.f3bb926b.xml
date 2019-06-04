@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cookbook version="66">
 <recipe>
-<recipeId>1</recipeId>
+<recipeId>00001</recipeId>
 <title>8 treasure chicken</title>
 <preptime>25 minutes </preptime>
 <cooktime>25 minutes </cooktime>
@@ -32,9 +32,9 @@
 <recipetext><li>Place the chicken meat between 2 sheets of waxed paper. Pound with a meat mallet or possibly the flat of a cleaver to tenderize and flatten. Cut into bite-size pcs. Combine the salt, egg white, 1 tbsp. cornstarch, and 1/4 c. water. Add in the chicken pcs and marinate at least 20 min.</li>
 <li>Heat the oil to almost smoking in a wok over high heat. Deep-fry chicken pcs for 30 seconds or possibly till opaque. Remove with a slotted spoon.</li>
 <li>Remove all but about 2 tbs. oil from the wok. Return the chicken to the wok and add in the remaining ingredients. Stir-fry just till the flavors blend, about 1-1/2 min.</li>
-<li></li>
+
 <li>Remove with the sauce to a serving platter.</li>
-<li></li>
+
 <li>SEASONING SAUCE: Combine all ingredients.</li>
 </recipetext>
 <url></url>
@@ -51,7 +51,7 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>2</recipeId>
+<recipeId>00002</recipeId>
 <title>alfredo sauce</title>
 <preptime>2 minutes</preptime>
 <cooktime>5 minutes</cooktime>
@@ -63,12 +63,12 @@
 </ingredient>
 <recipetext><li>melt butter</li>
 <li>lightly saute garlic in butter</li>
-<li>add heavy cream &amp; spices</li>
+<li>add heavy cream and spices</li>
 <li>stir</li>
 <li>bring to boil</li>
 <li>add parmesan cheese</li>
 <li>constantly stirring</li>
-<li>reduce heat &amp; thicken</li>
+<li>reduce heat and thicken</li>
 </recipetext>
 <url></url>
 <imagepath></imagepath>
@@ -84,7 +84,7 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>3</recipeId>
+<recipeId>0013</recipeId>
 <title>Amaretto</title>
 <preptime></preptime>
 <cooktime>20 minutes</cooktime>
@@ -96,13 +96,13 @@
 <li>6 tsp.   vanilla</li>
 </ingredient>
 <recipetext><li>Combine water, sugar, and brown sugar in saucepan over medium heat.</li>
-<li></li>
+
 <li>Birng to a boil, stirring often, until sugars are completely dissolved.</li>
-<li></li>
+
 <li>Remove from heat and cool 10 minutes.</li>
-<li></li>
+
 <li>Add vodka, almond extract, and vanilla.  Mix well.</li>
-<li></li>
+
 <li>Consume or store.</li>
 </recipetext>
 <url></url>
@@ -119,19 +119,19 @@
 <category>Other</category>
 </recipe>
 <recipe>
-<recipeId>4</recipeId>
+<recipeId>00004</recipeId>
 <title>Amazing Chicken</title>
-<preptime>10 m</preptime>
-<cooktime>30 m</cooktime>
+<preptime>10 minutes</preptime>
+<cooktime>30 minutes</cooktime>
 <ingredient><li>4 skinless, boneless chicken breast halves</li>
 <li>salt and pepper to taste</li>
 <li>1/2 cup mayonnaise</li>
 <li>2 cups Italian seasoned bread crumbs</li>
 </ingredient>
-<recipetext><li>Preheat the oven to 425 degrees F (220 degrees C). Grease a shallow baking dish.</li>
-<li></li>
-<li>Season chicken breasts. Coat chicken on all sides with mayonnaise, and roll in bread crumbs until coated. Place coated breasts into the prepared pan.</li>
-<li></li>
+<recipetext><li>Preheat the oven to 425°F (220°C). Grease a shallow baking dish.</li>
+<li>Season chicken breasts.</li>
+<li>Coat chicken on all sides with mayonnaise, and roll in bread crumbs until coated.</li>
+<li>Place coated breasts into the prepared pan.</li>
 <li>Bake uncovered for 30 minutes in the preheated oven, or until chicken is no longer pink in the middle and the juices run clear.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/55872/amazing-chicken/</url>
@@ -140,58 +140,59 @@
 <quantity>4</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>548 kcal</li>
-<li></li>
+
 <li>27%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>27.7 g</li>
-<li></li>
+
 <li>43%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>40.9g</li>
-<li></li>
+
 <li>13%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>32.8 g</li>
-<li></li>
+
 <li>66%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>78 mg</li>
-<li></li>
+
 <li>26%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>1075 mg</li>
-<li></li>
+
 <li>43%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>40 m</totaltime>
+<totaltime>40 minutes</totaltime>
 <description>&quot;This chicken is so good, it will surprise you. I hate mayo, but you don't even know it's there!&quot;</description>
 <source>KARRIECARLYLE</source>
 <video></video>
 <lang>en</lang>
 </recipe>
-<recipe>5</recipeId>
+<recipe>
+<recipeId>00005</recipeId>
 <title>Apricot Chicken in a Pan</title>
-<preptime>20 m</preptime>
-<cooktime>30 m</cooktime>
+<preptime>20 minutes</preptime>
+<cooktime>30 minutes</cooktime>
 <ingredient><li>2 cups uncooked white rice</li>
 <li>3 1/2 cups water</li>
 <li>2 tablespoons olive oil</li>
@@ -217,17 +218,17 @@
 <li>Per Serving: 443 calories; 6.4 g fat; 69.4 g carbohydrates; 26.8 g protein; 59 mg cholesterol; 237 mg sodium. Powered by the ESHA Research Database © 2018, ESHA Research, Inc. All Rights Reserved</li>
 </nutrition>
 <comments></comments>
-<totaltime>50 m</totaltime>
+<totaltime>50 minutes</totaltime>
 <description>&quot;Got a cutting board, knife, spoon, a saute pan, and 30 minutes? That's all you need to whip up this tasty dinner. Makes great leftovers the next day too!&quot;</description>
 <source>Iron Chef Greggers</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>5</recipeId>
+<recipeId>00006</recipeId>
 <title>Bacon and Egg Casserole</title>
-<preptime>30M</preptime>
-<cooktime>1 hr</cooktime>
+<preptime>30 minutes</preptime>
+<cooktime>1 hour</cooktime>
 <ingredient><li>1 lb bacon</li>
 <li>6 eggs</li>
 <li>2 cups milk</li>
@@ -237,21 +238,21 @@
 <li>6 slices bread</li>
 </ingredient>
 <recipetext><li>Grease a 9x13 glass baking dish and set aside.</li>
-<li></li>
+
 <li>Fry the bacon, drain on paper toweling, cut into 1 inch pieces.</li>
-<li></li>
+
 <li>Cube the bread into 3/4 inch pieces and set aside.</li>
-<li></li>
+
 <li>In a large bowl, beat the eggs.</li>
-<li></li>
+
 <li>Add the milk, mustard powder, salt, and blend well.</li>
-<li></li>
+
 <li>Stir in the bacon, cheese, and bread cubes.</li>
-<li></li>
+
 <li>Stir well to combine.</li>
-<li></li>
+
 <li>Pour the mixture into the baking dish, cover with plastic wrap, and refrigerate overnight.</li>
-<li></li>
+
 <li>Preheat oven to 350°F and bake for one hour.</li>
 </recipetext>
 <url>http://www.food.com/recipe/bacon-egg-casserole-83634</url>
@@ -268,10 +269,10 @@
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>6</recipeId>
+<recipeId>00007</recipeId>
 <title>Baked Pork Chops I</title>
-<preptime>30 m</preptime>
-<cooktime>1 h 30 m</cooktime>
+<preptime>30 minutes</preptime>
+<cooktime>1 hour 30 minutes</cooktime>
 <ingredient><li>6 pork chops</li>
 <li>1 teaspoon garlic powder</li>
 <li>1 teaspoon seasoning salt</li>
@@ -283,12 +284,12 @@
 <li>1/2 cup milk</li>
 <li>1/3 cup white wine</li>
 </ingredient>
-<recipetext><li>Preheat oven to 350 degrees F (175 degrees C).</li>
-<li></li>
+<recipetext><li>Preheat oven to 350°F (175°C).</li>
+
 <li>Rinse pork chops, pat dry, and season with garlic powder and seasoning salt to taste. Place the beaten eggs in a small bowl. Dredge the pork chops lightly in flour, dip in the egg, and coat liberally with bread crumbs.</li>
-<li></li>
+
 <li>Heat the oil in a medium skillet over medium-high heat. Fry the pork chops 5 minutes per side, or until the breading appears well browned. Transfer the chops to a 9x13 inch baking dish, and cover with foil.</li>
-<li></li>
+
 <li>Bake in the preheated oven for 1 hour. While baking, combine the cream of mushroom soup, milk and white wine in a medium bowl. After the pork chops have baked for an hour, cover them with the soup mixture. Replace foil, and bake for another 30 minutes.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/16348/baked-pork-chops-i/</url>
@@ -297,85 +298,85 @@
 <quantity>6</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>457 kcal</li>
-<li></li>
+
 <li>23%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>19.9 g</li>
-<li></li>
+
 <li>31%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>36g</li>
-<li></li>
+
 <li>12%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>29.9 g</li>
-<li></li>
+
 <li>60%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>128 mg</li>
-<li></li>
+
 <li>43%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>1142 mg</li>
-<li></li>
+
 <li>46%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>2 h</totaltime>
+<totaltime>2 hour</totaltime>
 <description>&quot;A pork chop recipe that is quick and easy. You may have all the ingredients already in the house. Try serving over rice.&quot;</description>
 <source>bdld</source>
 <video>http://allrecipes.com/video/2896/baked-pork-chops-i/</video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>7</recipeId>
+<recipeId>00008</recipeId>
 <title>Baked Zucchini Ranch Parmesan Chips</title>
 <preptime>15 minutes</preptime>
 <cooktime>20 minutes</cooktime>
 <ingredient><li>1/2 cup all-purpose flour</li>
-<li></li>
+
 <li>1/4 cup freshly grated Parmesan cheese</li>
-<li></li>
+
 <li>1 (1-ounce) package Ranch Seasoning and Salad Dressing Mix</li>
-<li></li>
+
 <li>1/4 teaspoon cayenne pepper, optional</li>
-<li></li>
+
 <li>Kosher salt and freshly ground black pepper, to taste</li>
-<li></li>
+
 <li>2 zucchinis, thinly sliced to 1/4-inch thick rounds</li>
-<li></li>
+
 <li>2 large eggs, beaten</li>
-<li></li>
+
 <li>2 tablespoons chopped fresh parsley leaves</li>
 </ingredient>
-<recipetext><li>Preheat oven to 400 degrees F. Lightly oil a baking sheet or coat with nonstick spray.</li>
-<li></li>
+<recipetext><li>Preheat oven to 400°F. Lightly oil a baking sheet or coat with nonstick spray.</li>
+
 <li>In a large bowl, combine flour, Parmesan, Ranch Seasoning and cayenne pepper; season with salt and pepper, to taste. Set aside.</li>
-<li></li>
+
 <li>Working in batches, dip zucchini rounds into eggs, then dredge in flour mixture, pressing to coat.</li>
-<li></li>
+
 <li>Place zucchini in a single layer onto the prepared baking sheet.</li>
-<li></li>
+
 <li>Place into oven and bake until tender, about 15 minutes. Then broil for 2-3 minutes, or until crisp and golden brown.</li>
-<li></li>
+
 <li>Serve immediately, garnished with parsley, if desired.</li>
 </recipetext>
 <url>https://damndelicious.net/2015/12/23/baked-zucchini-ranch-parmesan-chips/</url>
@@ -392,10 +393,10 @@
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>8</recipeId>
+<recipeId>00009</recipeId>
 <title>Bean, Bacon, and Blue Cheese Dip</title>
-<preptime>5 mins</preptime>
-<cooktime>0 mins</cooktime>
+<preptime>5 minutes</preptime>
+<cooktime></cooktime>
 <ingredient><li>1/4 cup chopped onion</li>
 <li>1 tablespoon chopped fresh parsley</li>
 <li>1 teaspoon chopped fresh thyme or 1/4 teaspoon dried thyme</li>
@@ -406,10 +407,7 @@
 <li>2 ounces crumbled blue cheese or 1/2 cup blue cheese</li>
 <li>3 slices cooked bacon, drained and crumbled</li>
 </ingredient>
-<recipetext><li>1</li>
-<li>Place first 7 ingredients in a blender or food processor and process until smooth.</li>
-<li></li>
-<li>2</li>
+<recipetext><li>Place first 7 ingredients in a blender or food processor and process until smooth.</li>
 <li>In a small bowl, combine bean mixture, cheese, and bacon.</li>
 </recipetext>
 <url>http://www.food.com/recipe/bean-bacon-and-blue-cheese-dip-143338</url>
@@ -419,17 +417,17 @@
 <rating>0</rating>
 <nutrition>Amount Per Serving % Daily Value Calories 79.1 Calories from Fat 21 27% Total Fat 2.4 g 3% Saturated Fat 1.2 g 6% Cholesterol 5.7 mg 1% Sodium 245.0 mg 10% Total Carbohydrate 9.8 g 3% Dietary Fiber 3.8 g 15% Sugars 0.3 g 1% Protein 4.7 g 9%</nutrition>
 <comments></comments>
-<totaltime>5 mins</totaltime>
+<totaltime>5 minutes</totaltime>
 <description>Flavorful dip from Cooking Light. Serve with toasted baguette slices or warm pita wedges.</description>
 <source>GaylaJ</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>9</recipeId>
+<recipeId>00010</recipeId>
 <title>Black bean dip</title>
 <preptime>30 minutes</preptime>
-<cooktime>0</cooktime>
+<cooktime></cooktime>
 <ingredient><li>2 c corn, loose</li>
 <li>3 cans black beans, drained</li>
 <li>1/4 c cilantro, chopped</li>
@@ -455,7 +453,7 @@
 <category>Starter</category>
 </recipe>
 <recipe>
-<recipeId>10</recipeId>
+<recipeId>00011</recipeId>
 <title>Black Russian cake</title>
 <preptime>20 minutes</preptime>
 <cooktime>50 - 60 minutes</cooktime>
@@ -473,17 +471,17 @@
 <li>1 tsp. vanilla</li>
 <li>2 Tbsp. Kahlua</li>
 </ingredient>
-<recipetext><li>preheat oven to 350 deg F</li>
+<recipetext><li>preheat oven to 350°F</li>
 <li>combine top list ingredients</li>
 <li>beat 5 minutes</li>
 <li>pour into greased pan, but don't use flour</li>
 <li>bake on bottom rack 50-60 minutes</li>
 <li>cool before frosting</li>
-<li></li>
+
 <li>Frosting---------------------------</li>
 <li>beat bottom list ingredients together</li>
 <li>frost cooled cake</li>
-<li></li>
+
 <li>best to let cake sit for a day before serving</li>
 </recipetext>
 <url></url>
@@ -496,7 +494,7 @@
 <category>Dessert</category>
 </recipe>
 <recipe>
-<recipeId>11</recipeId>
+<recipeId>00012</recipeId>
 <title>Bourbon Chicken</title>
 <preptime>overnight</preptime>
 <cooktime>1 hour</cooktime>
@@ -508,11 +506,14 @@
 <li>3/8 cup bourbon</li>
 <li>1/2 teaspoon garlic powder</li>
 </ingredient>
-<recipetext><li>Place chicken breasts in a 9x13 inch baking dish. In a small bowl combine the ginger, soy sauce, onion flakes, sugar, bourbon and garlic powder. Mix together and pour mixture over chicken. Cover dish and place in refrigerator. Marinate overnight.</li>
-<li></li>
-<li>Preheat oven to 325 degrees F (165 degrees C).</li>
-<li></li>
-<li>Remove dish from refrigerator and remove cover. Bake in the preheated oven, basting frequently, for 1 hour or until chicken is well browned and juices run clear.</li>
+<recipetext><li>Place chicken breasts in a 9x13 inch baking dish.</li>
+<li>In a small bowl combine the ginger, soy sauce, onion flakes, sugar, bourbon and garlic powder.</li>
+<li>Mix together and pour mixture over chicken.</li>
+<li>Cover dish and place in refrigerator.</li>
+<li>Marinate overnight.</li>
+<li>Preheat oven to 325°F (165°C).</li>
+<li>Remove dish from refrigerator and remove cover.</li>
+<li>Bake in the preheated oven, basting frequently, for 1 hour or until chicken is well browned and juices run clear.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/9025/bourbon-chicken/</url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Bourbon_Chicken.jpg</imagepath>
@@ -520,45 +521,45 @@
 <quantity>4</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>313 kcal</li>
-<li></li>
+
 <li>16%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>1.5 g</li>
-<li></li>
+
 <li>2%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>31.2g</li>
-<li></li>
+
 <li>10%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>29.3 g</li>
-<li></li>
+
 <li>59%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>68 mg</li>
-<li></li>
+
 <li>23%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>1664 mg</li>
-<li></li>
+
 <li>67%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
@@ -568,7 +569,8 @@
 <video>http://allrecipes.com/video/5225/bourbon-chicken</video>
 <lang>en</lang>
 </recipe>
-<recipe>12</recipeId>
+<recipe>
+<recipeId>00013</recipeId>
 <title>broccoli cheese salad</title>
 <preptime>30 minutes </preptime>
 <cooktime>1 hour </cooktime>
@@ -578,17 +580,17 @@
 <li>1/2 c raisins</li>
 <li>1/2 c sunflower seeds, hulled</li>
 <li>1 onion, red, chopped</li>
-<li></li>
+
 <li>1 c. mayonaise</li>
 <li>1/4 c olive oil</li>
 <li>3 Tbsp  sugar, white</li>
 </ingredient>
-<recipetext><li>in large bowl, mix bacon, broccoli, cheese, raisins, onion, &amp; sunflower seeds</li>
-<li>in small bowl, whisk together mayonaise, olive oil, &amp; sugar</li>
+<recipetext><li>in large bowl, mix bacon, broccoli, cheese, raisins, onion, and sunflower seeds</li>
+<li>in small bowl, whisk together mayonaise, olive oil, and sugar</li>
 <li>pour mayonaise mixture over broccoli mixture</li>
 <li>mix well</li>
-<li></li>
-<li>cover &amp; refridgerate 1-2 hours</li>
+
+<li>cover and refridgerate 1-2 hours</li>
 </recipetext>
 <url></url>
 <imagepath>/storage/emulated/0/MyCookBook/images/broccoli_cheese_salad.png</imagepath>
@@ -600,10 +602,10 @@
 <category>Sides</category>
 </recipe>
 <recipe>
-<recipeId>12</recipeId>
+<recipeId>00014</recipeId>
 <title>Broccoli Chicken Divan</title>
-<preptime>20 m</preptime>
-<cooktime>20 m</cooktime>
+<preptime>20 minutes</preptime>
+<cooktime>20 minutes</cooktime>
 <ingredient><li>1 pound chopped fresh broccoli</li>
 <li>1 1/2 cups cubed, cooked chicken meat</li>
 <li>1 (10.75 ounce) can condensed cream of broccoli soup</li>
@@ -612,12 +614,12 @@
 <li>1 tablespoon butter, melted</li>
 <li>2 tablespoons dried bread crumbs</li>
 </ingredient>
-<recipetext><li>Preheat oven to 450 degrees F (230 degrees C).</li>
-<li></li>
+<recipetext><li>Preheat oven to 450°F (230°C).</li>
+
 <li>Place the broccoli in a saucepan with enough water to cover. Bring to a boil, and cook 5 minutes, or until tender. Drain.</li>
-<li></li>
+
 <li>Place the cooked broccoli in a 9 inch pie plate. Top with the chicken. In a bowl, mix the soup and milk, and pour over the chicken. Sprinkle with Cheddar cheese. Mix the melted butter with the bread crumbs, and sprinkle over the cheese.</li>
-<li></li>
+
 <li>Bake in the preheated oven for 15 minutes, or until bubbly and lightly brown.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/8854/broccoli-chicken-divan/</url>
@@ -626,59 +628,59 @@
 <quantity>6</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>186 kcal</li>
-<li></li>
+
 <li>9%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>8.5 g</li>
-<li></li>
+
 <li>13%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>12.2g</li>
-<li></li>
+
 <li>4%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>15.5 g</li>
-<li></li>
+
 <li>31%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>44 mg</li>
-<li></li>
+
 <li>15%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>440 mg</li>
-<li></li>
+
 <li>18%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>40 m</totaltime>
+<totaltime>40 minutes</totaltime>
 <description>&quot;A quick and easy chicken and broccoli dish that all will love!&quot;</description>
 <source>TERRY C</source>
 <video>http://allrecipes.com/video/1154/broccoli-chicken-divan/</video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>13</recipeId>
+<recipeId>00015</recipeId>
 <title>Bruschetta Chicken Bake</title>
-<preptime>20 m</preptime>
-<cooktime>30 m</cooktime>
+<preptime>20 minutes</preptime>
+<cooktime>30 minutes</cooktime>
 <ingredient><li>1 1/2 pounds skinless, boneless chicken breast halves - cubed</li>
 <li>1 teaspoon salt</li>
 <li>1 (15 ounce) can diced tomatoes with juice</li>
@@ -688,13 +690,13 @@
 <li>2 cups shredded mozzarella cheese</li>
 <li>1 tablespoon Italian seasoning</li>
 </ingredient>
-<recipetext><li>Preheat oven to 400 degrees F (200 degrees C). Spray a 9x13-inch glass baking dish with cooking spray.</li>
-<li></li>
+<recipetext><li>Preheat oven to 400°F (200°C). Spray a 9x13-inch glass baking dish with cooking spray.</li>
+
 <li>Toss the cubed chicken with the salt in a large bowl. Place the chicken in a layer into the bottom of the baking dish.</li>
 <li>Stir together tomatoes, water, garlic, and stuffing mix in a large bowl; set aside to soften.</li>
 <li>Sprinkle the cheese on top of the chicken, then sprinkle with the Italian seasoning.</li>
 <li>Spread the softened stuffing mixture on top.</li>
-<li></li>
+
 <li>Bake uncovered until the chicken cubes have turned white and are no longer pink in the center, about 30 minutes.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/132127/bruschetta-chicken-bake/</url>
@@ -703,59 +705,59 @@
 <quantity>6</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>349 kcal</li>
-<li></li>
+
 <li>17%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>8.5 g</li>
-<li></li>
+
 <li>13%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>25.9g</li>
-<li></li>
+
 <li>8%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>39.2 g</li>
-<li></li>
+
 <li>78%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>90 mg</li>
-<li></li>
+
 <li>30%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>1257 mg</li>
-<li></li>
+
 <li>50%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>50 m</totaltime>
+<totaltime>50 minutes</totaltime>
 <description>&quot;A simple yet creative chicken meal mimics the popular Italian appetizer 'bruschetta' for a delicious entree reminiscent of romantic Italian evenings.&quot;</description>
 <source>Heather</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>14</recipeId>
+<recipeId>01114</recipeId>
 <title>Buffalo Chicken Salad</title>
-<preptime>0H22M</preptime>
-<cooktime>0H13M</cooktime>
+<preptime>22 minutes</preptime>
+<cooktime>13 minutes</cooktime>
 <ingredient><li>2 tablespoons unsalted butter, melted</li>
 <li>1/2 cup hot sauce</li>
 <li>2 large skinless, boneless chicken breasts (about 1 1/4 pounds)</li>
@@ -768,13 +770,13 @@
 <li>1 head iceberg lettuce, cut into 4 wedges</li>
 </ingredient>
 <recipetext><li>Preheat a grill to high. Mix the melted butter and hot sauce in a large bowl. Transfer half of the mixture to a small bowl and put near the grill for brushing.</li>
-<li></li>
+
 <li>Brush the chicken with the olive oil and grill until just marked on the bottom, about 3 minutes. Flip and brush evenly with the hot sauce mixture. Continue grilling, turning as needed and brushing with the sauce, until well-marked and cooked through, about 10 more minutes. Transfer to a cutting board and let rest 5 minutes, then cut into bite-size pieces. Toss with the reserved hot sauce mixture.</li>
-<li></li>
+
 <li>Puree 3/4 cup blue cheese and the sour cream in a blender until smooth. Add half of the blue cheese dressing to the bowl with the chicken; add the sliced celery and celery leaves, red onion and carrot and toss. Divide the lettuce wedges and chicken salad among plates. Drizzle with the remaining dressing and sprinkle with the remaining 1/4 cup blue cheese.</li>
-<li></li>
+
 <li>Per serving: Calories 354; Fat 17 g (Saturated 8 g); Cholesterol 119 mg; Sodium 1,061 mg; Carbohydrate 12 g; Fiber 3 g; Protein 36 g</li>
-<li></li>
+
 <li>Photograph by Antonis Achilleos</li>
 </recipetext>
 <url>http://www.foodnetwork.com/recipes/food-network-kitchens/buffalo-chicken-salad-recipe.html</url>
@@ -784,27 +786,27 @@
 <rating>0</rating>
 <nutrition></nutrition>
 <comments></comments>
-<totaltime>0H35M</totaltime>
+<totaltime>35 minutes</totaltime>
 <description></description>
 <source>Food Network Kitchen</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>15</recipeId>
+<recipeId>00115</recipeId>
 <title>buffalo hot chicken dip</title>
-<preptime>10 min</preptime>
-<cooktime>30 min</cooktime>
+<preptime>10 minutes</preptime>
+<cooktime>30 minutes</cooktime>
 <ingredient><li>3 lg chicken breasts, boiled,  shredded with fork</li>
 <li>8-10 oz Franks hot sauce</li>
 <li>16 oz ranch dressing</li>
 <li>8 oz cream cheese</li>
 <li>2. 16 oz bags cheese, shredded, sharp cheddar 1 for mix, 1 for topper</li>
-<li></li>
+
 </ingredient>
 <recipetext><li>mix all, except cheese for topping</li>
 <li>spread in greased 8x16x2 pan</li>
-<li>cook 30 min at 350 deg F</li>
+<li>cook 30 min at 350°F</li>
 <li>top with cheese</li>
 <li>let set 5-10 min and serve</li>
 </recipetext>
@@ -822,7 +824,7 @@
 <category>Starter</category>
 </recipe>
 <recipe>
-<recipeId>16</recipeId>
+<recipeId>00116</recipeId>
 <title>burgundy mushrooms</title>
 <preptime>10 minutes</preptime>
 <cooktime>40 minutes</cooktime>
@@ -832,7 +834,7 @@
 <li>1/3 c. burgundy wine</li>
 </ingredient>
 <recipetext><li>in small saucepan,  simmer onions 15 minutes in beef broth</li>
-<li>add mushrooms,  reserve liquid &amp; wine</li>
+<li>add mushrooms,  reserve liquid and wine</li>
 <li>simmer another 15 minutes or until liquid reduced by 1/2</li>
 <li>serve warm</li>
 </recipetext>
@@ -845,7 +847,7 @@
 <comments></comments>
 </recipe>
 <recipe>
-<recipeId>17</recipeId>
+<recipeId>00117</recipeId>
 <title>Butter Cookies</title>
 <preptime></preptime>
 <cooktime></cooktime>
@@ -858,9 +860,9 @@
 <li>1 teaspoon vanilla</li>
 </ingredient>
 <recipetext><li>Into a bowl sift together flour, salt, and baking powder. In a large bowl with an electric mixer beat butter until creamy. Gradually add sugar, beating until mixture is light and fluffy. Add egg and vanilla and beat until combined well. Gradually add flour mixture, beating until mixture just forms a dough.</li>
-<li></li>
+
 <li>Divide dough between 2 large sheets of wax paper and form each half into a 10- x 1 1/2-inch log, wrapping it in wax paper. Chill logs until firm, at least 4 hours, and up to 5 days. Dough may be frozen, wrapped in foil, 2 months. Let dough soften slightly before cutting. Preheat oven to 375°F. and lightly butter a baking sheet.</li>
-<li></li>
+
 <li>Cut dough into 1/8-inch-thick slices and arrange slices about 1/2 inch apart on baking sheet. Bake cookies in batches in middle of oven until golden around edges, 10 to 12 minutes, and transfer with a metal spatula to a rack to cool. Cookies may be kept in an airtight container at room temperature 5 days.</li>
 </recipetext>
 <url>http://www.epicurious.com/recipes/food/views/butter-cookies-100918</url>
@@ -869,23 +871,23 @@
 <quantity>Makes about 100 cookies</quantity>
 <rating>0</rating>
 <nutrition><li>Calories34</li>
-<li></li>
+
 <li>Carbohydrates4 g(1%)</li>
-<li></li>
+
 <li>Fat2 g(3%)</li>
-<li></li>
+
 <li>Protein0 g(1%)</li>
-<li></li>
+
 <li>Saturated Fat1 g(6%)</li>
-<li></li>
+
 <li>Sodium14 mg(1%)</li>
-<li></li>
+
 <li>Polyunsaturated Fat0 g</li>
-<li></li>
+
 <li>Fiber0 g(0%)</li>
-<li></li>
+
 <li>Monounsaturated Fat0 g</li>
-<li></li>
+
 <li>Cholesterol7 mg(2%)</li>
 </nutrition>
 <comments></comments>
@@ -897,7 +899,7 @@
 <category>Dessert</category>
 </recipe>
 <recipe>
-<recipeId>18</recipeId>
+<recipeId>00118</recipeId>
 <title>Cajun dump chicken </title>
 <preptime></preptime>
 <cooktime>35-40 minutes </cooktime>
@@ -907,13 +909,13 @@
 <li>1 can diced tomatoes, drained</li>
 <li>1 Tbsp olive oil</li>
 <li>2 tsp Worcestershire sauce</li>
-<li>1/2 tsp badil, dried</li>
+<li>1/2 tsp basil, dried</li>
 <li>salt</li>
 <li>pepper</li>
 </ingredient>
 <recipetext><li>dump all ingredients in large freezer bag</li>
 <li>refrigerate  overnight or cook in sauce</li>
-<li>35-40 minutes.  350 degrees  F</li>
+<li>35-40 minutes.  350°F</li>
 </recipetext>
 <url></url>
 <imagepath></imagepath>
@@ -928,7 +930,7 @@
 <video></video>
 </recipe>
 <recipe>
-<recipeId>19</recipeId>
+<recipeId>00119</recipeId>
 <title>Cashew Chicken</title>
 <preptime></preptime>
 <cooktime></cooktime>
@@ -973,21 +975,21 @@
 <rating>0</rating>
 <nutrition>Amount Per Serving % Daily Value Calories 1079.2 Calories from Fat 540 50% Total Fat 60 g 92% Saturated Fat 12.7 g 63% Cholesterol 139.2 mg 46% Sodium 1774.1 mg 73% Total Carbohydrate 78.5 g 26% Dietary Fiber 5.2 g 20% Sugars 25.8 g 103% Protein 59.6 g 119%</nutrition>
 <comments></comments>
-<totaltime>1hr 15mins</totaltime>
+<totaltime>1hr 15minutes</totaltime>
 <description>An authentic tasting oriental dish that can be prepared at home. This is a restaurant quality dish. Be prepared to share this recipe with others.</description>
 <source>Dawn</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>20</recipeId>
-<title>Cheesy Chicken &amp; Broccoli Stuffed Shells</title>
-<preptime>15 mins</preptime>
-<cooktime>45 mins</cooktime>
+<recipeId>00120</recipeId>
+<title>Cheesy Chicken and Broccoli Stuffed Shells</title>
+<preptime>15 minutes</preptime>
+<cooktime>45 minutes</cooktime>
 <ingredient><li>1 (16 ounce) box jumbo pasta shells</li>
 <li>2 tablespoons butter</li>
 <li>3⁄4 cup chopped onion</li>
-<li>2 (10 ounce) bags frozen broccoli, thawed &amp;, well drained</li>
+<li>2 (10 ounce) bags frozen broccoli, thawed and, well drained</li>
 <li>1 1⁄2 cups cooked chicken, chopped</li>
 <li>1 cup light cream or 1 cup half-and-half</li>
 <li>1 1⁄2 cups shredded mozzarella cheese</li>
@@ -1000,28 +1002,17 @@
 <li>1 cup milk</li>
 <li>1⁄2 cup grated parmesan cheese</li>
 </ingredient>
-<recipetext><li>Preheat oven to 350°.</li>
-<li></li>
+<recipetext><li>Preheat oven to 350°F.</li>
 <li>Cook shells as directed--don't overcook because they will cook in oven again.</li>
-<li></li>
 <li>Cool shells in a large bowl of COLD water; set aside for now.</li>
-<li></li>
 <li>Sauté onion in 2 tablespoons of butter until tender, about 5 minutes.</li>
-<li></li>
 <li>Combine broccoli, onion, mozzarella cheese, sour cream, egg and chicken; set aside.</li>
-<li></li>
 <li>Melt 1/4 cup butter in saucepan. Stir in flour, instant bouillon and pepper.</li>
-<li></li>
 <li>Stir in milk and cream; bring to a boil, stirring constantly.</li>
-<li></li>
 <li>Boil and stir 1 minute until thickened. Remove shells from water, strain and pat dry with paper towels.</li>
-<li></li>
 <li>Spread small amount of sauce on bottom of 2-quart rectangular baking dish.</li>
-<li></li>
 <li>Stuff each shell with broccoli and chicken mixture; put shells in dish.</li>
-<li></li>
 <li>Spoon remaining sauce over shells and sprinkle with Parmesan.</li>
-<li></li>
 <li>Bake 30-35 minutes or until hot and bubbly.</li>
 </recipetext>
 <url>http://www.food.com/recipe/cheesy-chicken-broccoli-stuffed-shells-35860</url>
@@ -1030,18 +1021,14 @@
 <quantity>4-6</quantity>
 <rating>4</rating>
 <nutrition><li>Serving Size: 1 (389 g)</li>
-<li></li>
 <li>Servings Per Recipe: 4</li>
-<li></li>
 <li>Amount Per Serving % Daily Value Calories 1157.3 Calories from Fat 513 44% Total Fat 57 g 87% Saturated Fat 32.7 g 163% Cholesterol 243 mg 80% Sodium 755.5 mg 31% Total Carbohydrate 108.8 g 36% Dietary Fiber 8.6 g 34% Sugars 6 g 23% Protein 53.5 g 106%</li>
 </nutrition>
 <comments></comments>
 <totaltime>1hr</totaltime>
-<description><li>cut this recipe in 1/2!!!</li>
-<li></li>
+<description><li>Cut this recipe in 1/2!!!</li>
 <li>Wonderful! You can leave the chicken out if you are a vegetarian 8)</li>
-<li></li>
-<li>Make and share this Cheesy Chicken &amp; Broccoli Stuffed Shells recipe from Food.com.</li>
+<li>Make and share this Cheesy Chicken and Broccoli Stuffed Shells recipe from Food.com.</li>
 </description>
 <source>Ocean~Ivy</source>
 <video></video>
@@ -1049,7 +1036,7 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>21</recipeId>
+<recipeId>00121</recipeId>
 <title>Chicken and Dumplings</title>
 <preptime>30 minutes</preptime>
 <cooktime>50 minutes</cooktime>
@@ -1069,25 +1056,15 @@
 <li>1/4 cup garlic powder</li>
 </ingredient>
 <recipetext><li>Directions Dumplings:</li>
-<li></li>
 <li>To start the chicken: Place the chicken, celery, onion, bay leaves, bouillon, and House Seasoning in a large pot. Add 4 quarts of water and in water and bring to a simmer over medium heat. Simmer the chicken until it is tender and the thigh juices run clear, about 40 minutes. Remove the chicken from the pot and, when it is cool enough to handle, remove the skin and separate the meat from the bones. Return the chicken meat to the pot. Keep warm over low heat.</li>
-<li></li>
 <li>To prepare the dumplings: Mix the flour with the salt and mound together in a mixing bowl. Beginning at the center of the mound, drizzle a small amount of ice water over the flour. Using your fingers, and moving from the center to the sides of the bowl, gradually incorporate about 3/4 cup of ice water. Knead the dough and form it into ball.</li>
-<li></li>
 <li>Dust a good amount of flour onto a clean work surface. Roll out the dough (it will be firm), working from center to 1/8-inch thick. Let the dough relax for several minutes.</li>
-<li></li>
 <li>Add the cream of celery soup to the pot with the chicken and simmer gently over medium-low heat.</li>
-<li></li>
 <li>Cut the dough into 1-inch pieces. Pull a piece in half and drop the halves into the simmering soup. Repeat. Do not stir the chicken once the dumplings have been added. Gently move the pot in a circular motion so the dumplings become submerged and cook evenly. Cook until the dumplings float and are no longer doughy, 3 to 4 minutes.</li>
-<li></li>
 <li>To serve, ladle chicken, gravy, and dumplings into warm bowls.</li>
-<li></li>
 <li>Cook's Note: If the chicken stew is too thin it can be thickened before the dumplings are added. Simply mix together 2 tablespoons cornstarch and 1/4 cup of water then whisk this mixture into the stew.</li>
-<li></li>
 <li>House Seasoning:</li>
-<li></li>
 <li>Mix ingredients together and store in an airtight container for up to 6 months.</li>
-<li></li>
 <li>Yield: 1 1/2 cups</li>
 </recipetext>
 <url>http://www.foodnetwork.com/recipes/paula-deen/chicken-and-dumplings-recipe.html</url>
@@ -1104,10 +1081,10 @@
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>22</recipeId>
+<recipeId>00122</recipeId>
 <title>Chicken and Pasta Casserole with Mixed Vegetables</title>
-<preptime>15 m</preptime>
-<cooktime>45 m</cooktime>
+<preptime>15 minutes</preptime>
+<cooktime>45 minutes</cooktime>
 <ingredient><li>1 cup dry fusilli pasta</li>
 <li>3 tablespoons olive oil</li>
 <li>6 chicken tenderloins, cut into chunks</li>
@@ -1123,7 +1100,7 @@
 <li>2 tablespoons grated Parmesan cheese</li>
 <li>2 tablespoons butter, melted</li>
 </ingredient>
-<recipetext><li>Preheat oven to 400 degrees F (200 degrees C). Lightly grease a medium baking dish.</li>
+<recipetext><li>Preheat oven to 400°F (200°C). Lightly grease a medium baking dish.</li>
 <li>Bring a large pot of lightly salted water to a boil. Place fusilli pasta in the pot, cook for 8 to 10 minutes, until al dente, and drain.</li>
 <li>Heat the oil in a skillet over medium heat. Place chicken in the skillet, and season with minced onion, salt and pepper, garlic powder, basil, and parsley. Cook until chicken juices run clear. Mix in the cooked pasta, cream of chicken soup, cream of mushroom soup, and mixed vegetables. Transfer to the prepared baking dish.</li>
 <li>In a small bowl, mix the bread crumbs, Parmesan cheese, and butter. Spread evenly over the casserole.</li>
@@ -1135,56 +1112,56 @@
 <quantity>6</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>395 kcal</li>
-<li></li>
+
 <li>20%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>19.8 g</li>
-<li></li>
+
 <li>30%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>35.4g</li>
-<li></li>
+
 <li>11%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>19.8 g</li>
-<li></li>
+
 <li>40%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>47 mg</li>
-<li></li>
+
 <li>16%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>900 mg</li>
-<li></li>
+
 <li>36%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>1 h</totaltime>
+<totaltime>1 hour</totaltime>
 <description>&quot;I dreamt up this recipe on my way home from work one night to use the ingredients I had on hand. It's a great comfort food for chilly winter evenings!&quot;</description>
 <source>JENTOP</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeID>23</recipeId>
+<recipeId>00123</recipeId>
 <title>Chicken Broccoli Casserole</title>
 <preptime></preptime>
 <cooktime></cooktime>
@@ -1200,7 +1177,7 @@
 <li>10 ounces Cheddar, grated (about 2 1/2 cups)</li>
 </ingredient>
 <recipetext><li>Watch how to make this recipe.</li>
-<li>Preheat the oven to 350 degrees F. Grease a 9-by-13-by-2-inch baking dish with nonstick cooking spray or butter.</li>
+<li>Preheat the oven to 350°F. Grease a 9x13x2 baking dish with nonstick cooking spray or butter.</li>
 <li>Place the chicken in a large pot with water to cover. Add some salt, bring to a boil, then reduce the heat to a low simmer and cook the chicken until tender, about 45 minutes. Drain the chicken, cover, and refrigerate until cool, or up to 24 hours. Shred.</li>
 <li>Meanwhile, bring a medium pot of generously salted water to a boil. Add the broccoli florets, and boil until crisp-tender, 2 to 3 minutes.</li>
 <li>Spread the rice in an even layer in the baking dish. Make a second layer with the broccoli. In a large bowl, mix the chicken soup, the sour cream, mayonnaise, lemon juice, shredded chicken, half the Cheddar and some salt and pepper. Pour the mixture over the broccoli and top with the remaining Cheddar. Bake for 40 minutes; let stand for 5 minutes before serving.</li>
@@ -1212,19 +1189,19 @@
 <rating>5</rating>
 <nutrition></nutrition>
 <comments></comments>
-<totaltime>2 hr 50 min</totaltime>
+<totaltime>2 hr 50 minutes</totaltime>
 <description></description>
 <source>Trisha Yearwood</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>24</recipeId>
+<recipeId>00124</recipeId>
 <title>chicken florentine</title>
 <preptime>10 minutes</preptime>
 <cooktime>20 minutes</cooktime>
 <ingredient><li>4 chicken breasts</li>
-<li>salt &amp; pepper</li>
+<li>salt and pepper</li>
 <li>flour, all purpose</li>
 <li>6Tbsp butter</li>
 <li>2 Tbsp shallots, sliced</li>
@@ -1233,14 +1210,14 @@
 <li>1 cup whipping cream</li>
 <li>1 Tbsp parsley, fresh chopped</li>
 <li>2 (10 oz) pkgs spinach, frozen cut leaf, thawed drained</li>
-<li></li>
+
 </ingredient>
-<recipetext><li>sprinkle chicken with salt &amp; pepper</li>
+<recipetext><li>sprinkle chicken with salt and pepper</li>
 <li>coat chicken in flour</li>
 <li>melt 2Tbsp butter in pan over medium heat</li>
 <li>add chicken until browned</li>
 <li>put chicken on plate and tent with aluminum foil to keep warm</li>
-<li></li>
+
 <li>melt 2 more Tbsp butter in pan over medium heat</li>
 <li>add shallots and garlic</li>
 <li>cook until shallots are translucent</li>
@@ -1249,15 +1226,15 @@
 <li>add cream</li>
 <li>boil 3 minutes to reduce by half</li>
 <li>stir in parsley</li>
-<li>salt &amp; pepper</li>
+<li>salt and pepper</li>
 <li>add chicken coat thoroughly</li>
-<li></li>
+
 <li>in other large pan, melt remaining 2 Tbsp butter over medium heat</li>
 <li>add spinach, sauteed until heated through</li>
-<li>salt &amp; pepper</li>
+<li>salt and pepper</li>
 <li>arrange spinach on plate</li>
 <li>put chicken on spinach then pour sauce over top and serve</li>
-<li></li>
+
 </recipetext>
 <url></url>
 <imagepath>/storage/emulated/0/MyCookBook/images/chicken_florentine.png</imagepath>
@@ -1269,10 +1246,10 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>25</recipeId>
+<recipeId>00125</recipeId>
 <title>Chicken Kiev</title>
-<preptime>0H15M</preptime>
-<cooktime>0H15M</cooktime>
+<preptime>15 minutes</preptime>
+<cooktime>15 minutes</cooktime>
 <ingredient><li>Vegetable oil, for frying</li>
 <li>4 (6 to 8-ounce) pieces boneless, skinless chicken or 4 (6-ounce) thin cut chicken cutlets</li>
 <li>10 blades fresh chives, chopped to about 2 tablespoons</li>
@@ -1288,16 +1265,16 @@
 <li>Plain, round toothpicks</li>
 <li>Serving suggestion: Potatoes and Onions and salad</li>
 </ingredient>
-<recipetext><li>In a large, deep skillet, heat 1 1/2 inches vegetable oil over medium high heat. The oil needs to be 360 degrees F for frying. If you do not have a frying thermometer, add a cube of white bread to hot oil. If the bread browns in a 40 count, the oil is ready.</li>
-<li></li>
+<recipetext><li>In a large, deep skillet, heat 1 1/2 inches vegetable oil over medium high heat. The oil needs to be 360°F for frying. If you do not have a frying thermometer, add a cube of white bread to hot oil. If the bread browns in a 40 count, the oil is ready.</li>
+
 <li>Cover work surface with waxed paper. Arrange breasts on paper. Butterfly small chicken breasts, cut into flesh and across, but not through the breast, and open them up. The 6-ounce thin cut breasts may just be removed from package and arranged on waxed paper. Cover breast meat with a second sheet of waxed paper. Pound out cutlets to 1/4-inch thick with a small heavy skillet or a rubber mallet. Be careful not to tear meat. Roll up waxed paper and breasts and set aside.</li>
-<li></li>
+
 <li>Combine chopped herbs on cutting board with chopped garlic. Cut 4 (1 1/2 tablespoons) pieces of cold butter and coat each piece liberally with the herb garlic mixture.</li>
-<li></li>
+
 <li>In 3 disposable pie tins, set out flour, eggs beaten with a splash of cold water and bread crumbs. Uncover chicken and squeeze a wedge of lemon over breasts. Season chicken with salt and pepper. Place an herb-covered piece of butter on each piece of chicken. Wrap and roll cutlets tightly up and over the butter cubes. Discard pie tins used for breading. Secure stuffed chicken with toothpicks. Roll stuffed breasts in flour, then egg, then bread crumbs.</li>
-<li></li>
+
 <li>Fry the Kiev bundles 7 to 8 minutes on each side until deep golden brown all over.</li>
-<li></li>
+
 <li>Recipe courtesy of Rachael Ray</li>
 </recipetext>
 <url>http://www.foodnetwork.com/recipes/rachael-ray/chicken-kiev-recipe.html</url>
@@ -1307,14 +1284,14 @@
 <rating>0</rating>
 <nutrition></nutrition>
 <comments></comments>
-<totaltime>0H30M</totaltime>
+<totaltime>30 minutes</totaltime>
 <description></description>
 <source>Rachael Ray</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>26</recipeId>
+<recipeId>00126</recipeId>
 <title>Chicken Lazone</title>
 <preptime>15 minutes</preptime>
 <cooktime>15 minutes</cooktime>
@@ -1356,10 +1333,10 @@
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>27</recipeId>
+<recipeId>00127</recipeId>
 <title>Chicken Milano</title>
-<preptime>10 m</preptime>
-<cooktime>20 m</cooktime>
+<preptime>10 minutes</preptime>
+<cooktime>20 minutes</cooktime>
 <ingredient><li>1 tablespoon butter</li>
 <li>2 cloves garlic, minced</li>
 <li>1/2 cup sun-dried tomatoes, chopped</li>
@@ -1383,58 +1360,58 @@
 <quantity>4</quantity>
 <rating>5</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>641 kcal</li>
-<li></li>
+
 <li>32%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>34.8 g</li>
-<li></li>
+
 <li>54%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>47g</li>
-<li></li>
+
 <li>15%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>36.3 g</li>
-<li></li>
+
 <li>73%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>156 mg</li>
-<li></li>
+
 <li>52%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>501 mg</li>
-<li></li>
+
 <li>20%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>30 m</totaltime>
+<totaltime>30 minutes</totaltime>
 <description>&quot;A delicious pasta and chicken dish with garlic, sun-dried tomatoes and fresh basil. Use the dry packaged sun-dried tomatoes instead of the tomatoes packed in olive oil. The sauce can be kept, covered, for one day in the refrigerator; heat again over low heat. Try it with some crusty bread if desired.&quot;</description>
 <source>MARBALET</source>
 <video>http://allrecipes.com/video/1261/chicken-milano/</video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>28</recipeId>
+<recipeId>00128</recipeId>
 <title>Chicken Parmesan Crescent Bake</title>
-<preptime>20 min</preptime>
+<preptime>20 minutes</preptime>
 <cooktime></cooktime>
 <ingredient><li>1 can (8 oz) Pillsbury™ refrigerated crescent dinner rolls</li>
 <li>2 small chicken breasts, grilled, cut into 1-inch strips</li>
@@ -1443,11 +1420,11 @@
 <li>Dried parsley, if desired</li>
 </ingredient>
 <recipetext><li>1 Heat oven to 350°F. Grease or spray 13x9-inch pan.</li>
-<li></li>
+
 <li>2 Separate 1 can (8 oz) Pillsbury™ refrigerated crescent dinner rolls into 8 triangles. Place a 1-inch cooked chicken strip on wide end of each crescent. Roll up chicken toward point.</li>
-<li></li>
+
 <li>3 Spread 1 cup pasta sauce in bottom of pan. Place rolled crescents over sauce in single layer. Sprinkle tops of crescents evenly with 1 cup shredded mozzarella cheese (4 oz). Top cheese with a sprinkling of dried parsley, if desired.</li>
-<li></li>
+
 <li>4 Bake 20 to 25 minutes or until golden brown and crescents are cooked through. Serve warm.</li>
 </recipetext>
 <url>http://www.pillsbury.com/recipes/chicken-parmesan-crescent-bake/6cf50822-3c37-4be0-bfe6-9aa6dfd88d5b</url>
@@ -1457,25 +1434,25 @@
 <rating>0</rating>
 <nutrition>Nutrition Information No nutrition information available for this recipe</nutrition>
 <comments><li>Plan ahead by cooking or grilling 2 small chicken breasts and cutting into 1-inch strips ahead of time.</li>
-<li></li>
+
 <li>Sprinkle a little cheese over chicken before rolling up crescents for a cheesier dish!</li>
 </comments>
-<totaltime>40 min</totaltime>
+<totaltime>40 minutes</totaltime>
 <description>This quick and easy version of Chicken Parmesan skips the complicated breading steps. You’ll love the flaky cheese-topped crescent version even more than the original.</description>
 <source></source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>29</recipeId>
+<recipeId>00129</recipeId>
 <title>Chicken pot pie</title>
-<preptime>20 min</preptime>
-<cooktime>30 min</cooktime>
+<preptime>20 minutes</preptime>
+<cooktime>30 minutes</cooktime>
 <ingredient><li>6 oz. chicken, chopped</li>
 <li>mixed vegetables, chopped</li>
 <li>1 1/4 c. chicken broth</li>
 <li>1 can celery soup, condensed</li>
-<li></li>
+
 <li>1/2 c. butter</li>
 <li>1 c. flour, self-rising</li>
 <li>1 c. milk</li>
@@ -1483,12 +1460,12 @@
 </ingredient>
 <recipetext><li>Saute vegetables until soft</li>
 <li>spread raw chicken on bottom of 8x8 casserole dish</li>
-<li>mix chicken broth, celery soup, &amp; vegetables in bowl</li>
+<li>mix chicken broth, celery soup, and vegetables in bowl</li>
 <li>pour mixture over chicken</li>
 <li>mix remaining ingredients together</li>
 <li>pour over mixture</li>
-<li></li>
-<li>bake 30 min at 350 deg F until brown</li>
+
+<li>bake 30 min at 350°F until brown</li>
 </recipetext>
 <url></url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Chicken_pot_pie.png</imagepath>
@@ -1500,10 +1477,10 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>30</recipeId>
+<recipeId>00130</recipeId>
 <title>Chicken Pot Pie IX</title>
-<preptime>20 m</preptime>
-<cooktime>50 m</cooktime>
+<preptime>20 minutes</preptime>
+<cooktime>50 minutes</cooktime>
 <ingredient><li>1 pound skinless, boneless chicken breast halves - cubed</li>
 <li>1 cup sliced carrots</li>
 <li>1 cup frozen green peas</li>
@@ -1518,15 +1495,15 @@
 <li>2/3 cup milk</li>
 <li>2 (9 inch) unbaked pie crusts</li>
 </ingredient>
-<recipetext><li>Preheat oven to 425 degrees F (220 degrees C.)</li>
-<li></li>
+<recipetext><li>Preheat oven to 425°F (220°C.)</li>
+
 <li>In a saucepan, combine chicken, carrots, peas, and celery. Add water to cover and boil for 15 minutes. Remove from heat, drain and set aside.</li>
-<li></li>
+
 <li>In the saucepan over medium heat, cook onions in butter until soft and translucent. Stir in flour, salt, pepper, and celery seed. Slowly stir in chicken broth and milk. Simmer over medium-low heat until thick. Remove from heat and set aside.</li>
-<li></li>
+
 <li>Place the chicken mixture in bottom pie crust. Pour hot liquid mixture over. Cover with top crust, seal edges, and cut away excess dough. Make several small slits in the top to allow steam to escape.</li>
-<li></li>
-<li>Bake in the preheated oven for 30 to 35 minutes, or until pastry is golden brown and filling is bubbly. Cool for 10 minutes before serving.</li>
+
+<li>Bake in the preheated oven for 30-35 minutes, or until pastry is golden brown and filling is bubbly. Cool for 10 minutes before serving.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/26317/chicken-pot-pie-ix/</url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Chicken_Pot_Pie_IX.jpg</imagepath>
@@ -1534,57 +1511,57 @@
 <quantity>8</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>415 kcal</li>
-<li></li>
+
 <li>21%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>24 g</li>
-<li></li>
+
 <li>37%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>30.6g</li>
-<li></li>
+
 <li>10%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>18.7 g</li>
-<li></li>
+
 <li>37%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>56 mg</li>
-<li></li>
+
 <li>19%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>727 mg</li>
-<li></li>
+
 <li>29%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>1 h 10 m</totaltime>
+<totaltime>1 hour 10 minutes</totaltime>
 <description>&quot;A delicious chicken pie made from scratch with carrots, peas and celery.&quot;</description>
 <source>Robbie Rice</source>
 <video>http://allrecipes.com/video/2567/chicken-pot-pie-ix</video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>31</recipeId>
-<title>chicken roll ups</title>
+<recipeId>00131</recipeId>
+<title>Chicken roll ups</title>
 <preptime>15-20 minutes </preptime>
 <cooktime>25 minutes</cooktime>
 <ingredient><li>2 large chicken breasts</li>
@@ -1603,11 +1580,11 @@
 <li>whisk soup, broth, milk, flour, salt, and pepper</li>
 <li>unroll crescent rolls and separate triangles</li>
 <li>place a bit of cheese and a heaping of chicken on large section of triangle</li>
-<li>roll up and place in 9 x 13 casserole dish</li>
+<li>roll up and place in 9x13 casserole dish</li>
 <li>once all are placed drizzle with soup mixture</li>
-<li></li>
-<li>375F 25 minutes</li>
-<li></li>
+
+<li>375°F 25 minutes</li>
+
 <li>remove and top with a little more cheese</li>
 <li>return to oven for 5 minutes</li>
 <li>let sit for a few before serving</li>
@@ -1626,10 +1603,10 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>32</recipeId>
+<recipeId>00132</recipeId>
 <title>Chicken Rotini Stovetop Casserole</title>
-<preptime>15 m</preptime>
-<cooktime>25 m</cooktime>
+<preptime>15 minutes</preptime>
+<cooktime>25 minutes</cooktime>
 <ingredient><li>1 (12 ounce) package rotini pasta</li>
 <li>2 cups half-and-half cream</li>
 <li>1/2 cup butter</li>
@@ -1642,13 +1619,16 @@
 <li>1/2 green bell pepper, chopped</li>
 <li>1/2 red bell pepper, chopped</li>
 </ingredient>
-<recipetext><li>Bring a large pot of lightly salted water to a boil. Add pasta, and cook for 8 to 10 minutes, or until al dente; drain.</li>
-<li></li>
-<li>Combine half-and-half and butter in a saucepan over medium heat. Boil gently, stirring, until mixture has reduced to 1 1/2 to 1 2/3 cups. Remove pan from heat; whisk in cheese, basil, oregano, chives, and parsley. Cover, and set aside.</li>
-<li></li>
-<li>Saute chicken in a large skillet until lightly browned on both sides. Stir in green and red bell pepper, and cook until vegetables are tender, and chicken is no longer pink in the middle.</li>
-<li></li>
-<li>In a casserole dish, combine the hot cooked pasta, chicken mixture, and sauce. Mix well, and serve immediately.</li>
+<recipetext><li>Bring a large pot of lightly salted water to a boil.</li>
+<li>Add pasta, and cook for 8 to 10 minutes, or until al dente; drain.</li>
+<li>Combine half-and-half and butter in a saucepan over medium heat.</li>
+<li>Boil gently, stirring, until mixture has reduced to 1 1/2 to 1 2/3 cups.</li>
+<li>Remove pan from heat; whisk in cheese, basil, oregano, chives, and parsley.</li>
+<li>Cover, and set aside.</li>
+<li>Saute chicken in a large skillet until lightly browned on both sides.</li>
+<li>Stir in green and red bell pepper, and cook until vegetables are tender, and chicken is no longer pink in the middle.</li>
+<li>In a casserole dish, combine the hot cooked pasta, chicken mixture, and sauce.</li>
+<li>Mix well, and serve immediately.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/24267/chicken-rotini-stovetop-casserole/</url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Chicken_Rotini_Stovetop_Casserole.jpg</imagepath>
@@ -1656,63 +1636,63 @@
 <quantity>6</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>468 kcal</li>
-<li></li>
+
 <li>23%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>30.1 g</li>
-<li></li>
+
 <li>46%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>22.4g</li>
-<li></li>
+
 <li>7%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>27 g</li>
-<li></li>
+
 <li>54%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>126 mg</li>
-<li></li>
+
 <li>42%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>326 mg</li>
-<li></li>
+
 <li>13%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>40 m</totaltime>
+<totaltime>40 minutes</totaltime>
 <description>&quot;Rotini pasta tossed with chicken, bell pepper and a creamy herb sauce--all prepared on the stovetop! Very quick and easy recipe. You can improvise and adapt to your family's tastes, and serve it for any occasion.&quot;</description>
 <source>Terry</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>33</recipeId>
+<recipeId>00133</recipeId>
 <title>Chicken with cream sauce</title>
 <preptime>10 minutes </preptime>
 <cooktime>20 minutes </cooktime>
 <ingredient><li>chicken breasts</li>
 <li>salt pepper</li>
 <li>garlic powder</li>
-<li></li>
+
 <li>sauce</li>
 <li>1/2 c onion, minced</li>
 <li>1 can mushrooms, sliced</li>
@@ -1721,12 +1701,12 @@
 <li>1/4 c chicken broth</li>
 <li>2 Tbsp heavy cream</li>
 <li>2 Tbsp chives</li>
-<li></li>
+
 </ingredient>
 <recipetext><li>season chicken breasts with salt pepper and garlic powder</li>
 <li>fry chicken over medium heat about 15 minutes  until browned and cooked through</li>
 <li>set aside</li>
-<li></li>
+
 <li>sauce</li>
 <li>fry onion until fragrant</li>
 <li>add mushrooms, cook until tender</li>
@@ -1735,7 +1715,7 @@
 <li>add chicken broth</li>
 <li>reduce 1-2 minutes</li>
 <li>add heavy cream and chives</li>
-<li></li>
+
 <li>add browned chicken, coat with sauce and serve</li>
 </recipetext>
 <url></url>
@@ -1752,7 +1732,7 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>34</recipeId>
+<recipeId>00134</recipeId>
 <title>cold pizza</title>
 <preptime></preptime>
 <cooktime></cooktime>
@@ -1769,7 +1749,7 @@
 <li>spread cream cheese mixture on still warm,cooked croissant dough</li>
 <li>top with toppings</li>
 <li>refridgerate 30 minutes and serve</li>
-<li></li>
+
 </recipetext>
 <url>y</url>
 <imagepath>/storage/emulated/0/MyCookBook/images/cold_pizza.png</imagepath>
@@ -1782,7 +1762,7 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>35</recipeId>
+<recipeId>00135</recipeId>
 <title>Copycat Outback Steakhouse Chopped Blue Cheese Salad</title>
 <preptime></preptime>
 <cooktime></cooktime>
@@ -1798,7 +1778,7 @@
 <li>2 teaspoons Dijon mustard</li>
 <li>2 tablespoons sour cream</li>
 <li>2 tablespoons chopped fresh basil</li>
-<li>salt &amp; freshly ground black pepper, to taste</li>
+<li>salt and freshly ground black pepper, to taste</li>
 <li>1⁄2 cup crumbled blue cheese</li>
 <li>Salad</li>
 <li>3 cups chopped bibb lettuce or 3 cups butter lettuce</li>
@@ -1809,7 +1789,7 @@
 <li>oil (for frying)</li>
 <li>crouton (optional)</li>
 </ingredient>
-<recipetext><li>Preheat oven to 375 degrees F.</li>
+<recipetext><li>Preheat oven to 375°F.</li>
 <li>Slice each pecan half into three lengthwise pieces. Mix together the cinnamon and brown sugar. Toss pecans with melted butter, then with the cinnamon/sugar mixture, tossing well to ensure a thorough coating. Put the nuts on a parchment-lined baking sheet and bake for 5 to 8 minutes, until sugar is caramelized. Remove the baking sheet from the oven, slide the parchment together with the nuts off the sheet to cool, and set aside.</li>
 <li>Whisk together the vinaigrette ingredients.</li>
 <li>Chop the lettuces into smallish bite-sized pieces; use a salad spinner to wash and dry them. Slice the green onion.</li>
@@ -1823,14 +1803,14 @@
 <rating>5</rating>
 <nutrition>Amt. Per Serving % Daily Value Calories 408.3 Calories from Fat 254 62% Total Fat 28.2 g 43% Saturated Fat 7.3 g 36% Cholesterol 19.6 mg 6% Sodium 298.3 mg 12% Total Carbohydrate 30.4 g 10% Dietary Fiber 3.5 g 13% Sugars 6.5 g 26% Protein 9.9 g 19%</nutrition>
 <comments></comments>
-<totaltime>25mins</totaltime>
+<totaltime>25minutes</totaltime>
 <description>“A compliation of several different recipes that I found - none were *quite* right. To save time and money, you can also sub in Marzetti's Blue Cheese Vinagarette - it is a pretty good dressing without all the work!”</description>
 <source>mykidslightmylife</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>36</recipeId>
+<recipeId>00136</recipeId>
 <title>Cranberry Orange Relish</title>
 <preptime>15 minutes </preptime>
 <cooktime>1 minute </cooktime>
@@ -1840,7 +1820,7 @@
 <li>1/8 teaspoon cinnamon</li>
 </ingredient>
 <recipetext><li>Finely grate 2 teaspoons zest from orange. Cut away and discard peel and pith from orange, then cut sections free from membranes.</li>
-<li></li>
+
 <li>Pulse cranberries with zest, orange sections, sugar, and cinnamon in a food processor until finely chopped. Chill, covered, at least 2 hours to allow flavors to develop.</li>
 </recipetext>
 <url>http://www.epicurious.com/recipes/food/views/cranberry-orange-relish-105756</url>
@@ -1849,30 +1829,30 @@
 <quantity>Makes 10 servings</quantity>
 <rating>5</rating>
 <nutrition><li>Calories61</li>
-<li></li>
+
 <li>Carbohydrates16 g(5%)</li>
-<li></li>
+
 <li>Fat0 g(0%)</li>
-<li></li>
+
 <li>Protein0 g(1%)</li>
-<li></li>
+
 <li>Saturated Fat0 g(0%)</li>
-<li></li>
+
 <li>Sodium1 mg(0%)</li>
-<li></li>
+
 <li>Polyunsaturated Fat0 g</li>
-<li></li>
+
 <li>Fiber2 g(8%)</li>
-<li></li>
+
 <li>Monounsaturated Fat0 g</li>
 </nutrition>
 <comments><li>Cooks' note:</li>
-<li></li>
+
 <li>Relish can be chilled up to 3 days.</li>
 </comments>
 <totaltime>16 minutes </totaltime>
-<description><li>Active time: 10 min Start to finish: 2 1/4 hr</li>
-<li></li>
+<description><li>Active time: 10 min Start to finish: 2 1/4 hour</li>
+
 <li>There seem to be two schools of thought concerning cranberry relish. Some people just like to dab their turkey with it, others consider it a serious side dish. If your family and guests fall into the latter category, you may want to double this recipe.</li>
 </description>
 <source>Gourmet</source>
@@ -1881,24 +1861,24 @@
 <category>Sides</category>
 </recipe>
 <recipe>
-<recipeId>37</recipeId>
+<recipeId>00137</recipeId>
 <title>creamy mashed potatoes</title>
-<preptime>20 min</preptime>
-<cooktime>30 min</cooktime>
-<ingredient><li>8 lg potatoes, peeled &amp; cubed</li>
+<preptime>20 minutes</preptime>
+<cooktime>30 minutes</cooktime>
+<ingredient><li>8 lg potatoes, peeled and cubed</li>
 <li>4 oz cream cheese</li>
 <li>1/3 c butter</li>
 <li>8 oz sour cream</li>
 <li>dry ranch dressing mix</li>
 </ingredient>
-<recipetext><li>preheat 350 deg F 175 deg C</li>
-<li></li>
+<recipetext><li>preheat 350°F 175°C</li>
+
 <li>put potatoes in pot with water to cover</li>
-<li>boil 10 min</li>
+<li>boil 10 minutes</li>
 <li>drain</li>
-<li>add cream cheese, butter, sour cream &amp; dressing mix</li>
+<li>add cream cheese, butter, sour cream and dressing mix</li>
 <li>mash with mixer until creamy</li>
-<li></li>
+
 <li>bake 30 min, until golden brown</li>
 </recipetext>
 <url></url>
@@ -1911,10 +1891,10 @@
 <category>Other</category>
 </recipe>
 <recipe>
-<recipeId>38</recipeId>
+<recipeId>00138</recipeId>
 <title>Creamy Mustard and Tarragon Chicken</title>
-<preptime>10 m</preptime>
-<cooktime>20 m</cooktime>
+<preptime>10 minutes</preptime>
+<cooktime>20 minutes</cooktime>
 <ingredient><li>1/3 cup all-purpose flour</li>
 <li>salt and pepper to taste</li>
 <li>1 tablespoon olive oil</li>
@@ -1928,11 +1908,11 @@
 <li>1 tablespoon chopped fresh tarragon</li>
 </ingredient>
 <recipetext><li>Place the flour in a shallow dish and season lightly with salt and pepper. Heat the olive oil and butter in a large skillet over medium-high heat. Season the chicken breasts with salt and pepper and dredge each in the flour.</li>
-<li></li>
+
 <li>Cook the chicken in the hot oil and butter until golden, about 3 minutes. Flip chicken and brown on the other side, 3 additional minutes. Remove chicken from skillet and tent with foil.</li>
-<li></li>
+
 <li>Reduce heat to medium. Stir the red onion into the oil and butter that remains in the skillet. Cook until softened, 2 to 3 minutes. Pour the chicken broth into the pan, and simmer while scraping the browned bits of food off of the bottom of the pan with a wooden spoon. Pour in the wine and bring back to a simmer. Cook the sauce until reduced by half, about 3 minutes. Return chicken to the pan along with any juices that have accumulated. Simmer chicken in the sauce until it is cooked through and no longer pink in the center, 3 to 4 minutes. Transfer chicken to a warmed platter.</li>
-<li></li>
+
 <li>Whisk the mustard and sour cream into the sauce; stir in the tarragon. Spoon sauce over chicken to serve.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/212346/creamy-mustard-and-tarragon-chicken/</url>
@@ -1941,59 +1921,59 @@
 <quantity>4</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>301 kcal</li>
-<li></li>
+
 <li>15%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>9.7 g</li>
-<li></li>
+
 <li>15%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>11g</li>
-<li></li>
+
 <li>4%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>34.7 g</li>
-<li></li>
+
 <li>69%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>94 mg</li>
-<li></li>
+
 <li>31%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>227 mg</li>
-<li></li>
+
 <li>9%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>30 m</totaltime>
+<totaltime>30 minutes</totaltime>
 <description>&quot;These lightly breaded chicken breasts are bathed in a creamy tarragon and mustard sauce. They're quick to fix as a weeknight meal yet fancy enough for company!&quot;</description>
 <source>blancdeblanc</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>39</recipeId>
+<recipeId>00139</recipeId>
 <title>Creme brulee</title>
 <preptime></preptime>
-<cooktime>350 degrees 1 hour</cooktime>
+<cooktime>1 hour</cooktime>
 <ingredient><li>5 egg yolks</li>
 <li>1/4 cup sugar</li>
 <li>1 cup heavy cream</li>
@@ -2005,7 +1985,7 @@
 <li>add heavy cream and whisk</li>
 <li>add half and half and whisk</li>
 <li>pour into shallow dish</li>
-<li>350 degrees 1 hour</li>
+<li>350°F for 1 hour</li>
 <li>cool in refrigerator</li>
 <li>sprinkle sugar on top and torch until sugar turn dark</li>
 </recipetext>
@@ -2019,10 +1999,10 @@
 <category>Dessert</category>
 </recipe>
 <recipe>
-<recipeId>40</recipeId>
+<recipeId>00140</recipeId>
 <title>Crispy Pork Cutlets</title>
-<preptime>20 m</preptime>
-<cooktime>30 m</cooktime>
+<preptime>20 minutes</preptime>
+<cooktime>30 minutes</cooktime>
 <ingredient><li>2 (1 1/4 pound) fully trimmed pork tenderloins, cut into 8 pieces</li>
 <li>salt and freshly ground black pepper to taste</li>
 <li>2 tablespoons all-purpose flour, or as needed</li>
@@ -2041,17 +2021,17 @@
 <li>salt to taste</li>
 </ingredient>
 <recipetext><li>Place pork between two sheets of heavy plastic (resealable freezer bags work well) on a solid, level surface. Firmly pound pork with the smooth side of a meat mallet to a thickness of 1/2 inch.</li>
-<li></li>
+
 <li>Place pork pieces on a plate and season both sides generously with salt and black pepper. Sprinkle 2 tablespoons of flour over pork pieces, lightly coating both sides. Pour eggs over pork, turning to coat.</li>
-<li></li>
+
 <li>Transfer pork pieces to a bowl filled with panko bread crumbs. Press bread crumbs firmly into the meat on both sides. Transfer breaded cutlets to a clean plate, cover with plastic and refrigerate for 15 minutes.</li>
-<li></li>
+
 <li>Melt butter in a skillet over medium heat. Stir in pickles, jalapeno pepper, and green onions; cook and stir until onions have softened, about 3 minutes.</li>
-<li></li>
+
 <li>Sprinkle in 1 1/2 tablespoon flour. Cook and stir for 3 minutes.</li>
-<li></li>
+
 <li>Slowly stir in 2 to 3 tablespoons cold milk, whisking constantly. Stir in remaining milk, Worcestershire sauce, and black pepper. Simmer on low for 5 minutes. Taste and adjust seasoning.</li>
-<li></li>
+
 <li>Heat half the vegetable oil in a large skillet over medium-high heat. Add 4 breaded pork cutlets and cook until pork is not longer pink inside, and the crust is well-browned, 4 to 5 minutes per side. Transfer to plate lined with paper towels. Sprinkle with salt. Repeat with remaining vegetable oil and pork cutlets.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/228045/crispy-pork-cutlets/</url>
@@ -2060,59 +2040,59 @@
 <quantity>4</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>748 kcal</li>
-<li></li>
+
 <li>37%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>29.3 g</li>
-<li></li>
+
 <li>45%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>71.2g</li>
-<li></li>
+
 <li>23%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>66.8 g</li>
-<li></li>
+
 <li>134%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>274 mg</li>
-<li></li>
+
 <li>91%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>883 mg</li>
-<li></li>
+
 <li>35%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>1 h 5 m</totaltime>
+<totaltime>1 hour 5 minutes</totaltime>
 <description>&quot;I hope you give this easy pork cutlet a delicious cream gravy. You can substitute veal, beef, turkey or chicken for the pork without missing a beat.&quot;</description>
 <source>Chef John</source>
 <video>http://allrecipes.com/video/1049/crispy-pork-cutlets/</video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>41</recipeId>
+<recipeId>00141</recipeId>
 <title>Crock Pot Chicken á La Antoinette</title>
-<preptime>10 mins</preptime>
-<cooktime>2 hrs</cooktime>
+<preptime>10 minutes</preptime>
+<cooktime>2 hour</cooktime>
 <ingredient><li>8 boneless chicken breasts</li>
 <li>2 tablespoons olive oil</li>
 <li>1 whole onion, chopped</li>
@@ -2126,11 +2106,11 @@
 <li>1 pinch pepper</li>
 </ingredient>
 <recipetext><li>Saute onions and mushrooms in olive oil.</li>
-<li></li>
+
 <li>Add chicken.</li>
-<li></li>
+
 <li>Combine remaining ingredients and pour over chicken mixture. Slow cook on top of stove for 1 1/2 to 2 hours.</li>
-<li></li>
+
 <li>Serve over Rice or Pasta.</li>
 </recipetext>
 <url>http://www.food.com/recipe/crock-pot-chicken-la-antoinette-4981</url>
@@ -2139,23 +2119,23 @@
 <quantity>8</quantity>
 <rating>0</rating>
 <nutrition><li>Serving Size: 1 (285 g)</li>
-<li></li>
+
 <li>Servings Per Recipe: 8</li>
-<li></li>
+
 <li>Amount Per Serving % Daily Value Calories 382.6 Calories from Fat 178 47% Total Fat 19.9 g 30% Saturated Fat 5 g 25% Cholesterol 94.3 mg 31% Sodium 641.9 mg 26% Total Carbohydrate 12.2 g 4% Dietary Fiber 0.7 g 2% Sugars 1.7 g 6% Protein 32.2 g 64%</li>
 </nutrition>
 <comments></comments>
-<totaltime>2hrs 10mins</totaltime>
+<totaltime>2 hour 10 minutes</totaltime>
 <description>I use the slow cooker during the summer for this recipe. I just set it on low and leave it all day while I am at work.</description>
 <source>mollypaul</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>42</recipeId>
+<recipeId>00142</recipeId>
 <title>Crustless Spinach Quiche</title>
-<preptime>20m</preptime>
-<cooktime>30m</cooktime>
+<preptime>20 minutes</preptime>
+<cooktime>30 minutes</cooktime>
 <ingredient><li>2 tsp Canola Vegetable Oil</li>
 <li> 0.5 cup, chopped Scallions or Spring Onions</li>
 <li> 6.5 oz Frozen Chopped Spinach</li>
@@ -2166,8 +2146,8 @@
 <li> 0.125 tsp Nutmeg (Ground)</li>
 <li> 0.25 tsp Black Pepper</li>
 </ingredient>
-<recipetext>&amp;#10;&amp;#10;Preheat oven to 350°F (175°C). Lightly grease a 9 inch pie pan.&amp;#10;&amp;#10;Heat oil in a large skillet over medium-high heat. Add onions and cook, stirring occasionally, until onions are soft. Stir in spinach and continue cooking until excess moisture has evaporated. &amp;#10;&amp;#10;In a large bowl, combine eggs, cream, cheese, salt, 1/8 tsp nutmeg and pepper. Add spinach mixture and stir to blend. Pour into prepared pie pan. &amp;#10;&amp;#10;Bake in preheated oven until eggs have set, about 30 minutes. Let cool for 10 minutes before serving.</recipetext>
-<url>https://www.atkins.com/recipes/crustless-spinach-quiche/1238?gclid=EAIaIQobChMItvH-qrC64QIVxY-zCh0LrQoQEAAYASAAEgKwOfD_BwE&amp;&amp;gclid=EAIaIQobChMItvH-qrC64QIVxY-zCh0LrQoQEAAYASAAEgKwOfD_BwE</url>
+<recipetext>and#10;and#10;Preheat oven to 350°F (175°C). Lightly grease a 9 inch pie pan.and#10;and#10;Heat oil in a large skillet over medium-high heat. Add onions and cook, stirring occasionally, until onions are soft. Stir in spinach and continue cooking until excess moisture has evaporated. and#10;and#10;In a large bowl, combine eggs, cream, cheese, salt, 1/8 tsp nutmeg and pepper. Add spinach mixture and stir to blend. Pour into prepared pie pan. and#10;and#10;Bake in preheated oven until eggs have set, about 30 minutes. Let cool for 10 minutes before serving.</recipetext>
+<url>https://www.atkins.com/recipes/crustless-spinach-quiche/1238?gclid=EAIaIQobChMItvH-qrC64QIVxY-zCh0LrQoQEAAYASAAEgKwOfD_BwEandandgclid=EAIaIQobChMItvH-qrC64QIVxY-zCh0LrQoQEAAYASAAEgKwOfD_BwE</url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Crustless_Spinach_Quiche.png</imagepath>
 <imageurl>https://sparkpeo.hs.llnwd.net/e2/guid/CrustlessSpinachQuiche.png/877cf830-46e4-4a90-b22e-27a30f5c36c4.png</imageurl>
 <quantity>4</quantity>
@@ -2179,17 +2159,17 @@
 <li>servingSize : 1 Serving</li>
 </nutrition>
 <comments></comments>
-<totaltime>50m</totaltime>
+<totaltime>50 minutes</totaltime>
 <description>This tasty and nutrient-rich spinach quiche is a great meal for any time of the day. Find hundreds of low carb recipes, such as crustless quiche, at Atkins.</description>
 <source>Atkins</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>43</recipeId>
+<recipeId>00143</recipeId>
 <title>Curried Honey Mustard Chicken</title>
-<preptime>10 m</preptime>
-<cooktime>20 m</cooktime>
+<preptime>10 minutes</preptime>
+<cooktime>20 minutes</cooktime>
 <ingredient><li>1/3 cup butter, melted</li>
 <li>1/3 cup honey</li>
 <li>1/4 cup Dijon-style prepared mustard</li>
@@ -2198,9 +2178,9 @@
 <li>4 skinless, boneless chicken breasts</li>
 </ingredient>
 <recipetext><li>In a medium bowl combine the melted butter/margarine, honey, mustard, curry powder and cayenne powder. Mix well. Place chicken breasts in a 9x13 inch baking dish and pour honey/mustard mixture over chicken. Cover and place in refrigerator. Marinate for at least 4 hours or overnight.</li>
-<li></li>
-<li>Preheat oven to 375 degrees F (190 degrees C).</li>
-<li></li>
+
+<li>Preheat oven to 375°F (190°C).</li>
+
 <li>Remove dish from refrigerator and bake, covered, in the preheated oven for 10 minutes. Remove cover and bake about 10 minutes more, or until done and juices run clear (baking time will depend a little on how thick your chicken breasts are).</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/8857/curried-honey-mustard-chicken/</url>
@@ -2209,57 +2189,57 @@
 <quantity>4</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>374 kcal</li>
-<li></li>
+
 <li>19%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>17.1 g</li>
-<li></li>
+
 <li>26%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>27.6g</li>
-<li></li>
+
 <li>9%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>27.8 g</li>
-<li></li>
+
 <li>56%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>109 mg</li>
-<li></li>
+
 <li>36%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>563 mg</li>
-<li></li>
+
 <li>23%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>4 h 30 m</totaltime>
+<totaltime>4 hour 30 minutes</totaltime>
 <description>&quot;This is the best chicken recipe I have ever had. We are not 'curry' fans but we all love this recipe!&quot;</description>
 <source>Priscilla</source>
 <video>http://allrecipes.com/video/5360/curried-honey-mustard-chicken</video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>44</recipeId>
-<title>Curried Pork &amp; Orange Kabobs</title>
+<recipeId>00144</recipeId>
+<title>Curried Pork and Orange Kabobs</title>
 <preptime>20 minutes</preptime>
 <cooktime>10 minutes</cooktime>
 <ingredient><li>1/2 cup canola oil</li>
@@ -2267,7 +2247,7 @@
 <li>1 garlic clove, minced</li>
 <li>1 to 2 tablespoons curry powder</li>
 <li>1/2 teaspoon each ground cumin, coriander and cinnamon</li>
-<li></li>
+
 <li>1-1/2 pounds pork tenderloin</li>
 <li>1 large sweet red pepper</li>
 <li>1 large sweet yellow or orange pepper</li>
@@ -2275,7 +2255,7 @@
 <li>1 large unpeeled navel orange</li>
 </ingredient>
 <recipetext><li>In a small bowl, mix oil, minced onion, garlic and spices; reserve half of mixture for basting kabobs while cooking. Cut pork, peppers, onion and unpeeled orange into 1-in. pieces. On four metal or soaked wooden skewers, alternately thread pork, vegetables and orange; brush with remaining curry mixture.</li>
-<li></li>
+
 <li>Grill kabobs, covered, over medium heat 10-15 minutes or until vegetables and pork are tender, turning occasionally. Baste frequently with reserved curry mixture during the last 4 minutes of cooking. Yield: 4 servings.</li>
 </recipetext>
 <url>http://www.tasteofhome.com/recipes/curried-pork---orange-kabobs</url>
@@ -2292,8 +2272,8 @@
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>45</recipeId>
-<title>curry oil &amp; avocado toast</title>
+<recipeId>00145</recipeId>
+<title>curry oil and avocado toast</title>
 <preptime></preptime>
 <cooktime>35 minutes</cooktime>
 <ingredient><li>4 tsp curry powder</li>
@@ -2302,12 +2282,12 @@
 <li>4 pieces bread, toasted</li>
 </ingredient>
 <recipetext><li>in small oven suitable dish, combine curry powder and oil</li>
-<li>cook 40 minutes 300 degrees F</li>
+<li>cook 40 minutes 300°F</li>
 <li>cool on rack for 30 minutes</li>
 <li>line strainer with several layers of cheesecloth</li>
 <li>strain oil through cheesecloth into jar</li>
 <li>(lasts 1 month in refrigerator)</li>
-<li></li>
+
 <li>mush avocado onto toast</li>
 <li>sprinkle with curry oil</li>
 <li>serve</li>
@@ -2321,7 +2301,7 @@
 <comments></comments>
 </recipe>
 <recipe>
-<recipeId>46</recipeId>
+<recipeId>00146</recipeId>
 <title>Dad's pizza dough</title>
 <preptime>15 minutes</preptime>
 <cooktime>4-6 minutes/20-25 minutes</cooktime>
@@ -2333,11 +2313,11 @@
 </ingredient>
 <recipetext><li>stir all until smooth</li>
 <li>beat vigorously 20 strokes</li>
-<li>let rest 5 min in 80 degree place</li>
+<li>let rest 5 min in 80°F place</li>
 <li>pat into lightly oiled cookie sheets</li>
-<li>bake untopped 4-6 minutes @ 425 degrees</li>
+<li>bake untopped 4-6 minutes @ 425°F</li>
 <li>add toppings</li>
-<li>bake 20-25 minutes @ 425 degrees</li>
+<li>bake 20-25 minutes @ 425°F</li>
 </recipetext>
 <url></url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Dads_pizza_dough.png</imagepath>
@@ -2353,7 +2333,7 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>47</recipeId>
+<recipeId>00147</recipeId>
 <title>Dad's stuffing </title>
 <preptime>1 hour</preptime>
 <cooktime>1 1/2 hour </cooktime>
@@ -2373,11 +2353,11 @@
 <li>1/2 c nuts, chopped</li>
 <li>1/2 c  black olives, halved</li>
 <li>1/2 c seedless grapes, halved</li>
-<li></li>
+
 </ingredient>
-<recipetext><li>mix eggs, broth, &amp; spices</li>
-<li>mix cornbread  &amp; bread in deep baking pan</li>
-<li>Saute celery, apple, onion, &amp; green pepper in butter</li>
+<recipetext><li>mix eggs, broth, and spices</li>
+<li>mix cornbread  and bread in deep baking pan</li>
+<li>Saute celery, apple, onion, and green pepper in butter</li>
 <li>spread sauted vegetables over breads</li>
 <li>mix broth sage and eggs</li>
 <li>pour egg mixture over breads</li>
@@ -2385,8 +2365,8 @@
 <li>adjust/add more broth mixture as needed for correct moistness</li>
 <li>cover with foil</li>
 <li>let sit 5-10 minutes</li>
-<li></li>
-<li>bake 1 1/2 hours at 350 deg F</li>
+
+<li>bake 1 1/2 hours at 350°F</li>
 </recipetext>
 <url></url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Dads_stuffing_.png</imagepath>
@@ -2402,7 +2382,7 @@
 <category>Sides</category>
 </recipe>
 <recipe>
-<recipeId>48</recipeId>
+<recipeId>00148</recipeId>
 <title>Detox drink</title>
 <preptime></preptime>
 <cooktime></cooktime>
@@ -2427,10 +2407,10 @@
 <category>Other</category>
 </recipe>
 <recipe>
-<recipeId>49</recipeId>
+<recipeId>00149</recipeId>
 <title>Dijon dump chicken</title>
 <preptime></preptime>
-<cooktime>35-40</cooktime>
+<cooktime>35-40 minutes</cooktime>
 <ingredient><li>chicken</li>
 <li>2 cloves garlic, minced</li>
 <li>1/4 c dijon mustard</li>
@@ -2438,7 +2418,7 @@
 </ingredient>
 <recipetext><li>dump all ingredients in large freezer bag</li>
 <li>refrigerate  overnight or cook in sauce</li>
-<li>35-40 minutes.  350 degrees  F</li>
+<li>35-40 minutes.  350°F</li>
 </recipetext>
 <url></url>
 <imagepath></imagepath>
@@ -2454,34 +2434,22 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>50</recipeId>
+<recipeId>00150</recipeId>
 <title>Dill Pickle-Ranch Pasta Salad</title>
-<preptime>15 min</preptime>
+<preptime>15 minutes</preptime>
 <cooktime></cooktime>
-<ingredient><li>2</li>
-<li>boxes Betty Crocker™ Suddenly Pasta Salad™ ranch &amp; bacon salad mix</li>
-<li>1</li>
-<li>cup mayonnaise</li>
-<li>1/2</li>
-<li>cup sour cream</li>
-<li>1/4</li>
-<li>teaspoon garlic salt</li>
-<li>8</li>
-<li>oz Colby-Monterey Jack cheese, cubed</li>
-<li>2</li>
-<li>cups sliced dill pickles</li>
-<li>1/2</li>
-<li>cup dill pickle juice</li>
-<li>4</li>
-<li>tablespoons chopped fresh dill weed</li>
+<ingredient><li>2 boxes Betty Crocker™ Suddenly Pasta Salad™ ranch and bacon salad mix</li>
+<li>1 cup mayonnaise</li>
+<li>1/2 cup sour cream</li>
+<li>1/4 teaspoon garlic salt</li>
+<li>8 oz Colby-Monterey Jack cheese, cubed</li>
+<li>2 cups sliced dill pickles</li>
+<li>1/2 cup dill pickle juice</li>
+<li>4 tablespoons chopped fresh dill weed</li>
 </ingredient>
-<recipetext><li>1</li>
+<recipetext>
 <li>Boil pasta (from salad boxes) as directed on boxes; drain, and place in large bowl.</li>
-<li></li>
-<li>2</li>
 <li>In small bowl, mix mayonnaise, sour cream and 1 of the seasoning packets (from salad box). Dis-card or save other packet for another use. Mix until well combined. Add to large bowl of pasta.</li>
-<li></li>
-<li>3</li>
 <li>Stir in remaining ingredients. Cover and refrigerate 2 hours before serving.</li>
 </recipetext>
 <url>https://www.bettycrocker.com/recipes/dill-pickle-ranch-pasta-salad/8416668d-4ab7-4e87-8d6b-24359a445fde</url>
@@ -2491,14 +2459,14 @@
 <rating>0</rating>
 <nutrition></nutrition>
 <comments>Try using the extra seasoning mix to jazz up a chicken or tuna salad.</comments>
-<totaltime>2 hr 15 min</totaltime>
+<totaltime>2 hr 15 minutes</totaltime>
 <description>Your summer cookout will never be the same after you make this pasta that packs a dill pickle punch and comes together in three simple steps.</description>
 <source></source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>51</recipeId>
+<recipeId>00151</recipeId>
 <title>Donair</title>
 <preptime>20 minutes</preptime>
 <cooktime>1 hour</cooktime>
@@ -2511,33 +2479,33 @@
 <li>1/2 tsp onion powder</li>
 <li>1/4 tsp cayenne pepper</li>
 <li>1lb beef, ground</li>
-<li></li>
+
 <li>sauce-----------------</li>
 <li>12 oz can evaporated milk</li>
 <li>1/2 cup sugar, white</li>
 <li>2 tsp garlic powder</li>
 <li>4 tsp vinegar,  white</li>
-<li></li>
+
 <li>for serving-------------</li>
 <li>pita bread</li>
 <li>tomato, chopped</li>
 <li>onion, white chopped</li>
 <li>lettuce, shredded</li>
 </ingredient>
-<recipetext><li>combine meat and  spices in bowl</li>
-<li>pick up meat and throw it down 20 times, with force</li>
-<li>knead after each throw</li>
-<li>form meat into loaf and place on baking sheet or in broiler pan</li>
-<li></li>
-<li>bake 1 hour 350 degrees F/ 175 degrees C</li>
-<li>turn meat 1/2 way thru</li>
-<li></li>
-<li>cool overnight</li>
+<recipetext><li>Combine meat and  spices in bowl</li>
+<li>Pick up meat and throw it down 20 times, with force</li>
+<li>Knead after each throw</li>
+<li>Form meat into loaf and place on baking sheet or in broiler pan</li>
+
+<li>Bake 1 hour 350°F/ 175°C</li>
+<li>Turn meat 1/2 way thru</li>
+
+<li>Cool overnight</li>
 <li>Sauce--------------------</li>
-<li>combine milk, sugar,  and garlic powder in medium bowl</li>
-<li>gradually whisk in vinegar,  one tsp at a time until thick</li>
-<li>serve in pita with sliced meat, onion, tomato, and lettuce</li>
-<li></li>
+<li>Combine milk, sugar,  and garlic powder in medium bowl</li>
+<li>Gradually whisk in vinegar,  one tsp at a time until thick</li>
+<li>Serve in pita with sliced meat, onion, tomato, and lettuce</li>
+
 </recipetext>
 <url></url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Donair.png</imagepath>
@@ -2553,10 +2521,10 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>52</recipeId>
+<recipeId>00152</recipeId>
 <title>Easy Double Chocolate Chip Brownies</title>
-<preptime>10M</preptime>
-<cooktime>22M</cooktime>
+<preptime>10 minutes</preptime>
+<cooktime>22 minutes</cooktime>
 <ingredient><li>1 (12 ounce) can semi-sweet chocolate chips (2 cups)</li>
 <li>1⁄2 cup butter or 1⁄2 cup margarine</li>
 <li>3 large eggs</li>
@@ -2567,23 +2535,23 @@
 <li>1⁄2 cup chopped nuts</li>
 </ingredient>
 <recipetext><li>PREHEAT oven to 350°F.</li>
-<li></li>
+
 <li>Grease a 13x9-inch baking pan.</li>
-<li></li>
+
 <li>MELT 1 cup morsels and butter in large, heavy-duty saucepan over low heat; stir until smooth.</li>
-<li></li>
+
 <li>Remove from heat.</li>
-<li></li>
+
 <li>Stir in eggs.</li>
-<li></li>
+
 <li>Stir in flour, sugar, vanilla extract and baking soda.</li>
-<li></li>
+
 <li>Stir in remaining morsels and nuts.</li>
-<li></li>
+
 <li>Spread into prepared baking pan.</li>
-<li></li>
+
 <li>BAKE for 18 to 22 minutes or until wooden pick inserted in center comes out slightly sticky.</li>
-<li></li>
+
 <li>Cool completely in pan on wire rack.</li>
 </recipetext>
 <url>http://baking.food.com/recipe/easy-double-chocolate-chip-brownies-58961</url>
@@ -2593,7 +2561,7 @@
 <rating>0</rating>
 <nutrition>Amount Per Serving % Daily Value Calories 2212.8 Calories from Fat 1106 50% Total Fat 122.9 g 189% Saturated Fat 64.2 g 320% Cholesterol 439.3 mg 146% Sodium 838.8 mg 34% Total Carbohydrate 276.5 g 92% Dietary Fiber 15.2 g 60% Sugars 195.3 g 781% Protein 31.1 g 62%</nutrition>
 <comments></comments>
-<totaltime>32M</totaltime>
+<totaltime>32 minutes</totaltime>
 <description>Make and share this Easy Double Chocolate Chip Brownies recipe from Food.com.</description>
 <source>kcdelong</source>
 <video></video>
@@ -2601,10 +2569,10 @@
 <category>Dessert</category>
 </recipe>
 <recipe>
-<recipeId>53</recipeId>
+<recipeId>00153</recipeId>
 <title>Fish Tacos - Quick</title>
-<preptime>20 m</preptime>
-<cooktime>15 m</cooktime>
+<preptime>20 minutes</preptime>
+<cooktime>15 minutes</cooktime>
 <ingredient><li>1/4 cup reduced-fat sour cream</li>
 <li>2 tablespoons lime juice</li>
 <li>salt and ground black pepper to taste</li>
@@ -2627,56 +2595,56 @@
 <quantity>4</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>416 kcal</li>
-<li></li>
+
 <li>21%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>15.2 g</li>
-<li></li>
+
 <li>23%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>38.9g</li>
-<li></li>
+
 <li>13%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>30.1 g</li>
-<li></li>
+
 <li>60%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>47 mg</li>
-<li></li>
+
 <li>16%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>481 mg</li>
-<li></li>
+
 <li>19%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>35 m</totaltime>
+<totaltime>35 minutes</totaltime>
 <description>&quot;This simple yet scrumptious recipe has a nice kick and is a house favorite. Delicious!&quot;</description>
 <source>Huge</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>54</recipeId>
+<recipeId>00154</recipeId>
 <title>French onion soup</title>
 <preptime>15 minutes</preptime>
 <cooktime>1 hour 30 minutes</cooktime>
@@ -2692,7 +2660,7 @@
 <li>croutons, large OR  toast</li>
 <li>8 oz cheese, grated Gruyere OR sliced Swiss</li>
 </ingredient>
-<recipetext><li>in large saucepan,  heat butter &amp; oil over low heat</li>
+<recipetext><li>in large saucepan,  heat butter and oil over low heat</li>
 <li>add onions, garlic, and sugar</li>
 <li>cover and cook for 30 minutes (stirring occasionally) or until bottom is covered with a nutty brown clarified film</li>
 <li>add stock and wine</li>
@@ -2717,7 +2685,7 @@
 <category>Starter</category>
 </recipe>
 <recipe>
-<recipeId>55</recipeId>
+<recipeId>00155</recipeId>
 <title>Garlic Cheese Chicken Rollups</title>
 <preptime></preptime>
 <cooktime></cooktime>
@@ -2727,7 +2695,7 @@
 <li>1/4 cup butter, melted</li>
 <li>1 (7 ounce) package garlic cheese spread</li>
 </ingredient>
-<recipetext><li>Preheat oven to 350 degrees F (175 degrees C).</li>
+<recipetext><li>Preheat oven to 350°F (175°C).</li>
 <li>Pound chicken breasts until thinned out. In a shallow dish or bowl mix together bread crumbs and cheese. Dip one side of each breast into melted butter or margarine, then into crumb/cheese mixture. Place a dollop of cheese spread at one end of each chicken breast, on the side of the breast not dipped in the mixture. Roll up each breast and secure with toothpicks.</li>
 <li>Place rollups in a lightly greased 9x13 inch baking dish and drizzle any remaining butter or margarine over all. Bake in the preheated oven for 35 to 40 minutes, or until cooked through and juices run clear.</li>
 </recipetext>
@@ -2737,45 +2705,45 @@
 <quantity>4</quantity>
 <rating>5</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>493 kcal</li>
-<li></li>
+
 <li>25%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>26.1 g</li>
-<li></li>
+
 <li>40%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>24.4g</li>
-<li></li>
+
 <li>8%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>40.6 g</li>
-<li></li>
+
 <li>81%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>138 mg</li>
-<li></li>
+
 <li>46%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>1081 mg</li>
-<li></li>
+
 <li>43%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
@@ -2786,7 +2754,7 @@
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>56</recipeId>
+<recipeId>00156</recipeId>
 <title>Garlic rolls - pull apart</title>
 <preptime></preptime>
 <cooktime>15 minutes </cooktime>
@@ -2801,8 +2769,8 @@
 <li>add butter, garlic powder, parsley and mozzarella</li>
 <li>mix to coat all biscuit pieces</li>
 <li>place three pieces per tin in muffin tins</li>
-<li></li>
-<li>bake 375 degrees F.  15 minutes</li>
+
+<li>bake 375°F.  15 minutes</li>
 </recipetext>
 <url></url>
 <imagepath></imagepath>
@@ -2819,7 +2787,7 @@
 <category>Starter</category>
 </recipe>
 <recipe>
-<recipeId>57</recipeId>
+<recipeId>00157</recipeId>
 <title>Ginger Peanut soup</title>
 <preptime>30 minutes</preptime>
 <cooktime></cooktime>
@@ -2858,10 +2826,10 @@
 <category>Sides</category>
 </recipe>
 <recipe>
-<recipeId>58</recipeId>
+<recipeId>00158</recipeId>
 <title>Green Chile Chicken Enchilada Casserole</title>
-<preptime>30 m</preptime>
-<cooktime>1 h 30 m</cooktime>
+<preptime>30 minutes</preptime>
+<cooktime>1 hour 30 minutes</cooktime>
 <ingredient><li>4 skinless, boneless chicken breast halves</li>
 <li>garlic salt to taste</li>
 <li>18 (6 inch) corn tortillas, torn in half</li>
@@ -2869,7 +2837,7 @@
 <li>1 (16 ounce) package shredded Monterey Jack cheese</li>
 <li>1 (8 ounce) container reduced fat sour cream</li>
 </ingredient>
-<recipetext><li>Preheat oven to 350 degrees F (175 degrees C). Lightly grease a medium baking dish.</li>
+<recipetext><li>Preheat oven to 350°F (175°C). Lightly grease a medium baking dish.</li>
 <li>Season chicken with garlic salt. Arrange in the prepared baking dish. Bake 45 minutes in the preheated oven, until no longer pink and juices run clear. Cool, shred, and set aside.</li>
 <li>With metal tongs, char each tortilla half over the open flame of a gas stove burner for about 1 minute, until lightly puffed.</li>
 <li>Pour about 1/2 inch enchilada sauce in the bottom of a medium baking dish, and arrange 6 tortillas in a single layer. Top with 1/2 the chicken, 1/3 cheese, 1/2 the sour cream, and 1/3 of the remaining enchilada sauce. Repeat. Coat remaining tortillas thoroughly with remaining enchilada sauce, and arrange on top of the layers. Sprinkle with remaining cheese, and top with any remaining enchilada sauce</li>
@@ -2881,59 +2849,59 @@
 <quantity>8</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>488 kcal</li>
-<li></li>
+
 <li>24%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>25.2 g</li>
-<li></li>
+
 <li>39%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>32.6g</li>
-<li></li>
+
 <li>11%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>33.1 g</li>
-<li></li>
+
 <li>66%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>95 mg</li>
-<li></li>
+
 <li>32%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>955 mg</li>
-<li></li>
+
 <li>38%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>2 h</totaltime>
+<totaltime>2 hour</totaltime>
 <description>&quot;I got my picture in the paper for this one! My friends' husbands always fall in love with this when I bring it to parties! My 4 picky kids eat it! If you want to skip the charring step, simply tear the tortillas into fourths so they absorb the sauce better.&quot;</description>
 <source>SGRCOOKI</source>
 <video>http://allrecipes.com/video/866/easy-chile-chicken-enchilada-casserole</video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>59</recipeId>
+<recipeId>00159</recipeId>
 <title>Homemade Granola Bars</title>
-<preptime>3H25M</preptime>
-<cooktime>0H40M</cooktime>
+<preptime>3 hour 25 minutes</preptime>
+<cooktime>40 minutes</cooktime>
 <ingredient><li>2 cups old-fashioned oatmeal</li>
 <li>1 cup sliced almonds</li>
 <li>1 cup shredded coconut, loosely packed</li>
@@ -2947,16 +2915,16 @@
 <li>1/2 cup chopped dried apricots</li>
 <li>1/2 cup dried cranberries</li>
 </ingredient>
-<recipetext><li>Preheat the oven to 350 degrees F. Butter an 8 by 12-inch baking dish and line it with parchment paper.</li>
-<li></li>
+<recipetext><li>Preheat the oven to 350°F. Butter an 8 by 12-inch baking dish and line it with parchment paper.</li>
+
 <li>Toss the oatmeal, almonds, and coconut together on a sheet pan and bake for 10 to 12 minutes, stirring occasionally, until lightly browned. Transfer the mixture to a large mixing bowl and stir in the flax seeds.</li>
-<li></li>
-<li>Reduce the oven temperature to 300 degrees F.</li>
-<li></li>
+
+<li>Reduce the oven temperature to 300°F.</li>
+
 <li>Place the butter, honey, brown sugar, vanilla, and salt in a small saucepan and bring to a boil over medium heat. Cook and stir for a minute, then pour over the toasted oatmeal mixture. Add the dates, apricots, and cranberries and stir well.</li>
-<li></li>
+
 <li>Pour the mixture into the prepared pan. Wet your fingers and lightly press the mixture evenly into the pan. Bake for 25 to 30 minutes, until light golden brown. Cool for at least 2 to 3 hours before cutting into squares. Serve at room temperature.</li>
-<li></li>
+
 <li>2008, Barefoot Contessa Back to Basics, All Rights Reserved</li>
 </recipetext>
 <url>http://www.foodnetwork.com/recipes/ina-garten/homemade-granola-bars-recipe.html</url>
@@ -2966,14 +2934,14 @@
 <rating>0</rating>
 <nutrition></nutrition>
 <comments></comments>
-<totaltime>4H5M</totaltime>
+<totaltime>4H5 minutes</totaltime>
 <description></description>
 <source>Ina Garten</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>60</recipeId>
+<recipeId>00160</recipeId>
 <title>icebox cucumber pickles</title>
 <preptime>15 minutes</preptime>
 <cooktime>cool 30 minutes</cooktime>
@@ -2983,18 +2951,18 @@
 <li>3/4 t. celery seeds</li>
 <li>1/2 t. turmeric, ground</li>
 <li>3/4 t. mustard seeds</li>
-<li></li>
+
 <li>2 lg. seedless cucumbers, 1/4&quot; slices</li>
 <li>1 lg  onion, sweet, 1/8&quot; slices</li>
 </ingredient>
 <recipetext><li>cook first six ingredients in large saucepan over high heat</li>
 <li>stir every 3 minutes until hot and sugar melted</li>
 <li>DO NOT BOIL</li>
-<li></li>
+
 <li>place cucumber and onion slices in airtight container</li>
 <li>pour hot mixture over cucumbers and onions</li>
 <li>cool 30 minutes</li>
-<li></li>
+
 <li>serve immediately or store up to 2 weeks</li>
 </recipetext>
 <url></url>
@@ -3011,7 +2979,7 @@
 <category>Sides</category>
 </recipe>
 <recipe>
-<recipeId>61</recipeId>
+<recipeId>00161</recipeId>
 <title>jalapeno popper dip</title>
 <preptime>30 minutes </preptime>
 <cooktime></cooktime>
@@ -3021,13 +2989,13 @@
 <li>2/3 cup mayo</li>
 <li>1c cheddar cheese</li>
 <li>1/2c mozzarella cheese</li>
-<li></li>
-<li></li>
+
+
 <li>1sleeve ritz crackers</li>
 <li>1/2 c parmesan cheese</li>
 <li>1/2 stick butter</li>
-<li></li>
-<li></li>
+
+
 </ingredient>
 <recipetext><li>deseed jalapenos</li>
 <li>dice fine</li>
@@ -3035,13 +3003,13 @@
 <li>spray square casserole dish</li>
 <li>pôur in mix</li>
 <li>spread until even</li>
-<li></li>
-<li></li>
+
+
 <li>crush crackers to fine</li>
 <li>mix with parmesan cheese</li>
 <li>cover top</li>
 <li>melt butter and pour over top</li>
-<li></li>
+
 <li>bake 25-30 minutes or until bubbly</li>
 </recipetext>
 <url></url>
@@ -3053,7 +3021,7 @@
 <comments></comments>
 </recipe>
 <recipe>
-<recipeId>62</recipeId>
+<recipeId>00162</recipeId>
 <title>KFC style gravy</title>
 <preptime></preptime>
 <cooktime></cooktime>
@@ -3088,7 +3056,7 @@
 <category>Sides</category>
 </recipe>
 <recipe>
-<recipeId>63</recipeId>
+<recipeId>00163</recipeId>
 <title>Kim German gravy</title>
 <preptime>30 minutes</preptime>
 <cooktime>20 minutes</cooktime>
@@ -3127,10 +3095,10 @@
 <category>Sides</category>
 </recipe>
 <recipe>
-<recipeId>64</recipeId>
+<recipeId>00164</recipeId>
 <title>kims yaeger schnitzel</title>
-<preptime>45 min</preptime>
-<cooktime>30 min</cooktime>
+<preptime>45 minutes</preptime>
+<cooktime>30 minutes</cooktime>
 <ingredient><li>veal, sliced</li>
 <li>bread crumbs</li>
 <li>2T  oil</li>
@@ -3147,7 +3115,7 @@
 <li>mix bread crumbs, parmesan, and oil</li>
 <li>coat with flour then egg then bread crumbs mixture</li>
 <li>fry in pan with butter lightly</li>
-<li>cook 30 min 350 deg F</li>
+<li>cook 30 min 350°F</li>
 </recipetext>
 <url></url>
 <imagepath>/storage/emulated/0/MyCookBook/images/kims_yaeger_schnitzel.png</imagepath>
@@ -3162,10 +3130,10 @@
 <video></video>
 </recipe>
 <recipe>
-<recipeId>65</recipeId>
+<recipeId>00165</recipeId>
 <title>King Crab Legs</title>
-<preptime>10 m</preptime>
-<cooktime>28 m</cooktime>
+<preptime>10 minutes</preptime>
+<cooktime>28 minutes</cooktime>
 <ingredient><li>3 pounds king crab legs</li>
 <li>6 tablespoons butter</li>
 <li>1 tablespoon seafood seasoning (such as Old Bay®), or to taste</li>
@@ -3173,10 +3141,10 @@
 <li>1 clove garlic, minced</li>
 <li>1/4 cup olive oil</li>
 </ingredient>
-<recipetext><li>Preheat oven to 375 degrees F (190 degrees C). Place crab legs in a shallow baking pan.</li>
-<li></li>
+<recipetext><li>Preheat oven to 375°F (190°C). Place crab legs in a shallow baking pan.</li>
+
 <li>Heat butter in a small saucepan over medium heat until melted, about 3 minutes. Whisk in seafood seasoning, lemon juice, garlic, and olive oil. Brush crab legs with butter mixture and pour any remaining mixture over crab legs.</li>
-<li></li>
+
 <li>Bake in the preheated oven until opaque and flaky, basting regularly with the butter mixture in the pan, 25 to 35 minutes.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/245698/king-crab-legs/</url>
@@ -3185,59 +3153,59 @@
 <quantity>6</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>356 kcal</li>
-<li></li>
+
 <li>18%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>23.3 g</li>
-<li></li>
+
 <li>36%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>0.6g</li>
-<li></li>
-<li>&amp;lt; 1%</li>
-<li></li>
+
+<li>andlt; 1%</li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>34.5 g</li>
-<li></li>
+
 <li>69%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>124 mg</li>
-<li></li>
+
 <li>41%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>2254 mg</li>
-<li></li>
+
 <li>90%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>38 m</totaltime>
+<totaltime>38 minutes</totaltime>
 <description>&quot;Old Bay® Seasoning is one of our favorites for seafood. This is easy but delicious.&quot;</description>
 <source>MarylouH</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>66</recipeId>
+<recipeId>00166</recipeId>
 <title>Leftover Chicken Croquettes</title>
-<preptime>15 m</preptime>
-<cooktime>30 m</cooktime>
+<preptime>15 minutes</preptime>
+<cooktime>30 minutes</cooktime>
 <ingredient><li>3 cups cooked, finely chopped chicken meat</li>
 <li>1 1/2 cups seasoned dry bread crumbs</li>
 <li>2 eggs, lightly beaten</li>
@@ -3247,7 +3215,7 @@
 <li>1/2 teaspoon ground black pepper</li>
 </ingredient>
 <recipetext><li>In a large bowl combine the chicken, bread crumbs, 2 eggs and onion and mix well; if mixture is too dry to form patties, mix in another lightly beaten egg. Then add parsley, salt and pepper to taste, mix well and form into small patties.</li>
-<li></li>
+
 <li>Heat oil in a large skillet over medium heat and fry patties in oil until golden brown.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/17868/leftover-chicken-croquettes/</url>
@@ -3256,59 +3224,59 @@
 <quantity>6</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>276 kcal</li>
-<li></li>
+
 <li>14%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>7.8 g</li>
-<li></li>
+
 <li>12%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>24.7g</li>
-<li></li>
+
 <li>8%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>25.4 g</li>
-<li></li>
+
 <li>51%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>120 mg</li>
-<li></li>
+
 <li>40%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>660 mg</li>
-<li></li>
+
 <li>26%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>45 m</totaltime>
+<totaltime>45 minutes</totaltime>
 <description>&quot;A mixture of chicken, eggs, bread crumbs, sauteed onion, parsley and light seasoning make croquettes you'll go crazy for! My grandmother used to make salmon cakes; I adapted that recipe to use leftover cooked chicken.&quot;</description>
 <source>Jeanne Gold</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>67</recipeId>
+<recipeId>00167</recipeId>
 <title>Light Chicken Piccata With Linguine</title>
-<preptime>15 mins</preptime>
-<cooktime>15 mins</cooktime>
+<preptime>15 minutes</preptime>
+<cooktime>15 minutes</cooktime>
 <ingredient><li>4 (4 ounce) boneless skinless chicken breast halves</li>
 <li>1⁄4 cup flour</li>
 <li>1⁄4 teaspoon salt</li>
@@ -3322,29 +3290,29 @@
 <li>8 ounces linguine, cooked (4 cups cooked)</li>
 </ingredient>
 <recipetext><li>Place each chicken breast half in a large zip bag, one at a time.</li>
-<li></li>
+
 <li>Flatten to 1/4 inch thickness using a meat mallet or a rolling pin.</li>
-<li></li>
+
 <li>Remove from the bag, set aside and repeat with the remaining chicken breast halves.</li>
-<li></li>
+
 <li>Combine flour, salt and pepper; dredge chicken in flour mixture.</li>
-<li></li>
+
 <li>Heat 1 tsp butter and oil in a large skillet over medium-high heat.</li>
-<li></li>
+
 <li>Add chicken; cook 3 minutes on each side or until golden brown.</li>
-<li></li>
+
 <li>Add 3/4 cup wine, 2 tbsp lemon juice and capers to pan with chicken, scraping up brown bits and cook 2 minutes.</li>
-<li></li>
+
 <li>Remove chicken from pan and keep warm.</li>
-<li></li>
+
 <li>Stir in 3/4 cup wine, 2 tbsp lemon juice and cook until reduced to about 1/2 cup (about 5 minutes).</li>
-<li></li>
+
 <li>Stir in 1 tsp butter.</li>
-<li></li>
+
 <li>Return chicken to pan and place 1/4 of the chopped parsley on top of each chicken breast half.</li>
-<li></li>
+
 <li>Divide the pasta into 4 pasta bowls.</li>
-<li></li>
+
 <li>Place a chicken breast half on top of each drizzle about 2 tbsp sauce over each.</li>
 </recipetext>
 <url>http://www.food.com/recipe/light-chicken-piccata-with-linguine-43588</url>
@@ -3353,23 +3321,23 @@
 <quantity>4</quantity>
 <rating>0</rating>
 <nutrition><li>Serving Size: 1 (297 g)</li>
-<li></li>
+
 <li>Servings Per Recipe: 4</li>
-<li></li>
+
 <li>Amount Per Serving % Daily Value Calories 475.5 Calories from Fat 63 13% Total Fat 7 g 10% Saturated Fat 2.2 g 11% Cholesterol 77.6 mg 25% Sodium 433.4 mg 18% Total Carbohydrate 52.6 g 17% Dietary Fiber 2.5 g 10% Sugars 2.8 g 11% Protein 32.8 g 65%</li>
 </nutrition>
 <comments></comments>
-<totaltime>30mins</totaltime>
+<totaltime>30minutes</totaltime>
 <description>This is modified from an old magazine recipe. We've been making this version for years. We prefer the lighter sauce now and often I double the sauce ingredients to make more.</description>
 <source>PanNan</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>68</recipeId>
+<recipeId>00168</recipeId>
 <title>Low Carb Bacon Cheeseburger Casserole</title>
-<preptime>20m</preptime>
-<cooktime>35m</cooktime>
+<preptime>20 minutes</preptime>
+<cooktime>35minutes</cooktime>
 <ingredient><li>2 pounds ground beef</li>
 <li>2 cloves large garlic, minced</li>
 <li>1/2 teaspoon onion powder</li>
@@ -3407,26 +3375,26 @@
 <li>sugarContent : 2 g</li>
 </nutrition>
 <comments></comments>
-<totaltime>55m</totaltime>
+<totaltime>55 minutes</totaltime>
 <description>Need a simple ground beef casserole to feed your family or friends? They will love this easy burger casserole with bacon.</description>
-<source>Lisa | Low Carb Yum</source>
+<source>Lisa | Low Carb Yuminutes</source>
 <video></video>
 <lang>en</lang>
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>69</recipeId>
+<recipeId>00169</recipeId>
 <title>Low-Carb Zucchini Chips</title>
-<preptime>10 m</preptime>
-<cooktime>2 h</cooktime>
+<preptime>10 minutes</preptime>
+<cooktime>2 hour</cooktime>
 <ingredient><li>2 large large zucchini, thinly sliced</li>
 <li>1 tablespoon olive oil, or to taste</li>
 <li>sea salt to taste</li>
 </ingredient>
-<recipetext><li>Preheat oven to 250 degrees F (120 degrees C).</li>
-<li></li>
+<recipetext><li>Preheat oven to 250°F (120°C).</li>
+
 <li>Arrange sliced zucchini on a baking sheet. Drizzle lightly with olive oil and sprinkle lightly with sea salt.</li>
-<li></li>
+
 <li>Bake in the preheated oven until completely dried and chip-like, about 1 hour per side. Allow to cool before serving.</li>
 </recipetext>
 <url>https://www.allrecipes.com/recipe/259031/low-carb-zucchini-chips/</url>
@@ -3435,7 +3403,7 @@
 <quantity>2</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition Facts</li>
-<li></li>
+
 <li>Per Serving:</li>
 <li>111 calories;</li>
 <li>7.3 g fat;</li>
@@ -3446,19 +3414,19 @@
 <li>Full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>2 h 10 m</totaltime>
+<totaltime>2 hour 10 minutes</totaltime>
 <description>&quot;If you are looking for an alternative to potato chips you have to give zucchini chips a try as a clean and healthy snack. Zucchini chips taste amazing and they are low carb, paleo and gluten free. They are simple to make but they do take time to bake. You could use a food dehydrator too if you have one (I don't).&quot;</description>
 <source>lxydn</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>70</recipeId>
+<recipeId>00170</recipeId>
 <title>manicotti </title>
 <preptime>45 minutes </preptime>
 <cooktime>45-55 minutes </cooktime>
 <ingredient><li>1 (15 oz) ricotta cheese</li>
-<li>1 (10 oz) spinach, frozen, chopped - thawed &amp; squeezed dry</li>
+<li>1 (10 oz) spinach, frozen, chopped - thawed and squeezed dry</li>
 <li>1/2 c. onion, minced</li>
 <li>1 egg</li>
 <li>2 tsp parsley, fresh, minced</li>
@@ -3470,16 +3438,16 @@
 <li>1 1/2 c  water</li>
 <li>1 (8 oz) manicotti shells</li>
 </ingredient>
-<recipetext><li>in large bowl, combine ricotta, spinach, onion &amp; egg</li>
-<li>season with parsley, pepper, &amp; garlic powder</li>
-<li>mix in 1 cup mozzarella &amp; 1/4 cup parmesan</li>
-<li>in separate bowl, mix spaghetti sauce &amp; water</li>
+<recipetext><li>in large bowl, combine ricotta, spinach, onion and egg</li>
+<li>season with parsley, pepper, and garlic powder</li>
+<li>mix in 1 cup mozzarella and 1/4 cup parmesan</li>
+<li>in separate bowl, mix spaghetti sauce and water</li>
 <li>spread 1 cup sauce in bottom of 9x13 baking dish</li>
 <li>stuff manicotti shells with ricotta mixture</li>
 <li>arrange shells in single layer in baking dish</li>
 <li>cover with remaining sauce</li>
-<li>sprinkle with remaining mozzarella &amp; parmesan</li>
-<li></li>
+<li>sprinkle with remaining mozzarella and parmesan</li>
+
 <li>bake at 350deg F.  45-55 minutes, until noodles are soft</li>
 </recipetext>
 <url></url>
@@ -3492,7 +3460,7 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>71</recipeId>
+<recipeId>00171</recipeId>
 <title>Moroccan Chicken with Fruit and Olive Topping</title>
 <preptime></preptime>
 <cooktime></cooktime>
@@ -3511,7 +3479,7 @@
 <li>1/8 teaspoon black pepper</li>
 </ingredient>
 <recipetext><li>Heat 2 teaspoons oil in a large nonstick skillet over medium-high heat. Sprinkle 1/2 teaspoon salt, 1/4 teaspoon pepper, and thyme evenly over chicken. Add chicken to pan; cook 4 minutes on each side or until done. Remove from pan; cover and keep warm.</li>
-<li></li>
+
 <li>Heat remaining 1 teaspoon oil in pan. Add onion to pan; sauté 2 minutes until tender. Add garlic to pan; sauté 30 seconds. Add fruit and remaining ingredients to pan; cook 5 minutes or until liquid almost evaporates.</li>
 </recipetext>
 <url>http://www.myrecipes.com/m/recipe/moroccan-chicken-with-fruit-olive-topping</url>
@@ -3520,29 +3488,29 @@
 <quantity>4 servings (serving size: 1 chicken breast half and about 1/3 cup fruit mixture)</quantity>
 <rating>0</rating>
 <nutrition><li>Calories 346</li>
-<li></li>
+
 <li>Caloriesfromfat 20 %</li>
-<li></li>
+
 <li>Fat 7.5 g</li>
-<li></li>
+
 <li>Satfat 1 g</li>
-<li></li>
+
 <li>Monofat 4.3 g</li>
-<li></li>
+
 <li>Polyfat 1.3 g</li>
-<li></li>
+
 <li>Protein 40.6 g</li>
-<li></li>
+
 <li>Carbohydrate 26 g</li>
-<li></li>
+
 <li>Fiber 2.1 g</li>
-<li></li>
+
 <li>Cholesterol 99 mg</li>
-<li></li>
+
 <li>Iron 2.4 mg</li>
-<li></li>
+
 <li>Sodium 591 mg</li>
-<li></li>
+
 <li>Calcium 45 mg</li>
 </nutrition>
 <comments></comments>
@@ -3553,7 +3521,7 @@
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>72</recipeId>
+<recipeId>00172</recipeId>
 <title>Olive chicken bake</title>
 <preptime>20 minutes </preptime>
 <cooktime>30 minutes </cooktime>
@@ -3568,7 +3536,7 @@
 </ingredient>
 <recipetext><li>Put chicken into greased 2-quart shallow baking dish</li>
 <li>Combine X6 ingredients in medium Bowl. Spoon onto chicken</li>
-<li>Bake uncovered at 400 degrees Fahrenheit for about 30 minutes until chicken is no longer pink inside</li>
+<li>Bake uncovered at 400°Fahrenheit for about 30 minutes until chicken is no longer pink inside</li>
 <li>Sprinkle with cheese and serve</li>
 </recipetext>
 <url></url>
@@ -3585,7 +3553,7 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>73</recipeId>
+<recipeId>00173</recipeId>
 <title>Oma's Spaetzle</title>
 <preptime>10 minutes</preptime>
 <cooktime>10-20 minutes</cooktime>
@@ -3619,7 +3587,7 @@
 <category>Sides</category>
 </recipe>
 <recipe>
-<recipeId>74</recipeId>
+<recipeId>00174</recipeId>
 <title>Pan fried chicken strips</title>
 <preptime></preptime>
 <cooktime></cooktime>
@@ -3632,10 +3600,10 @@
 <li>salt and pepper to taste</li>
 </ingredient>
 <recipetext><li>Heat a large frying pan, add oil</li>
-<li></li>
+
 <li>Sauté chicken strips, garlic and green onion over high heat until chicken lightly browned. Remove from pan. Add wine and lemon juice and allow to reduce for a little bit. Return chicken to pan. Add salt and pepper. Serve quickly so chicken won't overcook.</li>
-<li></li>
-<li></li>
+
+
 </recipetext>
 <url></url>
 <imagepath></imagepath>
@@ -3652,10 +3620,10 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>75</recipeId>
+<recipeId>00175</recipeId>
 <title>Parmesan Chicken Bake</title>
-<preptime>15 m</preptime>
-<cooktime>35 m</cooktime>
+<preptime>15 minutes</preptime>
+<cooktime>35 minutes</cooktime>
 <ingredient><li>2 tablespoons olive oil</li>
 <li>2 cloves garlic, crushed and finely chopped</li>
 <li>1/4 teaspoon crushed red pepper flakes, or to taste</li>
@@ -3666,10 +3634,10 @@
 <li>1/2 cup grated Parmesan cheese, divided</li>
 <li>1 (5 ounce) package garlic croutons</li>
 </ingredient>
-<recipetext><li>Preheat oven to 350 degrees F (175 degrees C).</li>
+<recipetext><li>Preheat oven to 350°F (175°C).</li>
 <li>Coat the bottom of a 9x13 inch casserole dish with olive oil, and sprinkle with garlic and hot red pepper flakes.</li>
 <li>Arrange the chicken breasts pieces in bottom of the dish, and pour marinara sauce over chicken. Mix in 1/2 croutons.  Sprinkle basil over marinara and top with half the mozzarella cheese, followed by half the Parmesan cheese. Sprinkle rest of the croutons over top, then cover with the remaining mozzarella cheese and remaining Parmesan cheese.</li>
-<li>Bake in preheated oven until cheese and croutons are golden brown and the chicken is no longer pink inside, about 35 minutes to an hour, depending on the shape and thickness of your chicken breasts. An instant-read thermometer inserted into the thickest part of a chicken breast should read at least 160 degrees F (70 degrees C).</li>
+<li>Bake in preheated oven until cheese and croutons are golden brown and the chicken is no longer pink inside, about 35 minutes to an hour, depending on the shape and thickness of your chicken breasts. An instant-read thermometer inserted into the thickest part of a chicken breast should read at least 160°F (70°C).</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/219164/the-best-parmesan-chicken-bake/</url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Parmesan_Chicken_Bake.jpg</imagepath>
@@ -3677,58 +3645,58 @@
 <quantity>6</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>477 kcal</li>
-<li></li>
+
 <li>24%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>21.7 g</li>
-<li></li>
+
 <li>33%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>28g</li>
-<li></li>
+
 <li>9%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>40.3 g</li>
-<li></li>
+
 <li>81%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>100 mg</li>
-<li></li>
+
 <li>33%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>1022 mg</li>
-<li></li>
+
 <li>41%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>50 m</totaltime>
+<totaltime>50 minutes</totaltime>
 <description>&quot;This chicken Parmesan is done casserole style (so, no breading or frying!), but still offers up that irresistible combination of tender chicken, crunchy/cheesy coating, and flavorful sauce.&quot;</description>
 <source>Chef John</source>
 <video>http://allrecipes.com/video/311/easy-chicken-parmesan-bake</video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>76</recipeId>
+<recipeId>00176</recipeId>
 <title>Philly Cheesesteak Casserole</title>
-<preptime>25 min</preptime>
+<preptime>25 minutes</preptime>
 <cooktime></cooktime>
 <ingredient><li>3 cups uncooked dumpling or wide egg noodles (6 oz)</li>
 <li>1 lb beef boneless sirloin steak, about 3/4 inch thick</li>
@@ -3742,13 +3710,13 @@
 <li>3/4 cup shredded reduced-fat Cheddar cheese (3 oz)</li>
 </ingredient>
 <recipetext><li>Directions</li>
-<li></li>
+
 <li>1 Heat oven to 350°F. Spray 11x7-inch (2-quart) glass baking dish with cooking spray. Cook and drain noodles as directed on package.</li>
-<li></li>
+
 <li>2 Meanwhile, remove fat from beef. Cut beef into 3/4-inch pieces. Heat 12-inch nonstick skillet over medium heat. Cook beef and pepper in skillet 2 to 3 minutes, stirring occasionally, until beef is brown. Stir in onions and bell pepper. Cook 2 minutes, stirring occasionally. Spoon into baking dish.</li>
-<li></li>
+
 <li>3 In medium bowl, beat broth and flour with wire whisk until smooth. Add to skillet; heat to boiling. Cook, stirring constantly, until mixture thickens; remove from heat. Stir in half-and-half and mustard. Spoon over beef mixture. Stir in cooked noodles.</li>
-<li></li>
+
 <li>4 Cover and bake 40 minutes. Sprinkle with cheese. Bake uncovered about 10 minutes longer or until cheese is melted and casserole is bubbly.</li>
 </recipetext>
 <url>http://www.bettycrocker.com/recipes/philly-cheesesteak-casserole/b4e9d25f-d760-48d0-9c10-93fcfcfc82a5</url>
@@ -3761,20 +3729,20 @@
 <li>*Percent Daily Values are based on a 2,000 calorie diet.</li>
 </nutrition>
 <comments><li>To test pasta for doneness, run a piece under cold water, then bite into it. It’s done if still slightly firm.</li>
-<li></li>
+
 <li>Spraying the baking dish with cooking spray allows the food to release easily and makes cleanup a snap.</li>
 </comments>
-<totaltime>1 hr 15 min</totaltime>
+<totaltime>1 hr 15 minutes</totaltime>
 <description>Mimic the flavors of a favorite sandwich in a casserole featuring steak and noodles in a cheesy sauce.</description>
 <source></source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>77</recipeId>
+<recipeId>00177</recipeId>
 <title>Philly Cheesesteak Stuffed Peppers</title>
-<preptime>20 hrs</preptime>
-<cooktime>30 mins</cooktime>
+<preptime>20 hour</preptime>
+<cooktime>30 minutes</cooktime>
 <ingredient><li>8 ounces thinly sliced roast beef</li>
 <li>8 slices provolone cheese</li>
 <li>2 large green bell peppers</li>
@@ -3785,19 +3753,19 @@
 <li>1 tablespoon garlic, minced</li>
 </ingredient>
 <recipetext><li>Slice peppers in half lengthwise, remove ribs and seeds.</li>
-<li></li>
+
 <li>Slice onions and mushrooms. Saute over medium heat with butter, olive oil, minced garlic and a little salt and pepper. Saute until onions and mushroom are nice and caramelized. About 25-30 minutes.</li>
-<li></li>
-<li>Preheat oven to 400*.</li>
-<li></li>
+
+<li>Preheat oven to 400°F.</li>
+
 <li>Slice roast beef into thin strips and add to the onion/mushroom mixture. Allow to cook 5-10 minutes.</li>
-<li></li>
+
 <li>Line the inside of each pepper with a slice of provolone cheese.</li>
-<li></li>
+
 <li>Fill each pepper with meat mixture until they are nearly overflowing.</li>
-<li></li>
+
 <li>Top each pepper with another slice of provolone cheese.</li>
-<li></li>
+
 <li>Bake for 15-20 minutes until the cheese on top is golden brown.</li>
 </recipetext>
 <url>http://www.food.com/recipe/philly-cheesesteak-stuffed-peppers-513064</url>
@@ -3806,20 +3774,20 @@
 <quantity>4-6</quantity>
 <rating>0</rating>
 <nutrition><li>Serving Size: 1 (187 g)</li>
-<li></li>
+
 <li>Servings Per Recipe: 4</li>
-<li></li>
+
 <li>Amount Per Serving % Daily Value Calories 450.1 Calories from Fat 292 65% Total Fat 32.5 g 49% Saturated Fat 16 g 79% Cholesterol 98.1 mg 32% Sodium 580.3 mg 24% Total Carbohydrate 9.9 g 3% Dietary Fiber 2.5 g 9% Sugars 4.5 g 18% Protein 31.6 g 63%</li>
 </nutrition>
 <comments></comments>
-<totaltime>20hrs 30mins</totaltime>
+<totaltime>20 hours 30 minutes</totaltime>
 <description>Via Pinterest</description>
 <source>THE BOSS</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>78</recipeId>
+<recipeId>00178</recipeId>
 <title>Pizza balls</title>
 <preptime>20 minutes</preptime>
 <cooktime>30 minutes</cooktime>
@@ -3836,12 +3804,12 @@
 </ingredient>
 <recipetext><li>cut cheese into squares</li>
 <li>flatten out each buscuit and put pepperoni, cheese, pepperoni, basil on it</li>
-<li>close sides of buscuit around pepperoni &amp; cheese (into ball)</li>
-<li>place seam down in greased 9 x 13 baking dish</li>
-<li>beat egg &amp; brush over top</li>
-<li>top with italian seasoning, garlic powder, &amp; parmesan</li>
+<li>close sides of buscuit around pepperoni and cheese (into ball)</li>
+<li>place seam down in greased 9x13 baking dish</li>
+<li>beat egg and brush over top</li>
+<li>top with italian seasoning, garlic powder, and parmesan</li>
 <li>check rolls at 20 minutes</li>
-<li>25 minutes at 400 F</li>
+<li>25 minutes at 400°F</li>
 <li>serve with pizza dipping sauce</li>
 </recipetext>
 <url></url>
@@ -3854,7 +3822,7 @@
 <category>Starter</category>
 </recipe>
 <recipe>
-<recipeId>79</recipeId>
+<recipeId>00179</recipeId>
 <title>Pomegranate juice</title>
 <preptime></preptime>
 <cooktime></cooktime>
@@ -3880,12 +3848,12 @@
 <category>Other</category>
 </recipe>
 <recipe>
-<recipeId>80</recipeId>
+<recipeId>00180</recipeId>
 <title>pumpkin dip</title>
 <preptime></preptime>
 <cooktime></cooktime>
 <ingredient><li>1 can pumpkin</li>
-<li>1 small &amp; 1 large box vanilla pudding mix</li>
+<li>1 small and 1 large box vanilla pudding mix</li>
 <li>1 tub Cool Whip</li>
 <li>pumpkin pie spice  to taste</li>
 </ingredient>
@@ -3904,7 +3872,7 @@
 <category>Starter</category>
 </recipe>
 <recipe>
-<recipeId>81</recipeId>
+<recipeId>00181</recipeId>
 <title>red meat marinade</title>
 <preptime>10 minutes</preptime>
 <cooktime>1 hour @ room temp or overnight in refridgerator</cooktime>
@@ -3931,10 +3899,10 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>82</recipeId>
+<recipeId>00182</recipeId>
 <title>Roasted Parmesan Garlic Cauliflower</title>
-<preptime>15 mins</preptime>
-<cooktime>30 mins</cooktime>
+<preptime>15 minutes</preptime>
+<cooktime>30 minutes</cooktime>
 <ingredient><li>3 tablespoons fresh minced garlic</li>
 <li>3 tablespoons olive oil</li>
 <li>1 head cauliflower, separated in florets</li>
@@ -3942,18 +3910,18 @@
 <li>salt and black pepper</li>
 <li>chopped fresh parsley</li>
 </ingredient>
-<recipetext><li>Preheat oven to 450 degrees.</li>
-<li></li>
+<recipetext><li>Preheat oven to 450°F.</li>
+
 <li>Grease large casserole dish.</li>
-<li></li>
+
 <li>Place olive oil and garlic in large resealable bag.</li>
-<li></li>
+
 <li>Add cauliflower and shake to mix.</li>
-<li></li>
+
 <li>Pour into prepared casserole dish.</li>
-<li></li>
+
 <li>Bake for 20 to 25 minutes, stirring halfway through.</li>
-<li></li>
+
 <li>Top with Parmesan and parsley and broil for 3 to 5 minutes until golden brown.</li>
 </recipetext>
 <url>http://www.food.com/recipe/roasted-parmesan-garlic-cauliflower-59965</url>
@@ -3962,15 +3930,15 @@
 <quantity>6</quantity>
 <rating>0</rating>
 <nutrition><li>Serving Size: 1 (117 g)</li>
-<li></li>
+
 <li>Servings Per Recipe: 6</li>
-<li></li>
+
 <li>Amount Per Serving % Daily Value Calories 114.3 Calories from Fat 77 68% Total Fat 8.6 g 13% Saturated Fat 2 g 9% Cholesterol 4.9 mg 1% Sodium 115.1 mg 4% Total Carbohydrate 6.5 g 2% Dietary Fiber 2 g 8% Sugars 2 g 7% Protein 4.3 g 8%</li>
 </nutrition>
 <comments></comments>
-<totaltime>45mins</totaltime>
+<totaltime>45minutes</totaltime>
 <description><li>Yummy and different way to prepare cauliflower. A must try! Number of servings is a guess.</li>
-<li></li>
+
 <li>Make and share this Roasted Parmesan Garlic Cauliflower recipe from Food.com.</li>
 </description>
 <source>Marie</source>
@@ -3978,10 +3946,10 @@
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>83</recipeId>
+<recipeId>00183</recipeId>
 <title>Roasted potatoes with Thyme and turmeric</title>
-<preptime>5 min</preptime>
-<cooktime>40 min</cooktime>
+<preptime>5 minutes</preptime>
+<cooktime>40 minutes</cooktime>
 <ingredient><li>10 to 12 small baby potatoes</li>
 <li>2 sweet potatoes, peeled and cut into eights (optional)</li>
 <li>1/2 teaspoon turmeric</li>
@@ -3994,7 +3962,8 @@
 <li>1 teaspoon dried fenugreek leaves</li>
 <li>Red Pepper Flakes to finish (optional)</li>
 </ingredient>
-<recipetext><li>Pre-heat the oven to 400 degrees.Peel the baby potatoes (and the sweet potatoes, if using).</li>
+<recipetext><li>Pre-heat the oven to 400°F.</li>
+<li>Peel the baby potatoes (and the sweet potatoes, if using).</li>
 <li>Place in a bake proof casserole, add in the turmeric, salt, minced garlic and the thyme.</li>
 <li>Add in the olive oil and toss</li>
 <li>Add in the cumin if using and add in the salt and toss well.</li>
@@ -4008,14 +3977,14 @@
 <rating>5</rating>
 <nutrition></nutrition>
 <comments></comments>
-<totaltime>45 min</totaltime>
+<totaltime>45 minutes</totaltime>
 <description></description>
 <source>Www.spicechronicles.com</source>
 <video></video>
 <category>Sides</category>
 </recipe>
 <recipe>
-<recipeId>84</recipeId>
+<recipeId>00184</recipeId>
 <title>Ruth's Chris Steak House Petite Filet</title>
 <preptime></preptime>
 <cooktime></cooktime>
@@ -4024,37 +3993,37 @@
 <li>Salt</li>
 <li>Pepper</li>
 <li>2 teaspoon Fresh parsley; chopped</li>
-<li></li>
+
 <li>marinade:</li>
-<li>Lee &amp;perrins sauce</li>
+<li>Lee andperrins sauce</li>
 <li>red wine</li>
 <li>ground pepper</li>
 <li>garlic salt</li>
 </ingredient>
 <recipetext><li>1. Preheat the broiler.</li>
-<li></li>
+
 <li>2. Prepare the filets by drying them with a cloth or paper towel and rubbing 1/2 tablespoon of butter per steak over the top and bottom. Salt and pepper the filet.</li>
-<li></li>
+
 <li>3. Make sure your broiler is on high and that it is good and hot. It should have preheated for at least 30 minutes. Put four oven-safe ceramic serving plates on the bottom rack in the oven when you start to preheat the broiler and through the entire cooking time. Move another rack up to the top so that when you put the filets in they will be about 5-6 inches from the heat. You will have to check the filets periodically to be sure they haven't flamed up. Cook the meat in a broiler pan, turning halfway through cooking time for the following length of time based on your preference:</li>
-<li></li>
+
 <li>Cooking Chart</li>
-<li></li>
+
 <li>4-6 minutes per side - Rare</li>
-<li></li>
+
 <li>5-7 minutes per side - Medium Rare</li>
-<li></li>
+
 <li>6-8 minutes per side - Medium</li>
-<li></li>
+
 <li>7-9 minutes per side - Medium Well</li>
-<li></li>
+
 <li>8-11 minutes per side - Well</li>
-<li></li>
+
 <li>4. When the meat is done, carefully remove the ceramic plates from the oven. On each of them, place 1 tablespoon of butter. It should sizzle.</li>
-<li></li>
+
 <li>5. When the butter has melted, place a steak in the center of the plate.</li>
-<li></li>
+
 <li>6. Sprinkle a pinch of the parsley on top of the meat, and another pinch around it onto the butter.</li>
-<li></li>
+
 <li>7. Serve the dishes sizzling hot.</li>
 </recipetext>
 <url>http://www.bigoven.com/recipe/ruths-chris-steak-house-petite-filet/206863</url>
@@ -4066,18 +4035,18 @@
 <comments></comments>
 <totaltime>Ready in 45 minutes</totaltime>
 <description><li>Try this Ruth's Chris Steak House Petite Filet recipe, or contribute your own.</li>
-<li></li>
-<li>&quot;This is a fantastic recipe! We added a twist with marinating in L&amp;P with some red wine, ground pepper, and garlic salt, then followed the recipe. Delicious!&quot;</li>
+
+<li>&quot;This is a fantastic recipe! We added a twist with marinating in LandP with some red wine, ground pepper, and garlic salt, then followed the recipe. Delicious!&quot;</li>
 </description>
 <source>by ptgirl65721</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>85</recipeId>
+<recipeId>00185</recipeId>
 <title>Salsa</title>
 <preptime>30 minutes</preptime>
-<cooktime>0</cooktime>
+<cooktime></cooktime>
 <ingredient><li>6-7 tomatoes, medium, chopped</li>
 <li>1 Chile Serrano pepper, chopped</li>
 <li>1 bunch cilantro, leaves chopped</li>
@@ -4102,10 +4071,10 @@
 <category>Starter</category>
 </recipe>
 <recipe>
-<recipeId>86</recipeId>
+<recipeId>00186</recipeId>
 <title>Sarah's Easy Shredded Chicken Taco Filling</title>
-<preptime>15 m</preptime>
-<cooktime>15 m</cooktime>
+<preptime>15 minutes</preptime>
+<cooktime>15 minutes</cooktime>
 <ingredient><li>1 pound skinless, boneless chicken breast halves</li>
 <li>2 teaspoons vegetable oil</li>
 <li>1 tablespoon minced onion</li>
@@ -4114,13 +4083,13 @@
 <li>1/4 cup tomato sauce</li>
 </ingredient>
 <recipetext><li>Place chicken breasts into a saucepan and pour in enough water to cover. Place over medium heat, bring to a boil, and simmer until chicken meat is no longer pink, 10 to 12 minutes.</li>
-<li></li>
+
 <li>Transfer chicken breasts to a bowl, allow to cool, and shred the chicken meat with 2 forks.</li>
-<li></li>
+
 <li>Heat vegetable oil in a small non-stick saucepan over medium heat, and cook and stir onion until translucent, 2 to 3 minutes.</li>
-<li></li>
+
 <li>Mix in the shredded chicken, cumin, chili powder, and tomato sauce; bring to a boil.</li>
-<li></li>
+
 <li>Reduce heat to low and simmer until chicken is hot and the flavors have blended, about 3 minutes.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/220326/sarahs-easy-shredded-chicken-taco-filling/</url>
@@ -4129,56 +4098,56 @@
 <quantity>3</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>188 kcal</li>
-<li></li>
+
 <li>9%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>6.3 g</li>
-<li></li>
+
 <li>10%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>1.7g</li>
-<li></li>
-<li>&amp;lt; 1%</li>
-<li></li>
+
+<li>andlt; 1%</li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>29.8 g</li>
-<li></li>
+
 <li>60%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>78 mg</li>
-<li></li>
+
 <li>26%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>175 mg</li>
-<li></li>
+
 <li>7%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>40 m</totaltime>
+<totaltime>40 minutes</totaltime>
 <description>&quot;I put this together one day, wanting tacos, but I did not want ground beef. It is fast to make, as no slow cooker is needed. Serve warmed as a substitute for ground beef in tacos, and serve in a taco shell, with lettuce, tomatoes, cheese, or other favorite toppings.&quot;</description>
 <source>Holiday Baker</source>
 <video>http://allrecipes.com/video/5170/sarahs-easy-shredded-chicken-taco-filling</video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>87</recipeId>
+<recipeId>00187</recipeId>
 <title>sausage and gravy</title>
 <preptime>5-10 minutes </preptime>
 <cooktime>20 minutes </cooktime>
@@ -4211,10 +4180,10 @@
 <video></video>
 </recipe>
 <recipe>
-<recipeId>88</recipeId>
+<recipeId>00188</recipeId>
 <title>sausage balls</title>
 <preptime>20 minutes</preptime>
-<cooktime>350 F 20-25 minutes</cooktime>
+<cooktime>20-25 minutes</cooktime>
 <ingredient><li>2 c. bisquick mix</li>
 <li>1 lb. sausage, hot</li>
 <li>2 1/2 c. cheddar cheese, shredded</li>
@@ -4223,9 +4192,10 @@
 <li>1 tbsp olive oil</li>
 <li>1 c. sage, fresh, ground</li>
 <li>1/4 c rosemary, fresh, ground</li>
-<li></li>
+
 </ingredient>
-<recipetext><li>Stir all ingredients together.  Roll into balls and place on cookie sheets. Bake.</li>
+<recipetext><li>Stir all ingredients together.</li>
+<li>Roll into balls and place on cookie sheets. Bake @ 350°F.</li>
 <li>Cool 1/2 hour. Wrap in baggies (3 each).</li>
 </recipetext>
 <url></url>
@@ -4238,10 +4208,10 @@
 <category>Starter</category>
 </recipe>
 <recipe>
-<recipeId>89</recipeId>
+<recipeId>00189</recipeId>
 <title>Siddell salsa</title>
 <preptime>30 minutes</preptime>
-<cooktime>0</cooktime>
+<cooktime></cooktime>
 <ingredient><li>6-7 tomatoes, medium, chopped</li>
 <li>1 Chile Serrano pepper, chopped</li>
 <li>1 bunch cilantro, leaves chopped</li>
@@ -4265,10 +4235,10 @@
 <category>Starter</category>
 </recipe>
 <recipe>
-<recipeId>90</recipeId>
+<recipeId>00190</recipeId>
 <title>Steaks With Roquefort Sauce</title>
-<preptime>15 m</preptime>
-<cooktime>20 m</cooktime>
+<preptime>15 minutes</preptime>
+<cooktime>20 minutes</cooktime>
 <ingredient><li>2 tablespoons butter</li>
 <li>1 tablespoon olive oil</li>
 <li>4 (5 ounce) beef sirloin steaks</li>
@@ -4279,7 +4249,7 @@
 <li>Italian flat leaf parsley, for garnish</li>
 </ingredient>
 <recipetext><li>Melt the butter and heat the oil in a skillet over high heat. Season steaks with salt and pepper, and quickly sear on both sides. Reduce heat to medium, and continue cooking steaks 5 minutes on each side, or to desired doneness. Remove from skillet and keep warm.</li>
-<li></li>
+
 <li>Pour brandy into the skillet and stir to loosen browned bits from bottom. Stir in cream, and return to a boil. Cook and stir until sauce is thick enough to coat the back of a spoon. Mix cheese into the sauce until melted. Pour over the steaks to serve. Garnish steaks with parsley.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/84718/steaks-with-roquefort-sauce/</url>
@@ -4288,56 +4258,56 @@
 <quantity>4</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>613 kcal</li>
-<li></li>
+
 <li>31%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>50.8 g</li>
-<li></li>
+
 <li>78%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>3.9g</li>
-<li></li>
+
 <li>1%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>30.1 g</li>
-<li></li>
+
 <li>60%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>192 mg</li>
-<li></li>
+
 <li>64%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>614 mg</li>
-<li></li>
+
 <li>25%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>35 m</totaltime>
+<totaltime>35 minutes</totaltime>
 <description>&quot;This recipe came to me when I was doing a Spanish themed party for a Hemingway book. Everyone LOVED the sauce so much I try to make it all the time. However, if you don't like bleu cheese, I wouldn't try it. I also substitute whiskey for the brandy, or any liquor that isn't sweet.&quot;</description>
 <source>CASSUNFIRE</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>91</recipeId>
+<recipeId>00191</recipeId>
 <title>Stickin dump chicken </title>
 <preptime></preptime>
 <cooktime>35-40 minutes</cooktime>
@@ -4351,7 +4321,7 @@
 </ingredient>
 <recipetext><li>dump all ingredients in large freezer bag</li>
 <li>refrigerate  overnight or cook in sauce</li>
-<li>35-40 minutes.  350 degrees  F</li>
+<li>35-40 minutes.  350°F</li>
 </recipetext>
 <url></url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Stickin_dump_chicken_.png</imagepath>
@@ -4367,7 +4337,7 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>92</recipeId>
+<recipeId>00192</recipeId>
 <title>susan's alfredo sauce</title>
 <preptime>2 minutes</preptime>
 <cooktime>5 minutes</cooktime>
@@ -4376,17 +4346,17 @@
 <li>4 Tbsp parmesan cheese, shredded</li>
 <li>1 tsp. garlic</li>
 <li>italian spices</li>
-<li></li>
+
 </ingredient>
 <recipetext><li>melt butter</li>
 <li>lightly saute garlic in butter</li>
-<li>add heavy cream &amp; spices</li>
+<li>add heavy cream and spices</li>
 <li>stir</li>
 <li>bring to boil</li>
 <li>add parmesan cheese</li>
 <li>constantly stirring</li>
-<li>reduce heat &amp; thicken</li>
-<li></li>
+<li>reduce heat and thicken</li>
+
 </recipetext>
 <url></url>
 <imagepath></imagepath>
@@ -4398,21 +4368,21 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>93</recipeId>
+<recipeId>00193</recipeId>
 <title>SW chicken casserole </title>
-<preptime>10 min</preptime>
-<cooktime>30 min</cooktime>
+<preptime>10 minutes</preptime>
+<cooktime>30 minutes</cooktime>
 <ingredient><li>1 c. rice, cooked</li>
 <li>1 can black beans</li>
 <li>1 can corn</li>
 <li>1 lg green pepper, chopped</li>
 <li>8 oz. salsa</li>
 <li>2-3 chicken breasts, chopped</li>
-<li></li>
+
 </ingredient>
 <recipetext><li>combine all ingredients in 8x8x2 casserole dish</li>
-<li></li>
-<li>bake 30 min at 350 deg F</li>
+
+<li>bake 30 min at 350°F</li>
 </recipetext>
 <url></url>
 <imagepath></imagepath>
@@ -4424,22 +4394,22 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>94</recipeId>
+<recipeId>00194</recipeId>
 <title>Tasty Bake Chicken</title>
-<preptime>5 m</preptime>
-<cooktime>40 m</cooktime>
+<preptime>5 minutes</preptime>
+<cooktime>40 minutes</cooktime>
 <ingredient><li>4 chicken breast halves, bone in</li>
 <li>1 (.7 ounce) package dry Italian-style salad dressing mix</li>
 <li>2 tablespoons cold water</li>
 <li>2 tablespoons olive oil</li>
 </ingredient>
-<recipetext><li>Preheat oven to 400 degrees F (200 degrees C).</li>
-<li></li>
+<recipetext><li>Preheat oven to 400°F (200°C).</li>
+
 <li>Empty contents of salad dressing mix package into a small bowl. Add water and mix well, then stir in olive oil and mix again. Note: DO NOT add vinegar as per package instructions.</li>
-<li></li>
+
 <li>Place chicken breasts 'wrong side up' in a lightly greased 9x13 inch baking dish. Put 1/2 teaspoon of the dressing mixture on each breast and spread over the surface.</li>
-<li></li>
-<li>Bake at 400 degrees F (200 degrees C) for 15 to 25 minutes, depending on the size of the breasts. Turn breasts over and spoon remaining mixture on to the topside. Bake for another 15 to 20 minutes, or until tops are golden brown and chicken is cooked through (juices run clear).</li>
+
+<li>Bake at 400°F (200°C) for 15 to 25 minutes, depending on the size of the breasts. Turn breasts over and spoon remaining mixture on to the topside. Bake for another 15 to 20 minutes, or until tops are golden brown and chicken is cooked through (juices run clear).</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/17367/tasty-bake-chicken/</url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Tasty_Bake_Chicken.jpg</imagepath>
@@ -4447,59 +4417,59 @@
 <quantity>4</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>274 kcal</li>
-<li></li>
+
 <li>14%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>14.9 g</li>
-<li></li>
+
 <li>23%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>2.5g</li>
-<li></li>
-<li>&amp;lt; 1%</li>
-<li></li>
+
+<li>andlt; 1%</li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>30.1 g</li>
-<li></li>
+
 <li>60%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>82 mg</li>
-<li></li>
+
 <li>28%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>864 mg</li>
-<li></li>
+
 <li>35%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>45 m</totaltime>
+<totaltime>45 minutes</totaltime>
 <description>&quot;This dish is quick and easy for the busy mom or the working woman or man. My husband and I love it and have it often. So do my family members and friends that I've given it to. You will just have to try it to see. Serve with your favorite pasta or rice dish and a tossed salad, if desired.&quot;</description>
 <source>Helen</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>95</recipeId>
+<recipeId>00195</recipeId>
 <title>Thai Chicken Pizza</title>
-<preptime>0H10M</preptime>
-<cooktime>0H20M</cooktime>
+<preptime>10 minutes</preptime>
+<cooktime>20 minutes</cooktime>
 <ingredient><li>1 pizza dough, any brand</li>
 <li>1/2 cup duck sauce or plum sauce</li>
 <li>1/2 teaspoon crushed red pepper flakes</li>
@@ -4519,16 +4489,16 @@
 <li>Palm full cilantro leaves, chopped</li>
 <li>1/4 cup chopped peanuts, 2 ounces</li>
 </ingredient>
-<recipetext><li>Preheat oven to 425 degrees F.</li>
-<li></li>
+<recipetext><li>Preheat oven to 425°F.</li>
+
 <li>Form pizza crust on pizza pan or cookie sheet. Top with duck or plum sauce - spread it around like you would pizza sauce. Sprinkle the pizza with some crushed red pepper flakes then top with cheese and peppers. Bake until golden and bubbly, 15 to 17 minutes.</li>
-<li></li>
+
 <li>Preheat a grill pan over medium-high heat. Combine vegetable oil, soy sauce and peanut butter with hot sauce and grill seasoning. Use the microwave to loosen up peanut butter if it is too cold to blend into sauce, 10 seconds ought to do it. Add chicken and coat evenly with mixture. Let stand 10 minutes then grill chicken cutlets 2 to 3 minutes on each side, until firm. Slice chicken into very thin strips.</li>
-<li></li>
+
 <li>While chicken cooks, mix honey and vinegar and add the cucumber. Turn to coat evenly.</li>
-<li></li>
+
 <li>Top the hot, cooked pizza with chicken, scallions, sprouts and cilantro. Drain cucumbers and scatter over the pizza. Garnish pizza with peanuts, cut into 8 wedges and serve.</li>
-<li></li>
+
 <li>Recipe courtesy Rachael Ray</li>
 </recipetext>
 <url>http://www.foodnetwork.com/recipes/rachael-ray/thai-chicken-pizza-recipe.html</url>
@@ -4538,17 +4508,17 @@
 <rating>0</rating>
 <nutrition></nutrition>
 <comments></comments>
-<totaltime>0H30M</totaltime>
+<totaltime>30 minutes</totaltime>
 <description></description>
 <source>Rachael Ray</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>96</recipeId>
+<recipeId>00196</recipeId>
 <title>Thyme-Rubbed Steaks with Sauteed Mushrooms</title>
-<preptime>10 m</preptime>
-<cooktime>20 m</cooktime>
+<preptime>10 minutes</preptime>
+<cooktime>20 minutes</cooktime>
 <ingredient><li>2 teaspoons paprika</li>
 <li>1 teaspoon salt</li>
 <li>1 teaspoon ground black pepper</li>
@@ -4564,9 +4534,9 @@
 <li>salt and pepper to taste</li>
 </ingredient>
 <recipetext><li>In a small bowl, mix together the paprika, salt, pepper, garlic powder, onion powder and thyme. Sprinkle onto each side of the steaks, pressing in so it adheres. Set aside.</li>
-<li></li>
+
 <li>Melt the butter in a skillet over medium-high heat. Add the shallots; cook and stir for about 1 minute. Add the mushrooms, and cook for a few more minutes, until tender. Stir in the red wine, and cook until most of the liquid has evaporated. Remove from the heat and keep warm.</li>
-<li></li>
+
 <li>Heat the oil in a separate skillet over medium-high heat. Fry steaks for 5 to 7 minutes per side, or to your desired degree of doneness. Remove to a plate and let rest for a few minutes. Top with mushrooms and serve.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/92338/thyme-rubbed-steaks-with-sauteed-mushrooms/</url>
@@ -4575,58 +4545,58 @@
 <quantity>4</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>253 kcal</li>
-<li></li>
+
 <li>13%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>15.9 g</li>
-<li></li>
+
 <li>24%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>5.3g</li>
-<li></li>
+
 <li>2%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>21.6 g</li>
-<li></li>
+
 <li>43%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>66 mg</li>
-<li></li>
+
 <li>22%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>770 mg</li>
-<li></li>
+
 <li>31%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>30 m</totaltime>
+<totaltime>30 minutes</totaltime>
 <description>&quot;This is an easy recipe. My family just loves the mushroom topping. Add some boiled carrots and mashed potatoes to make a wonderful meal.&quot;</description>
 <source>LEMONPIE</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>97</recipeId>
+<recipeId>00197</recipeId>
 <title>Tikka Spice Mix</title>
-<preptime>3 min</preptime>
+<preptime>3 minutes</preptime>
 <cooktime></cooktime>
 <ingredient><li>6 tsps coriander</li>
 <li>6 tsps cumin</li>
@@ -4644,41 +4614,41 @@
 <quantity>1 servings</quantity>
 <rating>0</rating>
 <nutrition><li>1 servings</li>
-<li></li>
+
 <li>servings Amount Per Serving</li>
-<li></li>
+
 <li>Calories 180 Calories from Fat 60</li>
-<li></li>
+
 <li>% Daily Value *</li>
-<li></li>
+
 <li>Total Fat 6g 9%</li>
-<li></li>
+
 <li>Saturated Fat 0.5g 3%</li>
-<li></li>
+
 <li>Trans Fat</li>
-<li></li>
+
 <li>Cholesterol 0%</li>
-<li></li>
+
 <li>Sodium 100mg 4%</li>
-<li></li>
+
 <li>Potassium 960mg 27%</li>
-<li></li>
+
 <li>Total Carbohydrate 32g 11%</li>
-<li></li>
+
 <li>Dietary Fiber 10g 40%</li>
-<li></li>
+
 <li>Sugars 2g</li>
-<li></li>
+
 <li>Protein 9g</li>
-<li></li>
+
 <li>Vitamin A 170%</li>
-<li></li>
+
 <li>Vitamin C 25%</li>
-<li></li>
+
 <li>Calcium 20%</li>
-<li></li>
+
 <li>Iron 90%</li>
-<li></li>
+
 <li>* Percent Daily Values are based on a 2,000 calorie diet. Your Daily Values may be higher or lower depending on your calorie needs.</li>
 </nutrition>
 <comments></comments>
@@ -4689,7 +4659,7 @@
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>98</recipeId>
+<recipeId>00198</recipeId>
 <title>Tortellini Salad</title>
 <preptime>10 minutes</preptime>
 <cooktime>5 minutes</cooktime>
@@ -4700,19 +4670,20 @@
 <li>1 -2 cup crumbled feta or 1 -2 cup shredded mozzarella cheese</li>
 <li>1/4 cup olive oil</li>
 <li>1/4 cup red wine vinegar</li>
-<li>salt &amp; pepper</li>
+<li>salt and pepper</li>
 </ingredient>
-<recipetext><li>1</li>
-<li>Start by defrosting/cooking the cheese tortellini in a pot of boiling water. The tortellini are ready when they float in the water and are heated through. Move them to a colander to drain, and set aside.</li>
-<li></li>
-<li>2</li>
-<li>Drain and coarsely chop the black olives (you can use pre-chopped olives to save time). Peel the onion, de-seed the pepper, and coarsely chop them as well.</li>
-<li></li>
-<li>3</li>
-<li>Place chopped vegetables and cheese tortellini in a large bowl. Sprinkle desired amount of cheese (feta or mozzarella) and the olive oil and red wine vinegar over the vegetables and tortellini, and then toss it all together. If you are using mozzarella cheese, it will probably melt a bit, which is fine.</li>
-<li></li>
-<li>4</li>
-<li>Give the salad a taste, and add salt and pepper as desired. You may also want to add more olive oil or vinegar, depending on your preference. You can eat the salad right away, warm, or save it for later and eat it cold. The flavors will meld and (in my opinion) get better with time, so make sure you make enough for leftovers!</li>
+<recipetext><li>Start by defrosting/cooking the cheese tortellini in a pot of boiling water.</li>
+<li>The tortellini are ready when they float in the water and are heated through.</li>
+<li>Move them to a colander to drain, and set aside.</li>
+<li>Drain and coarsely chop the black olives (you can use pre-chopped olives to save time).</li>
+<li>Peel the onion, de-seed the pepper, and coarsely chop them as well.</li>
+<li>Place chopped vegetables and cheese tortellini in a large bowl.</li>
+<li>Sprinkle desired amount of cheese (feta or mozzarella) and the olive oil and red wine vinegar over the vegetables and tortellini, and then toss it all together.</li>
+<li>If you are using mozzarella cheese, it will probably melt a bit, which is fine.</li>
+<li>Give the salad a taste, and add salt and pepper as desired.</li>
+<li>You may also want to add more olive oil or vinegar, depending on your preference.</li>
+<li>You can eat the salad right away, warm, or save it for later and eat it cold.</li>
+<li>The flavors will meld and (in my opinion) get better with time, so make sure you make enough for leftovers!</li>
 </recipetext>
 <url>http://www.food.com/recipe/tortellini-salad-392548</url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Tortellini_Salad.png</imagepath>
@@ -4728,10 +4699,10 @@
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>99</recipeId>
+<recipeId>00199</recipeId>
 <title>Turkey Meatloaf</title>
-<preptime>15 m</preptime>
-<cooktime>1 h</cooktime>
+<preptime>15 minutes</preptime>
+<cooktime>1 hour</cooktime>
 <ingredient><li>Meatloaf:</li>
 <li>1 1/2 pounds ground turkey</li>
 <li>3/4 cup crushed buttery round crackers</li>
@@ -4746,10 +4717,10 @@
 <li>1/4 cup brown sugar</li>
 <li>1 tablespoon Worcestershire sauce</li>
 </ingredient>
-<recipetext><li>Preheat oven to 350 degrees F (175 degrees C). Lightly grease a jelly roll pan.</li>
+<recipetext><li>Preheat oven to 350°F (175°C). Lightly grease a jelly roll pan.</li>
 <li>Mix ground turkey, buttery round cracker crumbs, milk, onion, egg, salt, garlic, and black pepper in a bowl; shape into a loaf and place on the prepared jelly roll pan.</li>
 <li>Mix ketchup, brown sugar, and Worcestershire sauce in a separate bowl; set aside.</li>
-<li>Bake meatloaf in preheated oven for 30 minutes; remove from oven and drain liquids. Top meatloaf with ketchup topping. Return loaf to oven and continue baking until no longer pink in the center, about 30 minutes more. An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C).</li>
+<li>Bake meatloaf in preheated oven for 30 minutes; remove from oven and drain liquids. Top meatloaf with ketchup topping. Return loaf to oven and continue baking until no longer pink in the center, about 30 minutes more. An instant-read thermometer inserted into the center should read at least 160°F (70°C).</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/231380/best-turkey-meatloaf/</url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Turkey_Meatloaf.jpg</imagepath>
@@ -4757,59 +4728,59 @@
 <quantity>8</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>296 kcal</li>
-<li></li>
+
 <li>15%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>13.2 g</li>
-<li></li>
+
 <li>20%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>25.2g</li>
-<li></li>
+
 <li>8%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>19.7 g</li>
-<li></li>
+
 <li>39%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>85 mg</li>
-<li></li>
+
 <li>28%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>881 mg</li>
-<li></li>
+
 <li>35%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>1 h 15 m</totaltime>
+<totaltime>1 hour 15 minutes</totaltime>
 <description>&quot;After much trial and error trying to make a more healthy meatloaf, I came up with this recipe. It is important to make this on a baking sheet so the liquids can be drained off the meatloaf. Also, do not put the topping on before the meatloaf has cooked for 30 minutes. Turkey creates a lot of juices, so if you put the topping on first it will become watery and runny.&quot;</description>
 <source>isabella104</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>100</recipeId>
+<recipeId>001100</recipeId>
 <title>Turkey Stuffing Divan</title>
-<preptime>10 m</preptime>
-<cooktime>30 m</cooktime>
+<preptime>10 minutes</preptime>
+<cooktime>30 minutes</cooktime>
 <ingredient><li>1 1/4 cups boiling water</li>
 <li>4 tablespoons butter or margarine</li>
 <li>2 cups (14-16 oz)Pepperidge Farm® Herb Seasoned Stuffing</li>
@@ -4822,7 +4793,7 @@
 <recipetext><li>Mix water and butter. Add stuffing. Mix lightly.</li>
 <li>Spoon into 2-quart shallow baking dish. Top with broccoli and turkey.</li>
 <li>Mix soup, milk and 1/2 cup cheese and pour over all. Sprinkle with remaining cheese.</li>
-<li>Bake at 350 degrees F for 30 minutes or until hot.</li>
+<li>Bake at 350°F for 30 minutes or until hot.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/177592/turkey-stuffing-divan/</url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Turkey_Stuffing_Divan.jpg</imagepath>
@@ -4830,59 +4801,59 @@
 <quantity>6</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>431 kcal</li>
-<li></li>
+
 <li>22%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>21 g</li>
-<li></li>
+
 <li>32%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>36.2g</li>
-<li></li>
+
 <li>12%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>24.8 g</li>
-<li></li>
+
 <li>50%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>79 mg</li>
-<li></li>
+
 <li>26%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>1109 mg</li>
-<li></li>
+
 <li>44%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>40 m</totaltime>
+<totaltime>40 minutes</totaltime>
 <description>&quot;Pepperidge Farm® Herb Seasoned Stuffing is topped with turkey, broccoli and a savory sauce made with Campbell's® Condensed Cream of Celery Soup, milk and shredded Cheddar cheese, topped with extra cheese and baked until hot and bubbly.&quot;</description>
 <source>Campbell's Kitchen</source>
 <video></video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>101</recipeId>
+<recipeId>001101</recipeId>
 <title>Turkey Veggie Meatloaf Cups</title>
-<preptime>20 m</preptime>
-<cooktime>25 m</cooktime>
+<preptime>20 minutes</preptime>
+<cooktime>25 minutes</cooktime>
 <ingredient><li>2 cups coarsely chopped zucchini</li>
 <li>1 1/2 cups coarsely chopped onions</li>
 <li>1 red bell pepper, coarsely chopped</li>
@@ -4893,11 +4864,11 @@
 <li>1 tablespoon Dijon mustard</li>
 <li>1/2 cup barbecue sauce, or as needed</li>
 </ingredient>
-<recipetext><li>Preheat oven to 400 degrees F (200 degrees C). Spray 20 muffin cups with cooking spray.</li>
-<li></li>
+<recipetext><li>Preheat oven to 400°F (200°C). Spray 20 muffin cups with cooking spray.</li>
+
 <li>Place zucchini, onions, and red bell pepper into a food processor, and pulse several times until finely chopped but not liquefied. Place the vegetables into a bowl, and mix in ground turkey, couscous, egg, Worcestershire sauce, and Dijon mustard until thoroughly combined. Fill each prepared muffin cup about 3/4 full. Top each cup with about 1 teaspoon of barbecue sauce.</li>
-<li></li>
-<li>Bake in the preheated oven until juices run clear, about 25 minutes. Internal temperature of a muffin measured by an instant-read meat thermometer should be at least 160 degrees F (70 degrees C). Let stand 5 minutes before serving.</li>
+
+<li>Bake in the preheated oven until juices run clear, about 25 minutes. Internal temperature of a muffin measured by an instant-read meat thermometer should be at least 160°F (70°C). Let stand 5 minutes before serving.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/216688/turkey-veggie-meatloaf-cups/</url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Turkey_Veggie_Meatloaf_Cups.jpg</imagepath>
@@ -4905,56 +4876,56 @@
 <quantity>10</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>119 kcal</li>
-<li></li>
+
 <li>6%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>1 g</li>
-<li></li>
+
 <li>1%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>13.6g</li>
-<li></li>
+
 <li>4%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>13.2 g</li>
-<li></li>
+
 <li>26%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>47 mg</li>
-<li></li>
+
 <li>16%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>244 mg</li>
-<li></li>
+
 <li>10%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>50 m</totaltime>
+<totaltime>50 minutes</totaltime>
 <description>&quot;This super-delicious and incredibly easy recipe has become one of my absolute favorites. I pass it on to everyone I know, and they all rave about it too!&quot;</description>
 <source>Amy Holmberg</source>
 <video>http://allrecipes.com/video/2937/turkey-veggie-meatloaf-cups</video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>102</recipeId>
+<recipeId>001102</recipeId>
 <title>Yorkshire pudding</title>
 <preptime></preptime>
 <cooktime>30 - 35 minutes</cooktime>
@@ -4968,7 +4939,7 @@
 <li>distribute oil among 22 muffin cups</li>
 <li>heat in oven until smoking hot</li>
 <li>remove from oven and quickly ladle 1/4 cup batter into each cup</li>
-<li>30 - 35 minutes 350 F</li>
+<li>30 - 35 minutes 350°F</li>
 </recipetext>
 <url></url>
 <imagepath>/storage/emulated/0/MyCookBook/images/Yorkshire_pudding.png</imagepath>
@@ -4981,10 +4952,10 @@
 <category>Sides</category>
 </recipe>
 <recipe>
-<recipeId>103</recipeId>
+<recipeId>001103</recipeId>
 <title>Zucchini Patties</title>
-<preptime>10 m</preptime>
-<cooktime>20 m</cooktime>
+<preptime>10 minutes</preptime>
+<cooktime>20 minutes</cooktime>
 <ingredient><li>2 cups grated zucchini</li>
 <li>2 eggs, beaten</li>
 <li>1/4 cup chopped onion</li>
@@ -4995,7 +4966,7 @@
 <li>2 tablespoons vegetable oil</li>
 </ingredient>
 <recipetext><li>In a medium bowl, combine the zucchini, eggs, onion, flour, Parmesan cheese, mozzarella cheese, and salt. Stir well enough to distribute ingredients evenly.</li>
-<li></li>
+
 <li>Heat a small amount of oil in a skillet over medium-high heat. Drop zucchini mixture by heaping tablespoonfuls, and cook for a few minutes on each side until golden.</li>
 </recipetext>
 <url>http://allrecipes.com/recipe/13941/zucchini-patties/</url>
@@ -5004,56 +4975,56 @@
 <quantity>4</quantity>
 <rating>0</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>245 kcal</li>
-<li></li>
+
 <li>12%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>14.7 g</li>
-<li></li>
+
 <li>23%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>15.7g</li>
-<li></li>
+
 <li>5%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>12.8 g</li>
-<li></li>
+
 <li>26%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>111 mg</li>
-<li></li>
+
 <li>37%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>282 mg</li>
-<li></li>
+
 <li>11%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>30 m</totaltime>
+<totaltime>30 minutes</totaltime>
 <description>&quot;These cheesy zucchini patties are an excellent way to use up that abundance of zucchini from the garden. Serve with a bit of tomato sauce or sour cream dabbed on top.&quot;</description>
 <source>Sherlie A. Magaret</source>
 <video>http://allrecipes.com/video/4996/zucchini-patties/</video>
 <lang>en</lang>
 </recipe>
 <recipe>
-<recipeId>104</recipeId>
+<recipeId>001104</recipeId>
 <title>Zucchini, Goat Cheese, and Tomato Frittata</title>
 <preptime></preptime>
 <cooktime></cooktime>
@@ -5065,18 +5036,18 @@
 <li>½ teaspoon sea salt</li>
 <li>8 eggs, well beaten</li>
 <li>4 ounces crumbled goat cheese</li>
-<li></li>
+
 </ingredient>
-<recipetext><li>Preheat the oven to 375 degrees F.</li>
-<li></li>
+<recipetext><li>Preheat the oven to 375°F.</li>
+
 <li>Heat the olive oil in a large skillet over medium-high heat. Add the onion and saute, stirring occasionally until translucent, about 5 to 8 minutes.</li>
-<li></li>
+
 <li>Add the chopped zucchini, tomato, garlic, and sea salt. Continue sauteing until zucchini has softened but is still al dente, and the skins of the tomatoes begin to wilt, about 5 to 8 minutes.</li>
-<li></li>
+
 <li>In a mixing bowl, whisk the eggs until well-beaten. Whisk in the crumbled goat cheese.</li>
-<li></li>
+
 <li>Transfer the sauteed veggie mixture to an 10-inch round baking pan or casserole dish. Pour in the egg/goat cheese mixture and use a spoon to evenly spread the veggies and eggs in the pan.</li>
-<li></li>
+
 <li>Place on the center rack of the oven with a baking sheet underneath (just in case - to catch any egg that spills over). Bake for 32 to 40 minutes, until eggs have set up and are golden-brown on top. Let frittata sit 15 minutes before slicing and serving.</li>
 </recipetext>
 <url></url>
@@ -5093,10 +5064,10 @@
 <category>Main course</category>
 </recipe>
 <recipe>
-<recipeId>105</recipeId>
+<recipeId>001105</recipeId>
 <title>Zuppa Toscana</title>
-<preptime>25 m</preptime>
-<cooktime>1 h</cooktime>
+<preptime>25 minutes</preptime>
+<cooktime>1 hour</cooktime>
 <ingredient><li>1 pound bulk mild Italian sausage</li>
 <li>1 1/4 teaspoons crushed red pepper flakes</li>
 <li>4 slices bacon, cut into 1/2 inch pieces</li>
@@ -5117,49 +5088,49 @@
 <quantity>6</quantity>
 <rating>5</rating>
 <nutrition><li>Nutrition</li>
-<li></li>
+
 <li>Calories:</li>
-<li></li>
+
 <li>554 kcal</li>
-<li></li>
+
 <li>28%</li>
-<li></li>
+
 <li>Fat:</li>
-<li></li>
+
 <li>32.6 g</li>
-<li></li>
+
 <li>50%</li>
-<li></li>
+
 <li>Carbs:</li>
-<li></li>
+
 <li>45.8g</li>
-<li></li>
+
 <li>15%</li>
-<li></li>
+
 <li>Protein:</li>
-<li></li>
+
 <li>19.8 g</li>
-<li></li>
+
 <li>40%</li>
-<li></li>
+
 <li>Cholesterol:</li>
-<li></li>
+
 <li>99 mg</li>
-<li></li>
+
 <li>33%</li>
-<li></li>
+
 <li>Sodium:</li>
-<li></li>
+
 <li>2386 mg</li>
-<li></li>
+
 <li>95%</li>
-<li></li>
+
 <li>Based on a 2,000 calorie diet</li>
-<li></li>
+
 <li>See full nutrition</li>
 </nutrition>
 <comments></comments>
-<totaltime>1 h 25 m</totaltime>
+<totaltime>1 hour 25 minutes</totaltime>
 <description>&quot;This is an oh-so-good recipe. Just the right amount of spice to make you take a cold drink but definitely keep coming back for more! This soup is irresistible!&quot;</description>
 <source>souporsweets</source>
 <video>http://allrecipes.com/video/4305/super-delicious-zuppa-toscana/</video>

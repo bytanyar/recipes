@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const RecipesContainerStyles = styled.div`
     height: 100vh;
-    margin: -20px auto 0;
+    margin: 127px auto 0;
     max-width: 1000px;
     padding: 20px;
 
@@ -14,7 +14,7 @@ export const RecipesContainerStyles = styled.div`
         background-color: rgba(0, 0, 0, 0.5);
         bottom: 0;
         left: 0;
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 0;
         z-index: 100;
@@ -28,7 +28,7 @@ export const RecipesContainerStyles = styled.div`
         z-index: 1;
     }
     .recipes-list {
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.75);
         border: 1px solid #333;
         margin: 20px auto;
         margin-block-end: 0;
@@ -37,7 +37,10 @@ export const RecipesContainerStyles = styled.div`
         padding-inline-start: 0;
         position: relative;
         width: 100%;
-        z-index: 200;
+
+    }
+    .recipe-id:nth-child(2n) {
+        background-color: #fdd8b5;
     }
     .recipe {
         display: flex;
@@ -46,24 +49,36 @@ export const RecipesContainerStyles = styled.div`
         padding: 5px 0;
         text-align: left;
 
-        &:nth-child(2n){
-            background-color: beige;
-        }
-        &:hover {
-            background-color: blanchedalmond;
-        }
+        &:hover,
         &.active {
-            background-color: lightblue;
+            background-color: #d9b08c;
         }
     }
     .name {
         font-size: 18px;
         max-width: 550px;
         padding-left: 20px;
-        width: 45%;
+        width: 100%;
     }
     .time {
-        max-width: 350px;
-        width: 50%;
+        display: none;
+    }
+    @media only screen and (min-width: 400px){
+        .name {
+            width: 65%;
+        }
+        .time {
+            display: block;
+            max-width: 350px;
+            width: 30%;
+        }
+    }
+    @media only screen and (min-width: 650px){
+        .name {
+            width: 45%;
+        }
+        .time {
+            width: 50%;
+        }
     }
 `;

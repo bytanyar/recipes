@@ -1,14 +1,16 @@
 .app {
+    background-color: #d1e8e2;
     text-align: center;
 }
 .app-header {
-    background-color: darkblue;
+    background-color: #116466;
+    border-bottom: 5px solid #2c3531;
     left: 0;
     padding-top: 20px;
-    position: relative;
+    position: fixed;
     right: 0;
     top: 0;
-    z-index: 5000;
+    z-index: 190;
 }
 h1 {
     color: white;
@@ -30,11 +32,11 @@ a {
 }
 a:link,
 a:visited {
-    color: darkgray;
+    color: lightgray;
 }
 a:hover,
 a:active {
-    color: lightblue;
+    color: #ffcb9a;
     font-weight: 500;
 }
 a:focus {

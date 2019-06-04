@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import XMLParser from 'react-xml-parser';
 
+import {
+    hideRecipeModal,
+    showRecipeModal
+} from '../../actions/recipeActions';
 import xml from '../../data/my_cookbook2019_05_20_12_23_50.xml';
 import RecipeModal from '../Modal/RecipeModal';
 
@@ -12,10 +17,9 @@ class RecipesList extends Component {
         super(props);
         this.state = {
             recipeId: 0,
-            showRecipe: false,
             recipeList: null
         }
-        this.toggleRecipe = this.toggleRecipe.bind(this);
+        this.setRecipe = this.setRecipe.bind(this);
         this.loadRecipes = this.loadRecipes.bind(this);
     }
 
@@ -40,18 +44,10 @@ class RecipesList extends Component {
                 console.log("Parsing error: ", error);
             });
     }
-
-    toggleRecipe = (recipeId) => {
-        const recipeState = this.state.showRecipe;
+    setRecipe(recipeIdNow){
         this.setState({
-            recipeId: recipeId,
-            showRecipe: !recipeState
+            recipeId: recipeIdNow
         });
-    };
-    closeRecipe = () => {
-        this.setState({
-            showRecipe: false
-        })
     }
 
     render() {
@@ -61,34 +57,38 @@ class RecipesList extends Component {
             const title = recipe.getElementsByTagName('title')[0] ? recipe.getElementsByTagName('title')[0].value : null;
             const preptime = recipe.getElementsByTagName('preptime')[0] ? recipe.getElementsByTagName('preptime')[0].value : null;
             const cooktime = recipe.getElementsByTagName('cooktime')[0] ? recipe.getElementsByTagName('cooktime')[0].value : null;
-            const classes = this.state.showRecipe && this.state.recipeId === recipeId ? "recipe active" : "recipe";
+            const classes = this.props.showRecipe && this.state.recipeId === recipeId ? "recipe active" : "recipe";
 
             if (title) {
+                const time = preptime && cooktime ? `${preptime} + ${cooktime}` : `${preptime} ${cooktime}`;
                 return (
-                    <span key={recipeId}>
-                        <li className={classes} onClick={() => this.toggleRecipe(recipeId)}>
+                    <div className="recipe-id" key={recipeId}>
+                        <li className={classes} onClick={
+                            (ev) => {
+                                ev.preventDefault();
+                                this.props.toggleRecipeModal(this.props.showRecipe);
+                                this.setRecipe(recipeId);
+                            }
+                            }>
                             <span className="name">{title}</span>
-                            <span className="time">{preptime} + {cooktime}</span>
+                            <span className="time">{time}</span>
                         </li>
-                        {this.state.showRecipe && this.state.recipeId === recipeId ?
+                        {this.props.showRecipe && this.state.recipeId === recipeId ?
                             <RecipeModal
-                                closeRecipe={this.closeRecipe}
+                                closeRecipe={() => this.props.toggleRecipeModal(this.props.showRecipe)}
                                 recipe={recipe}
                             />
                             : null}
-                    </span>
+                    </div>
                 )
             }
         }) : null;
 
 
-
-
-
         return (
             <RecipesContainerStyles className="recipes-container">
-                {this.state.showRecipe ?
-                    <div className="recipe-modal-bg" onClick={this.closeRecipe} />
+                {this.props.showRecipe ?
+                    <div className="recipe-modal-bg" onClick={this.props.toggleRecipeModal} />
                     : null}
                 <ul className="recipes-list">
                     {listingNodes}
@@ -98,4 +98,22 @@ class RecipesList extends Component {
     }
 }
 
-export default RecipesList;
+
+const mapStateToProps = state => {
+    return {
+        showRecipe: state.recipeModalVisible
+    };
+};
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        toggleRecipeModal: (showRecipe) => {
+            if (showRecipe) {
+                dispatch(hideRecipeModal());
+            } else {
+                dispatch(showRecipeModal());
+            }
+        }
+    };
+};
+export default connect(mapStateToProps, mapDispatchToProps)(RecipesList);
