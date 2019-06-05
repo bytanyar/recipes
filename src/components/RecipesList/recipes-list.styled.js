@@ -40,7 +40,7 @@ export const RecipesContainerStyles = styled.div`
 
     }
     .recipe-id:nth-child(2n) {
-        background-color: #fdd8b5;
+        background-color: rgba(253, 216, 181, 0.5); /* #fdd8b5 */
     }
     .recipe {
         display: flex;
