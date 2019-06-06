@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
@@ -14,35 +14,41 @@ const initialState = (window).initialReduxState;
 const store = configureStore(initialState);
 
 
-class App extends Component {
+const App = () => {
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    useEffect(() => {
+        const handleResize = () => setWindowWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        }
+    });
 
-    render() {
+    return (
+        <Provider store={store}>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
+                <div className="app">
+                    <header className="app-header">
+                        <h1>Recipes</h1>
+                        <div className="window">{windowWidth}</div>
+                        <nav>
+                            <ul>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/list">Recipes List</Link></li>
+                                <li><Link to="/newRecipe">New Recipe</Link></li>
+                            </ul>
+                        </nav>
+                    </header>
 
-        return (
-            <Provider store={store}>
-                <BrowserRouter basename={process.env.PUBLIC_URL}>
-                    <div className="app">
-                        <header className="app-header">
-                            <h1>Recipes</h1>
-                            <nav>
-                                <ul>
-                                    <li><Link to="/">Home</Link></li>
-                                    <li><Link to="/list">Recipes List</Link></li>
-                                    <li><Link to="/newRecipe">New Recipe</Link></li>
-                                </ul>
-                            </nav>
-                        </header>
 
+                    <Route path="/" exact component={Parallax} />
+                    <Route path="/list" exact component={RecipesList} />
+                    <Route path="/newRecipe" exact component={NewRecipe} />
 
-                        <Route path="/" exact component={Parallax} />
-                        <Route path="/list" exact component={RecipesList} />
-                        <Route path="/newRecipe" exact component={NewRecipe} />
-
-                    </div>
-                </BrowserRouter>
-            </Provider>
-        );
-    }
+                </div>
+            </BrowserRouter>
+        </Provider>
+    );
 }
 
 export default App;
