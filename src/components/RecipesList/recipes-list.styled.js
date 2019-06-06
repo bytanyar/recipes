@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const RecipesContainerStyles = styled.div`
     height: 100vh;
-    margin: 127px auto 0;
+    margin: 151px auto 0;
     max-width: 1000px;
     padding: 20px;
 
