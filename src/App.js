@@ -15,14 +15,7 @@ const store = configureStore(initialState);
 
 
 const App = () => {
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-    useEffect(() => {
-        const handleResize = () => setWindowWidth(window.innerWidth);
-        window.addEventListener('resize', handleResize);
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        }
-    });
+    const windowWidth = useWindowWidth();
 
     return (
         <Provider store={store}>
@@ -50,5 +43,17 @@ const App = () => {
         </Provider>
     );
 }
+
+const useWindowWidth = () => { //custom hook
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    useEffect(() => {
+        const handleResize = () => setWindowWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => { //clean up phase
+            window.removeEventListener('resize', handleResize);
+        }
+    });
+    return windowWidth;
+};
 
 export default App;
