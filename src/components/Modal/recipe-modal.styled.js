@@ -5,6 +5,8 @@ export const RecipeModalStyles = styled.div`
 
     .recipe-container {
         background-color: #ffcb9a;
+        border: 2px solid #444;
+        border-bottom: none;
         border-radius: 20px 20px 0 0;
         bottom: 0;
         left: 12.5%;
@@ -22,7 +24,7 @@ export const RecipeModalStyles = styled.div`
         background-color: #fff;
         border: 1px solid #333;
         border-radius: 50%;
-        padding: 0 5px;
+        padding: 0 5px 2px;
         position: absolute;
         right: 15px;
         text-align: left;
@@ -30,7 +32,7 @@ export const RecipeModalStyles = styled.div`
         width: 20px;
     }
     .close-x:hover {
-        background-color: blanchedalmond;
+        background-color: #ccc;
     }
     @media only screen and (min-width: 650){
         .close-x {
