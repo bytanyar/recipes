@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
-import XMLParser from 'react-xml-parser';
 
 import {
     hideRecipeModal,
     showRecipeModal
 } from '../../actions/recipeActions';
-import xml from '../../data/my_cookbook2019_05_20_12_23_50.xml';
+import LoadRecipes from '../../data/LoadRecipes';
 import RecipeModal from '../Modal/RecipeModal';
 
 import { RecipesContainerStyles } from './recipes-list.styled';
@@ -20,25 +19,8 @@ const RecipesList = ({
     const [recipeList, setRecipeList] = useState(null);
 
     useEffect(() => {
-        loadRecipes();
+        LoadRecipes(setRecipeList);
     });
-
-    const loadRecipes = () => {
-        fetch(xml)
-            .then((response) => response.text())
-            .then((xmlText) => {
-                // remove <?xml  ... etc header because react-xml-parser chokes on it
-                if (xmlText.toLowerCase().substr(0, 5) == '<?xml') {
-                    xmlText = xmlText.split(/\?>\r{0,1}\n{0,1}/).slice(1).join('?>\n');
-                }
-                let recipesData = new XMLParser().parseFromString(xmlText);    // Assume xmlText contains the example XML
-
-                setRecipeList(recipesData);
-
-            }).catch((error) => {
-                console.log("Parsing error: ", error);
-            });
-    }
 
     const recipes = recipeList ? recipeList.getElementsByTagName('recipe') : null;
     const listingNodes = recipes ? recipes.map((recipe) => {
