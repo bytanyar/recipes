@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 
 import LoadRecipes from '../../data/LoadRecipes';
 import { SlideshowStyles } from './slideshow.styled';
-import { SlideStyles } from './slide.styled';
 import { ControlStyles } from './control.styled';
 
 
@@ -23,23 +22,23 @@ const Slideshow = () => {
     }
 
     var slideIndex = 1;
-    // showDivs(slideIndex);
+    showDivs(slideIndex);
 
     function plusDivs(n) {
-        // showDivs(slideIndex += n);
+        showDivs(slideIndex += n);
     }
 
-    // function showDivs(n) {
-    //     var i;
-    //     var x = document.getElementsByClassName('recipe-images');
+    function showDivs(n) {
+        // var i;
+        // var x = document.getElementsByClassName('slideshow-image');
 
-    //     if (n > x.length) { slideIndex = 1 };
-    //     if (n < 1) { slideIndex = x.length };
-    //     for (i = 0; i < x.length; i++) {
-    //         x[i].style.display = "none";
-    //     }
-    //     x[slideIndex - 1].style.display = "block";
-    // }
+        // if (n > x.length) { slideIndex = 1 };
+        // if (n < 1) { slideIndex = x.length };
+        // for (i = 0; i < x.length; i++) {
+        //     x[i].style.display = "none";
+        // }
+        // x[slideIndex - 1].style.display = "block";
+    }
 
     const slideshowNodes = recipes ? recipes.map((recipe, i) => {
         const recipeId = recipe.getElementsByTagName('recipeId')[0] ? recipe.getElementsByTagName('recipeId')[0].value : null;
@@ -47,12 +46,10 @@ const Slideshow = () => {
         const url = recipe.getElementsByTagName('imageurl')[0] ? recipe.getElementsByTagName('imageurl')[0].value : null;
         let imageClasses = recipeId === currentRecipe.recipeId ? 'slideshow-image selected' : 'slideshow-image';
 
-        console.log(`${url}`);
-
-        if (url) {
+        if (url !== "" && url !== null && url !== undefined) {
             return (
-                <SlideStyles key={recipeId} className={imageClasses}>
-                    <a className={`list-${recipeId}`} href="javasript:void();" 
+                <li key={recipeId} className={imageClasses}>
+                    <a className={`list-${recipeId}`} href="javasript:void();"
                         onClick={ev => {
                             ev.preventDefault();
                             _goToRecipe(i);
@@ -61,8 +58,10 @@ const Slideshow = () => {
                         <h2>{title}</h2>
                         <img className={title} src={`${url}?height=250`} alt={title} />
                     </a>
-                </SlideStyles>
+                </li>
             )
+        } else {
+            return null;
         }
     }) : null;
 
