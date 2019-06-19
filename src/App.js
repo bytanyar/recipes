@@ -6,6 +6,7 @@ import './app.css';
 
 import Parallax from './components/Parallax/Parallax';
 import RecipesList from './components/RecipesList/RecipesList';
+import Slideshow from './components/Slideshow/Slideshow';
 import NewRecipe from './components/Forms/NewRecipe';
 import { configureStore } from './store';
 
@@ -28,6 +29,7 @@ const App = () => {
                             <ul>
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/list">Recipes List</Link></li>
+                                <li><Link to="/slideshow">Slideshow</Link></li>
                                 <li><Link to="/newRecipe">New Recipe</Link></li>
                             </ul>
                         </nav>
@@ -36,6 +38,7 @@ const App = () => {
 
                     <Route path="/" exact component={Parallax} />
                     <Route path="/list" exact component={RecipesList} />
+                    <Route path="/slideshow" exact component={Slideshow} />
                     <Route path="/newRecipe" exact component={NewRecipe} />
 
                 </div>

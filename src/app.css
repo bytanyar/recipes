@@ -24,9 +24,9 @@ h1 {
     text-align: right;
 }
 .app-header ul {
+    font-size: 14px;
     list-style: none;
     margin: 0 auto;
-    max-width: 320px;
     padding-inline-start: 0;
 }
 .app-header ul li {
@@ -49,11 +49,11 @@ a:active {
 a:focus {
     outline: 0;
 }
-@media only screen and (min-width: 425px){
+@media only screen and (min-width: 450px){
+    .app-header ul {
+        font-size: 16px;
+    }
     .app-header ul li {
         margin: 20px;
-    }
-    .app-header ul {
-        max-width: 350px;
     }
 }
