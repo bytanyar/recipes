@@ -9,29 +9,30 @@ import { ControlStyles } from './control.styled';
 
 
 const Slideshow = () => {
-    const [recipeList, setRecipeList] = useState(null);
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [isPlaying, setIsPlaying] = useState(false);
 
     useEffect(() => {
-        setTimeout(() => {
-            setCurrentIndex(
-                (currentIndex + 1) % images.length
-            );
-        }, 3000);
-    });
+        if (isPlaying) {
+            const timeout = setTimeout(() => {
+                setCurrentIndex(
+                    (currentIndex + 1) % images.length
+                );
+            }, 3000);
+            return () => clearTimeout(timeout); //cleanup after
+        }
+    }, [currentIndex, isPlaying]); //clean up when these things change
 
     const goToNext = (images) => {
         setCurrentIndex(
-            (currentIndex + 1) % images.length
+            (currentIndex + 1) % images.length   // from stackoverflow
         );
     }
     const goToPrev = (images) => {
         setCurrentIndex(
-            (currentIndex - 1 % images.length) % images.length
+            (currentIndex - 1 + images.length) % images.length   // from stackoverflow
         );
     }
-
-    const recipes = recipeList ? recipeList.getElementsByTagName('recipe') : null;
 
     const slideshowNodes = images ? images.map((image, i) => {
         let imageClasses = image.recipeId === images[currentIndex].recipeId ? 'slideshow-image selected' : 'slideshow-image';
@@ -56,6 +57,14 @@ const Slideshow = () => {
             <ControlStyles>
                 <button className="nav prev" onClick={() => goToPrev(images)}>&#10094;</button>
                 <button className="nav next" onClick={() => goToNext(images)}>&#10095;</button>
+
+                {!isPlaying ?
+                    <button className="playing play" onClick={() => {
+                        setIsPlaying(true);
+                    }}>4</button> :
+                    <button className="playing pause" onClick={() => {
+                        setIsPlaying(false);
+                    }}>;</button>}
             </ControlStyles>
         </SlideshowStyles>
     );

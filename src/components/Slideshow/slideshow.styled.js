@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
+const imageHeight = "calc(100vh - 190px)";
 
 export const SlideshowStyles = styled.div`
     margin-top: 170px;
-    max-height: 70vh;
+    max-height: ${imageHeight};
     overflow: hidden;
     padding-bottom: 20px;
     padding-top: 10px;
@@ -35,11 +36,6 @@ export const SlideshowStyles = styled.div`
         }
     }
     img {
-        min-height: 80vh;
-    }
-    @media screen and (min-width: 650px){
-        img {
-            min-height: 70vh;
-        }
+        height: ${imageHeight};
     }
 `;
