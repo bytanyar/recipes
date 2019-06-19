@@ -29,7 +29,7 @@ export const SlideshowStyles = styled.div`
         display: none;
         list-style: none;
 
-        &:first-child {
+        &.selected {
             display: block;
         }
     }
