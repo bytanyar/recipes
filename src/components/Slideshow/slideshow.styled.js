@@ -15,6 +15,7 @@ export const SlideshowStyles = styled.div`
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
         color: #333;
         left: 0;
+        max-width: 80%;
         padding: 10px 20px;
         position: absolute;
         top: 10px;
@@ -31,6 +32,14 @@ export const SlideshowStyles = styled.div`
 
         &.selected {
             display: block;
+        }
+    }
+    img {
+        min-height: 80vh;
+    }
+    @media screen and (min-width: 650px){
+        img {
+            min-height: 70vh;
         }
     }
 `;

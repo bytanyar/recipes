@@ -12,13 +12,13 @@ const Slideshow = () => {
     const [recipeList, setRecipeList] = useState(null);
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //         setCurrentIndex(
-    //             (currentIndex + 1) % images.length
-    //         );
-    //     }, 1000);
-    // });
+    useEffect(() => {
+        setTimeout(() => {
+            setCurrentIndex(
+                (currentIndex + 1) % images.length
+            );
+        }, 3000);
+    });
 
     const goToNext = (images) => {
         setCurrentIndex(
