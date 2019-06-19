@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 
-import LoadRecipes from '../../data/LoadRecipes';
+// import LoadRecipes from '../../data/LoadRecipes';
+import images from '../../data/images.json';
 import { SlideshowStyles } from './slideshow.styled';
 import { ControlStyles } from './control.styled';
 
@@ -9,60 +11,34 @@ import { ControlStyles } from './control.styled';
 
 const Slideshow = () => {
     const [recipeList, setRecipeList] = useState(null);
-    const [currentRecipe, setCurrentRecipe] = useState(0);
+    const [currentIndex, setCurrentIndex] = useState(0);
 
-    useEffect(() => {
-        LoadRecipes(setRecipeList);
-    });
+    // useEffect(() => {
+    //     LoadRecipes(setRecipeList);
+    // });
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         setCurrentIndex(
+    //             (currentIndex + 1) % images.length
+    //         );
+    //     }, 1000);
+    // });
+
+    console.log(images[currentIndex]);
 
     const recipes = recipeList ? recipeList.getElementsByTagName('recipe') : null;
 
-    const _goToRecipe = (index) => {
-        setCurrentRecipe(index);
-    }
+    const slideshowNodes = images ? images.map((image, i) => {
+        let imageClasses = image.recipeId === images[currentIndex].recipeId ? 'slideshow-image selected' : 'slideshow-image';
 
-    var slideIndex = 1;
-    showDivs(slideIndex);
-
-    function plusDivs(n) {
-        showDivs(slideIndex += n);
-    }
-
-    function showDivs(n) {
-        // var i;
-        // var x = document.getElementsByClassName('slideshow-image');
-
-        // if (n > x.length) { slideIndex = 1 };
-        // if (n < 1) { slideIndex = x.length };
-        // for (i = 0; i < x.length; i++) {
-        //     x[i].style.display = "none";
-        // }
-        // x[slideIndex - 1].style.display = "block";
-    }
-
-    const slideshowNodes = recipes ? recipes.map((recipe, i) => {
-        const recipeId = recipe.getElementsByTagName('recipeId')[0] ? recipe.getElementsByTagName('recipeId')[0].value : null;
-        const title = recipe.getElementsByTagName('title')[0] ? recipe.getElementsByTagName('title')[0].value : null;
-        const url = recipe.getElementsByTagName('imageurl')[0] ? recipe.getElementsByTagName('imageurl')[0].value : null;
-        let imageClasses = recipeId === currentRecipe.recipeId ? 'slideshow-image selected' : 'slideshow-image';
-
-        if (url !== "" && url !== null && url !== undefined) {
             return (
-                <li key={recipeId} className={imageClasses}>
-                    <a className={`list-${recipeId}`} href="javasript:void();"
-                        onClick={ev => {
-                            ev.preventDefault();
-                            _goToRecipe(i);
-                        }}
-                    >
-                        <h2>{title}</h2>
-                        <img className={title} src={`${url}?height=250`} alt={title} />
-                    </a>
+                <li key={image.imageId} className={imageClasses}>
+                    <Link className={`list-${image.recipeId}`} to="/list" >
+                        <h2>{image.title}</h2>
+                        <img className="recipe-image" src={`${image.imageUrl}?height=250`} alt={image.title} />
+                    </Link>
                 </li>
             )
-        } else {
-            return null;
-        }
     }) : null;
 
     return (
@@ -71,8 +47,16 @@ const Slideshow = () => {
                 {slideshowNodes}
             </ul>
             <ControlStyles>
-                <button className="nav prev" onClick={() => plusDivs(-1)}>&#10094;</button>
-                <button className="nav next" onClick={() => plusDivs(+1)}>&#10095;</button>
+                <button className="nav prev" onClick={() => {
+                    setCurrentIndex(
+                        (currentIndex - 1 % images.length) % images.length
+                    )
+                }}>&#10094;</button>
+                <button className="nav next" onClick={() => {
+                    setCurrentIndex(
+                        (currentIndex + 1) % images.length
+                    )
+                }}>&#10095;</button>
             </ControlStyles>
         </SlideshowStyles>
     );

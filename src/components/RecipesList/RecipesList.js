@@ -33,7 +33,7 @@ const RecipesList = ({
         if (title) {
             const time = preptime && cooktime ? `${preptime} + ${cooktime}` : `${preptime} ${cooktime}`;
             return (
-                <div className="recipe-id" key={recipeIdNow}>
+                <div id={recipeIdNow} className="recipe-id" key={recipeIdNow}>
                     <li className={classes} onClick={
                         (ev) => {
                             ev.preventDefault();
