@@ -37,8 +37,6 @@ const Slideshow = () => {
     const slideshowNodes = images ? images.map((image, i) => {
         let imageClasses = image.recipeId === images[currentIndex].recipeId ? 'slideshow-image selected' : 'slideshow-image';
 
-        console.log(images[currentIndex].recipeId);
-
         return (
             <li key={image.imageId} className={imageClasses}>
                 <Link className={`list-${image.recipeId}`} to="/list" >
