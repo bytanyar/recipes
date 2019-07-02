@@ -26,7 +26,6 @@ export const ControlStyles = styled.div`
     .playing {
         background-color: rgba(0, 0, 0, 0.5);
         color: #fff;
-        font-family: "Webdings";
         font-size: 45px;
         left: calc(50% - 30px);
         position: absolute;

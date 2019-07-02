@@ -59,10 +59,10 @@ const Slideshow = () => {
                 {!isPlaying ?
                     <button className="playing play" onClick={() => {
                         setIsPlaying(true);
-                    }}>4</button> :
+                    }}>&#8741;</button> :
                     <button className="playing pause" onClick={() => {
                         setIsPlaying(false);
-                    }}>;</button>}
+                    }}>&#9656;</button>}
             </ControlStyles>
         </SlideshowStyles>
     );
