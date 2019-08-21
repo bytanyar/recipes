@@ -1,6 +1,6 @@
 let data = null;
 
-const appDataURL = '/data.json'
+const appDataURL = '/images.json'
 
 export const getData = () => {
 
