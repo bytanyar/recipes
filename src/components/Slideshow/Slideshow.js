@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, Component } from 'react';
 import { Link } from 'react-router-dom';
 
 
@@ -8,35 +8,34 @@ import { ControlStyles } from './control.styled';
 
 
 
-const Slideshow = () => {
-    const [recipeList, setRecipeList] = useState(null);
-    const [currentIndex, setCurrentIndex] = useState(0);
+class Slideshow extends Component {
+    constructor(props) {
+        super(props);
 
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //         setCurrentIndex(
-    //             (currentIndex + 1) % images.length
-    //         );
-    //     }, 1000);
-    // });
-
-    const goToNext = (images) => {
-        setCurrentIndex(
-            (currentIndex + 1) % images.length
-        );
-    }
-    const goToPrev = (images) => {
-        setCurrentIndex(
-            (currentIndex - 1 % images.length) % images.length
-        );
+        this.state = {
+            currentIndex: 0
+        };
+        // this.gatherData = this.gatherData.bind(this);
     }
 
-    const recipes = recipeList ? recipeList.getElementsByTagName('recipe') : null;
+    goToNext(images) {
+        const oldCurrentIndex = this.state.currentIndex;
+        this.setState({
+            currentIndex: (oldCurrentIndex + 1) % images.length
+        });
+    }
+    goToPrev(images) {
+        const oldCurrentIndex = this.state.currentIndex;
+        this.setState({
+            currentIndex: (oldCurrentIndex - 1 % images.length) % images.length
+        });
+    }
 
-    const slideshowNodes = images ? images.map((image, i) => {
-        let imageClasses = image.recipeId === images[currentIndex].recipeId ? 'slideshow-image selected' : 'slideshow-image';
+    
 
-        console.log(images[currentIndex].recipeId);
+    render() {
+        const slideshowNodes = images ? images.map((image, i) => {
+        let imageClasses = image.recipeId === images[this.state.currentIndex].recipeId ? 'slideshow-image selected' : 'slideshow-image';
 
         return (
             <li key={image.imageId} className={imageClasses}>
@@ -47,18 +46,18 @@ const Slideshow = () => {
             </li>
         )
     }) : null;
-
-    return (
-        <SlideshowStyles className="slideshow">
-            <ul className="slideshow-container">
-                {slideshowNodes}
-            </ul>
-            <ControlStyles>
-                <button className="nav prev" onClick={() => goToPrev(images)}>&#10094;</button>
-                <button className="nav next" onClick={() => goToNext(images)}>&#10095;</button>
-            </ControlStyles>
-        </SlideshowStyles>
-    );
+        return (
+            <SlideshowStyles className="slideshow">
+                <ul className="slideshow-container">
+                    {slideshowNodes}
+                </ul>
+                <ControlStyles>
+                    <button className="nav prev" onClick={() => this.goToPrev(images)}>&#10094;</button>
+                    <button className="nav next" onClick={() => this.goToNext(images)}>&#10095;</button>
+                </ControlStyles>
+            </SlideshowStyles>
+        );
+    }
 }
 
 
