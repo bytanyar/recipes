@@ -27,10 +27,17 @@ export const SlideshowStyles = styled.div`
     }
     li {
         display: none;
+        height: calc(100% - 170px);
         list-style: none;
 
         &.selected {
             display: block;
         }
+    }
+    .image {
+        align-items: center;
+        display: flex;
+        height: calc(100vh - 170px);
+        justify-content: center;
     }
 `;
