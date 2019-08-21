@@ -51,7 +51,9 @@ class Slideshow extends Component {
                 <li key={image.imageId} className={imageClasses}>
                     <Link className={`list-${image.recipeId}`} to="/list" >
                         <h2>{image.title}</h2>
-                        <img className="recipe-image" src={`${image.imageUrl}?height=250`} alt={image.title} />
+                        <div className="image">
+                            <img className="recipe-image" src={`${image.imageUrl}?height=250`} alt={image.title} />
+                        </div>
                     </Link>
                 </li>
             )
