@@ -28,7 +28,6 @@ class App extends Component {
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/list">Recipes List</Link></li>
-                                    <li><Link to="/newRecipe">New Recipe</Link></li>
                                 </ul>
                             </nav>
                         </header>
@@ -36,7 +35,6 @@ class App extends Component {
 
                         <Route path="/" exact component={Parallax} />
                         <Route path="/list" exact component={RecipesList} />
-                        <Route path="/newRecipe" exact component={NewRecipe} />
 
                     </div>
                 </BrowserRouter>
