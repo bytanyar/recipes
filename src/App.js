@@ -6,7 +6,6 @@ import './app.css';
 
 import Parallax from './components/Parallax/Parallax';
 import RecipesList from './components/RecipesList/RecipesList';
-import NewRecipe from './components/Forms/NewRecipe';
 import { configureStore } from './store';
 
 // Get the application-wide store instance, prepopulating with state from the server where available.
